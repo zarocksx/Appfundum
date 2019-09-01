@@ -1,0 +1,135 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://scripts/main.gd" type="Script" id=1]
+[ext_resource path="res://assets/Comfortaa-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://assets/graph/icons/Logo CEI.jpg" type="Texture" id=3]
+[ext_resource path="res://scripts/ScrollContainer.gd" type="Script" id=4]
+[ext_resource path="res://scripts/VBoxContainer.gd" type="Script" id=5]
+[ext_resource path="res://scenes/customNode/customEdit.tscn" type="PackedScene" id=6]
+[ext_resource path="res://assets/graph/icons/plus-sign-in-a-black-circle-inverted.svg" type="Texture" id=7]
+[ext_resource path="res://assets/graph/icons/plus-sign-in-a-black-circle.svg" type="Texture" id=8]
+[ext_resource path="res://assets/graph/icons/beer.svg" type="Texture" id=9]
+[ext_resource path="res://scripts/TextureButton.gd" type="Script" id=10]
+
+[sub_resource type="DynamicFont" id=1]
+size = 200
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+font_data = ExtResource( 2 )
+
+[node name="Node2D" type="Node"]
+script = ExtResource( 1 )
+R = 0.227
+G = 0.258
+B = 0.505
+
+[node name="UI" type="Control" parent="."]
+margin_left = -1.0
+margin_top = 1.0
+margin_right = 1439.0
+margin_bottom = 2960.0
+
+[node name="Title" type="Label" parent="UI"]
+anchor_right = 1.0
+anchor_bottom = 0.169
+margin_top = 1.0
+margin_bottom = -0.0710449
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 1 )
+text = "Appfundum"
+align = 1
+valign = 1
+
+[node name="Logo CEI" type="TextureRect" parent="UI"]
+anchor_left = 0.849
+anchor_top = 0.932
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 0.439941
+margin_top = 1.21191
+margin_right = 1936.0
+margin_bottom = 1789.0
+rect_scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 3 )
+stretch_mode = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="UI"]
+anchor_top = 0.202
+anchor_right = 1.0
+anchor_bottom = 0.777
+margin_left = 251.0
+margin_top = 2.28198
+margin_right = -209.0
+margin_bottom = -100.143
+focus_next = NodePath("../TextureButton")
+size_flags_stretch_ratio = 0.0
+scroll_horizontal_enabled = false
+scroll_deadzone = -11
+script = ExtResource( 4 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/ScrollContainer"]
+margin_right = 980.0
+margin_bottom = 562.0
+size_flags_horizontal = 3
+
+[node name="PlayerNameBox" type="VBoxContainer" parent="UI/ScrollContainer/VBoxContainer"]
+margin_right = 980.0
+margin_bottom = 339.0
+grow_horizontal = 2
+size_flags_horizontal = 3
+custom_constants/separation = 0
+alignment = 1
+script = ExtResource( 5 )
+
+[node name="LineEdit" parent="UI/ScrollContainer/VBoxContainer/PlayerNameBox" instance=ExtResource( 6 )]
+margin_left = 316.0
+margin_right = 664.0
+margin_bottom = 113.0
+
+[node name="LineEdit2" parent="UI/ScrollContainer/VBoxContainer/PlayerNameBox" instance=ExtResource( 6 )]
+margin_left = 316.0
+margin_top = 113.0
+margin_right = 664.0
+margin_bottom = 226.0
+
+[node name="LineEdit3" parent="UI/ScrollContainer/VBoxContainer/PlayerNameBox" instance=ExtResource( 6 )]
+margin_left = 316.0
+margin_top = 226.0
+margin_right = 664.0
+margin_bottom = 339.0
+
+[node name="aBox" type="VBoxContainer" parent="UI/ScrollContainer/VBoxContainer"]
+margin_top = 343.0
+margin_right = 980.0
+margin_bottom = 562.0
+grow_horizontal = 2
+size_flags_horizontal = 3
+custom_constants/separation = 0
+alignment = 1
+
+[node name="TextureButton" type="TextureButton" parent="UI/ScrollContainer/VBoxContainer/aBox"]
+margin_left = 380.0
+margin_right = 599.0
+margin_bottom = 219.0
+size_flags_horizontal = 4
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 8 )
+stretch_mode = 5
+
+[node name="start" type="TextureButton" parent="UI"]
+anchor_top = 0.811
+anchor_right = 0.999
+anchor_bottom = 1.0
+margin_top = -0.749023
+margin_right = -0.560059
+margin_bottom = -1.0
+focus_previous = NodePath("../ScrollContainer")
+size_flags_horizontal = 3
+texture_normal = ExtResource( 9 )
+expand = true
+stretch_mode = 5
+script = ExtResource( 10 )
+[connection signal="player_added" from="UI/ScrollContainer/VBoxContainer/PlayerNameBox" to="." method="_on_player_added"]
+[connection signal="pressed" from="UI/ScrollContainer/VBoxContainer/aBox/TextureButton" to="UI/ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_TextureButton_pressed"]
+[connection signal="pressed" from="UI/start" to="UI/ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_start_pressed"]
