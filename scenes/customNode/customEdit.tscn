@@ -17,7 +17,7 @@ font_data = SubResource( 2 )
 [node name="LineEdit" type="LineEdit"]
 show_behind_parent = true
 margin_right = 1440.0
-margin_bottom = 150.0
+margin_bottom = 300.0
 size_flags_horizontal = 6
 size_flags_vertical = 3
 custom_styles/normal = SubResource( 1 )
@@ -27,6 +27,7 @@ custom_colors/cursor_color = Color( 0, 0, 0, 0 )
 custom_colors/clear_button_color_pressed = Color( 0, 0, 0, 0 )
 custom_colors/clear_button_color = Color( 0, 0, 0, 0 )
 align = 1
+max_length = 15
 secret_character = "."
 context_menu_enabled = false
 placeholder_text = "Nom"

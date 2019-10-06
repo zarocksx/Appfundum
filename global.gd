@@ -15,4 +15,4 @@ func get_players(pos):
 	return players[pos];
 
 func random_player():
-	return get_players(randi() % ( players.size() ) );
+	return get_players((randi()+1) % ( players.size() ) );

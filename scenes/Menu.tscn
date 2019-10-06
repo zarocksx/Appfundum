@@ -70,12 +70,12 @@ script = ExtResource( 4 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="UI/ScrollContainer"]
 margin_right = 980.0
-margin_bottom = 562.0
+margin_bottom = 449.0
 size_flags_horizontal = 3
 
 [node name="PlayerNameBox" type="VBoxContainer" parent="UI/ScrollContainer/VBoxContainer"]
 margin_right = 980.0
-margin_bottom = 339.0
+margin_bottom = 226.0
 grow_horizontal = 2
 size_flags_horizontal = 3
 custom_constants/separation = 0
@@ -86,6 +86,7 @@ script = ExtResource( 5 )
 margin_left = 316.0
 margin_right = 664.0
 margin_bottom = 113.0
+expand_to_text_length = true
 
 [node name="LineEdit2" parent="UI/ScrollContainer/VBoxContainer/PlayerNameBox" instance=ExtResource( 6 )]
 margin_left = 316.0
@@ -93,16 +94,10 @@ margin_top = 113.0
 margin_right = 664.0
 margin_bottom = 226.0
 
-[node name="LineEdit3" parent="UI/ScrollContainer/VBoxContainer/PlayerNameBox" instance=ExtResource( 6 )]
-margin_left = 316.0
-margin_top = 226.0
-margin_right = 664.0
-margin_bottom = 339.0
-
 [node name="aBox" type="VBoxContainer" parent="UI/ScrollContainer/VBoxContainer"]
-margin_top = 343.0
+margin_top = 230.0
 margin_right = 980.0
-margin_bottom = 562.0
+margin_bottom = 449.0
 grow_horizontal = 2
 size_flags_horizontal = 3
 custom_constants/separation = 0
