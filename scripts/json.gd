@@ -21,15 +21,20 @@ func load_data():
 	return true;
 
 func pick_one():
+	randomize();
 	if not is_finish() :
-		var mySeed = randi() % ( unreadString.size() ) + 1;
+		var mySeed = randi() % ( unreadString.size() );
 		var sentence = unreadString[mySeed];
 		alreadyReadString.push_front(sentence);
 		unreadString.remove(mySeed);
 		return sentence;
+	global.set_game_finished();
 	return 'Partie terminée !';
 
 func is_finish():
+	if global.get_game_state() == 2:
+		global.back_to_menu();
+		OS.set_screen_orientation(1);
 	if unreadString.size() > 2 :
 		return false;
 	return true;
