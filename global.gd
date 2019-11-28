@@ -31,6 +31,7 @@ func set_game_started():
 
 func back_to_menu():
 	game_state = 0;
+	players = [];
 	get_tree().change_scene("res://scenes/Menu.tscn");
 	return true;
 
