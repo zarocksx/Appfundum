@@ -28,6 +28,7 @@ func set_game_finished():
 
 func set_game_started():
 	game_state = 1;
+	get_tree().change_scene("res://scenes/Game.tscn");
 
 func back_to_menu():
 	game_state = 0;
@@ -35,3 +36,11 @@ func back_to_menu():
 	get_tree().change_scene("res://scenes/Menu.tscn");
 	return true;
 
+func screen_metrics():
+	print("                 [Screen Metrics]")
+	print("            Display size: ", OS.get_screen_size())
+	print("   Decorated Window size: ", OS.get_real_window_size())
+	print("             Window size: ", OS.get_window_size())
+	print("        Project Settings: Width=", ProjectSettings.get_setting("display/window/size/width"), " Height=", ProjectSettings.get_setting("display/window/size/height")) 
+	print(OS.get_window_size().x)
+	print(OS.get_window_size().y)

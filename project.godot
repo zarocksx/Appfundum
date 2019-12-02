@@ -19,7 +19,6 @@ config/name="Appfundum"
 run/main_scene="res://scenes/Menu.tscn"
 boot_splash/image="res://assets/graph/Sans titre.png"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
-config/icon="res://assets/graph/icons/Logo_CEI_icon.png"
 
 [autoload]
 
@@ -27,9 +26,18 @@ global="*res://global.gd"
 
 [display]
 
+window/size/width=1440
+window/size/height=2560
+window/size/fullscreen=true
 window/dpi/allow_hidpi=true
 window/vsync/use_vsync=false
-window/handheld/orientation="sensor_portrait"
+window/handheld/orientation="portrait"
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "zylann.project_stats" )
 
 [gui]
 
@@ -37,7 +45,6 @@ theme/use_hidpi=true
 
 [rendering]
 
-quality/driver/fallback_to_gles2=true
 quality/intended_usage/framebuffer_allocation=0
 quality/intended_usage/framebuffer_allocation.mobile=0
 quality/2d/use_pixel_snap=true

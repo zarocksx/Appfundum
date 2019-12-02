@@ -1,7 +1,7 @@
 extends Label
 var ready = false
 func _ready():
-	set_size(global.get_view_landscape());
+	#set_size(global.get_view_landscape());
 	ready = $json.load_data();
 	set_text($json.pick_one());
 	pass;
