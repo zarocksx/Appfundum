@@ -4,7 +4,7 @@
 [ext_resource path="res://assets/new_dynamicfont.tres" type="DynamicFont" id=2]
 [ext_resource path="res://scripts/Label.gd" type="Script" id=3]
 [ext_resource path="res://scenes/customNode/json.tscn" type="PackedScene" id=4]
-[ext_resource path="res://scenes/Button.gd" type="Script" id=5]
+[ext_resource path="res://scripts/Button.gd" type="Script" id=5]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -31,6 +31,10 @@ autowrap = true
 script = ExtResource( 3 )
 
 [node name="json" parent="Label" instance=ExtResource( 4 )]
+limited = true
+
+[node name="cercles" parent="Label" instance=ExtResource( 4 )]
+LINES = "res://assets/data/cercles.json"
 
 [node name="Button" type="Button" parent="."]
 modulate = Color( 1, 1, 1, 0 )

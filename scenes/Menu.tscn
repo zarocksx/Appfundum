@@ -2,14 +2,13 @@
 
 [ext_resource path="res://scripts/main.gd" type="Script" id=1]
 [ext_resource path="res://assets/Comfortaa-Regular.ttf" type="DynamicFontData" id=2]
-[ext_resource path="res://assets/graph/icons/Logo CEI.jpg" type="Texture" id=3]
-[ext_resource path="res://scripts/VBoxContainer.gd" type="Script" id=4]
-[ext_resource path="res://scenes/customNode/customEdit.tscn" type="PackedScene" id=5]
-[ext_resource path="res://assets/graph/icons/round-add-button.svg" type="Texture" id=6]
-[ext_resource path="res://assets/style/add_player.tres" type="StyleBox" id=7]
-[ext_resource path="res://assets/graph/bottom_screen.svg" type="Texture" id=8]
-[ext_resource path="res://assets/graph/icons/BG_YELLOW.png" type="Texture" id=9]
-[ext_resource path="res://assets/graph/icons/Logo CEI.png" type="Texture" id=10]
+[ext_resource path="res://scripts/VBoxContainer.gd" type="Script" id=3]
+[ext_resource path="res://scenes/customNode/customEdit.tscn" type="PackedScene" id=4]
+[ext_resource path="res://assets/graph/icons/round-add-button.svg" type="Texture" id=5]
+[ext_resource path="res://assets/style/add_player.tres" type="StyleBox" id=6]
+[ext_resource path="res://assets/graph/bottom_screen.svg" type="Texture" id=7]
+[ext_resource path="res://assets/graph/icons/BG_YELLOW.png" type="Texture" id=8]
+[ext_resource path="res://assets/graph/icons/Logo CEI.png" type="Texture" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 size = 200
@@ -17,6 +16,10 @@ outline_size = 2
 outline_color = Color( 0, 0, 0, 1 )
 use_filter = true
 font_data = ExtResource( 2 )
+
+[sub_resource type="StreamTexture" id=5]
+flags = 4
+load_path = "res://.import/Logo CEI.jpg-3abf78c6952d856f2a04ced31cd541e6.stex"
 
 [sub_resource type="DynamicFont" id=2]
 size = 65
@@ -72,7 +75,7 @@ margin_top = 1.21191
 margin_right = 1936.0
 margin_bottom = 1789.0
 rect_scale = Vector2( 0.1, 0.1 )
-texture = ExtResource( 3 )
+texture = SubResource( 5 )
 stretch_mode = 1
 
 [node name="ScrollContainer" type="ScrollContainer" parent="UI"]
@@ -102,16 +105,16 @@ size_flags_horizontal = 5
 size_flags_vertical = 3
 custom_constants/separation = 50
 alignment = 1
-script = ExtResource( 4 )
+script = ExtResource( 3 )
 
-[node name="LineEdit" parent="UI/ScrollContainer/VBoxContainer/PlayerNameBox" instance=ExtResource( 5 )]
+[node name="LineEdit" parent="UI/ScrollContainer/VBoxContainer/PlayerNameBox" instance=ExtResource( 4 )]
 margin_left = 0.0
 margin_right = 1000.0
 margin_bottom = 119.0
 grow_horizontal = 0
 grow_vertical = 2
 
-[node name="LineEdit2" parent="UI/ScrollContainer/VBoxContainer/PlayerNameBox" instance=ExtResource( 5 )]
+[node name="LineEdit2" parent="UI/ScrollContainer/VBoxContainer/PlayerNameBox" instance=ExtResource( 4 )]
 margin_left = 0.0
 margin_top = 169.0
 margin_right = 1000.0
@@ -126,9 +129,9 @@ grow_horizontal = 2
 grow_vertical = 2
 rect_scale = Vector2( 2, 2 )
 action_mode = 0
-texture_normal = ExtResource( 6 )
-texture_pressed = ExtResource( 6 )
-texture_hover = ExtResource( 6 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 5 )
 stretch_mode = 3
 
 [node name="aBox" type="HBoxContainer" parent="UI"]
@@ -145,11 +148,11 @@ custom_constants/separation = -1000
 margin_right = 1240.0
 margin_bottom = 153.0
 size_flags_horizontal = 3
-custom_styles/hover = ExtResource( 7 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/focus = ExtResource( 7 )
-custom_styles/disabled = ExtResource( 7 )
-custom_styles/normal = ExtResource( 7 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 6 )
+custom_styles/focus = ExtResource( 6 )
+custom_styles/disabled = ExtResource( 6 )
+custom_styles/normal = ExtResource( 6 )
 custom_fonts/font = SubResource( 2 )
 text = "Un joueur de plus?"
 
@@ -162,7 +165,7 @@ margin_right = 21.035
 margin_bottom = 0.531006
 focus_previous = NodePath("../ScrollContainer")
 size_flags_horizontal = 3
-texture = ExtResource( 8 )
+texture = ExtResource( 7 )
 expand = true
 
 [node name="start" type="Button" parent="UI"]
@@ -187,13 +190,13 @@ align = 2
 [node name="BG_YELLOW" type="Sprite" parent="."]
 position = Vector2( 686.667, 2933.21 )
 scale = Vector2( 1.88877, 1 )
-texture = ExtResource( 9 )
+texture = ExtResource( 8 )
 
 [node name="Logo CEI" type="Sprite" parent="."]
 position = Vector2( 1022.49, 2118.06 )
 rotation = 0.337897
 scale = Vector2( 0.207387, 0.207387 )
-texture = ExtResource( 10 )
+texture = ExtResource( 9 )
 [connection signal="player_added" from="UI/ScrollContainer/VBoxContainer/PlayerNameBox" to="." method="_on_player_added"]
 [connection signal="pressed" from="UI/TextureButton" to="UI/ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_TextureButton_pressed"]
 [connection signal="pressed" from="UI/aBox/TextEdit" to="UI/ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_TextureButton_pressed"]

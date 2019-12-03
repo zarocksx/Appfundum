@@ -1,15 +1,22 @@
 extends Label
-var ready = false
+
+var line_ready = false;
+var cercles_ready = false
+
 func _ready():
-	#set_size(global.get_view_landscape());
-	ready = $json.load_data();
-	set_text($json.pick_one());
+	pic_line();
 	pass;
 
 func _on_Button_pressed():
-	if not ready :
-		ready = $json.load_data();
-	var text_Brut = $json.pick_one()
-	var text_final = text_Brut.format({"P": global.random_player()})
-	set_text(text_final);
+	pic_line();
 	pass;
+
+func pic_line():
+	if (line_ready && cercles_ready) == false :
+		line_ready = $json.load_data();
+		cercles_ready = $cercles.load_data();
+	var text_final = $json.pick_one();
+	text_final = text_final.format({"P": global.random_player()});
+	text_final = text_final.format({"C": $cercles.pick_one()});
+	set_text(text_final);
+	pass

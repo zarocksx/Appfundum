@@ -1,20 +1,17 @@
 extends Node
 
-var SAVE_PATH = 'res://assets/data/Appfundum.json';
+export var LINES = 'res://assets/data/Appfundum.json';
+export var limited = false;
 var unreadString = [];
 var alreadyReadString = [];
-
-func _ready():
-	print('json_ready');
-	pass # Replace with function body.
 
 func load_data():
 
 	var data = File.new();
-	if not data.file_exists(SAVE_PATH):
+	if not data.file_exists(LINES):
 		return false;
 
-	data.open(SAVE_PATH, File.READ);
+	data.open(LINES, File.READ);
 	unreadString = parse_json(data.get_as_text());
 
 	print(unreadString.size())
@@ -25,8 +22,9 @@ func pick_one():
 	if not is_finish() :
 		var mySeed = randi() % ( unreadString.size() );
 		var sentence = unreadString[mySeed];
-		alreadyReadString.push_front(sentence);
-		unreadString.remove(mySeed);
+		if limited :
+			alreadyReadString.push_front(sentence);
+			unreadString.remove(mySeed);
 		return sentence;
 	global.set_game_finished();
 	return 'Partie terminée !';
