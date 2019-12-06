@@ -13,20 +13,19 @@
 [sub_resource type="DynamicFont" id=1]
 size = 200
 outline_size = 2
-outline_color = Color( 0, 0, 0, 1 )
+outline_color = Color( 1, 1, 1, 0 )
 use_filter = true
 font_data = ExtResource( 2 )
 
-[sub_resource type="StreamTexture" id=5]
+[sub_resource type="StreamTexture" id=2]
 flags = 4
-load_path = "res://.import/Logo CEI.jpg-3abf78c6952d856f2a04ced31cd541e6.stex"
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=3]
 size = 65
 use_filter = true
 font_data = ExtResource( 2 )
 
-[sub_resource type="StyleBoxFlat" id=3]
+[sub_resource type="StyleBoxFlat" id=4]
 content_margin_left = 50.0
 bg_color = Color( 0.137255, 0.152941, 0.231373, 1 )
 draw_center = false
@@ -40,8 +39,9 @@ corner_detail = 10
 expand_margin_right = 5.0
 anti_aliasing_size = 2
 
-[sub_resource type="DynamicFont" id=4]
+[sub_resource type="DynamicFont" id=5]
 size = 100
+use_mipmaps = true
 use_filter = true
 font_data = ExtResource( 2 )
 
@@ -75,7 +75,7 @@ margin_top = 1.21191
 margin_right = 1936.0
 margin_bottom = 1789.0
 rect_scale = Vector2( 0.1, 0.1 )
-texture = SubResource( 5 )
+texture = SubResource( 2 )
 stretch_mode = 1
 
 [node name="ScrollContainer" type="ScrollContainer" parent="UI"]
@@ -153,7 +153,7 @@ custom_styles/pressed = ExtResource( 6 )
 custom_styles/focus = ExtResource( 6 )
 custom_styles/disabled = ExtResource( 6 )
 custom_styles/normal = ExtResource( 6 )
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 3 )
 text = "Un joueur de plus?"
 
 [node name="start2" type="TextureRect" parent="UI"]
@@ -177,12 +177,12 @@ margin_right = -2.0
 margin_bottom = 0.531006
 focus_previous = NodePath("../ScrollContainer")
 size_flags_horizontal = 3
-custom_styles/hover = SubResource( 3 )
-custom_styles/pressed = SubResource( 3 )
-custom_styles/focus = SubResource( 3 )
-custom_styles/disabled = SubResource( 3 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 4 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 4 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "On peut y aller! →  "
 align = 2
