@@ -23,7 +23,7 @@ config/icon="res://assets/graph/icons/Logo CEI.png"
 
 [autoload]
 
-global="*res://global.gd"
+global="*res://static/global.gd"
 
 [display]
 

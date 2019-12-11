@@ -1,6 +1,6 @@
 extends Node
 
-func _on_player_added():
+func _on_player_added() -> void:
 	print( global.players.size() );
 	if (global.players.size()>0):
 		global.set_game_started();

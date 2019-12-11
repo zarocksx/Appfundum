@@ -5,8 +5,7 @@ export var limited = false;
 var unreadString = [];
 var alreadyReadString = [];
 
-func load_data():
-
+func load_data() -> bool:
 	var data = File.new();
 	if not data.file_exists(LINES):
 		return false;
@@ -17,7 +16,7 @@ func load_data():
 	print(unreadString.size())
 	return true;
 
-func pick_one():
+func pick_one() -> String:
 	randomize();
 	if not is_finish() :
 		var mySeed = randi() % ( unreadString.size() );
@@ -29,7 +28,7 @@ func pick_one():
 	global.set_game_finished();
 	return 'Partie terminée !';
 
-func is_finish():
+func is_finish() -> bool:
 	if global.get_game_state() == 2:
 		global.back_to_menu();
 		OS.set_screen_orientation(1);

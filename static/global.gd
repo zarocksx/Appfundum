@@ -28,13 +28,12 @@ func set_game_finished():
 
 func set_game_started():
 	game_state = 1;
-	get_tree().change_scene("res://scenes/Game.tscn");
+	return get_tree().change_scene("res://scenes/Game.tscn");
 
 func back_to_menu():
 	game_state = 0;
 	players = [];
-	get_tree().change_scene("res://scenes/Menu.tscn");
-	return true;
+	return get_tree().change_scene("res://scenes/Menu.tscn");
 
 func screen_metrics():
 	print("                 [Screen Metrics]")

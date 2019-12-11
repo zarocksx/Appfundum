@@ -16,7 +16,7 @@ func _on_start_pressed():
 		child.get_text_value();
 	emit_signal("player_added");
 
-func not_ready():
+func not_ready() -> void:
 	for child in get_children():
 		child.set_self_modulate(Color(1,0,0));
 	
