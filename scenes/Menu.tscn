@@ -117,5 +117,9 @@ script = ExtResource( 2 )
 
 [node name="settings" parent="." instance=ExtResource( 3 )]
 visible = false
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+use_threads = true
 [connection signal="show_settings" from="lobby" to="AnimationPlayer" method="_on_settings_pressed"]
 [connection signal="menu_pressed" from="settings" to="AnimationPlayer" method="_on_menu_pressed"]
+[connection signal="request_completed" from="HTTPRequest" to="lobby" method="_on_HTTPRequest_request_completed"]
