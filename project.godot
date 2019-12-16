@@ -24,6 +24,8 @@ config/icon="res://assets/graph/icons/Logo CEI.png"
 [autoload]
 
 global="*res://static/global.gd"
+aL="*res://static/android_lifecycle.gd"
+firebase="*res://static/firebase.gd"
 
 [display]
 

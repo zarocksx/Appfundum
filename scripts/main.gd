@@ -7,6 +7,6 @@ func _on_player_added() -> void:
 	else:
 		print("not enought player");
 		global.players = [];
-		var player_box = get_node("UI/ScrollContainer/VBoxContainer/PlayerNameBox");
+		var player_box = get_node("lobby/ScrollContainer/VBoxContainer/PlayerNameBox");
 		player_box.not_ready();
 	pass;

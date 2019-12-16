@@ -1,18 +1,16 @@
 [gd_resource type="StyleBoxFlat" format=2]
 
 [resource]
-content_margin_left = 50.0
 bg_color = Color( 0.137255, 0.152941, 0.231373, 1 )
-border_width_left = 3
-border_width_top = 3
-border_width_right = 3
-border_width_bottom = 3
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
 border_color = Color( 0.25098, 0.286275, 0.407843, 1 )
 border_blend = true
 corner_radius_top_left = 50
 corner_radius_top_right = 50
 corner_radius_bottom_right = 50
 corner_radius_bottom_left = 50
-corner_detail = 10
-expand_margin_right = 5.0
-anti_aliasing_size = 2
+corner_detail = 128
+anti_aliasing_size = 5
