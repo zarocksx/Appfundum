@@ -1,7 +1,6 @@
 extends AnimationPlayer
 
 func _on_settings_pressed():
-    print("pressed")
     show_settings();
 
 func _on_menu_pressed():

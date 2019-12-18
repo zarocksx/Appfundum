@@ -5,6 +5,8 @@ const PROJECT_ID = "appfundum-1";
 
 const LOGIN_A = "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=%s" % API_KEY;
 
+
+
 var current_token = "";
 
 var user_info = {};
@@ -13,13 +15,19 @@ func _get_token_id_anonymous(result: Array):
     print(result);
     return 1;
 
+func _get_request_headers():
+    return PoolStringArray([
+        "Content-Type: application/json",
+        "Authorisation: Bearer %s" % current_token
+    ])
+
 func anonymous_register(http: HTTPRequest):
     print(http.request(LOGIN_A, ["Content-Length:0"], false, HTTPClient.METHOD_POST));
     var result = yield(http, "request_completed") as Array;
     print(result);
     if result[1] == 200:
         current_token = _get_token_id_anonymous(result);
-
+    pass;
 """"
 func save_question(path: String, fields: Dictionary, http: HTTPRequest) :
     var document = { "fields": fields};
@@ -43,4 +51,5 @@ func update_document(path: String, http: HTTPRequest):
 func delete_document(path: String, http: HTTPRequest):
     var url = FIRESTORE_URL + path;
     http.request(url, _get_request_headers(), false, HTTPClient.METHOD_DELETE);
-"""
+    pass;
+    """

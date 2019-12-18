@@ -12,8 +12,7 @@ func load_data() -> bool:
 
 	data.open(LINES, File.READ);
 	unreadString = parse_json(data.get_as_text());
-
-	print(unreadString.size())
+	
 	return true;
 
 func pick_one() -> String:
