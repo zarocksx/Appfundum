@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://scenes/settings.gd" type="Script" id=1]
 [ext_resource path="res://assets/style/menu_text_input.tres" type="StyleBox" id=2]
 [ext_resource path="res://assets/new_dynamicfont.tres" type="DynamicFont" id=3]
 [ext_resource path="res://assets/graph/icons/left-arrow.svg" type="Texture" id=4]
+[ext_resource path="res://scenes/TextEdit.gd" type="Script" id=5]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.25098, 0.286275, 0.407843, 1 )
@@ -17,7 +18,7 @@ corner_radius_top_left = 50
 corner_radius_top_right = 50
 corner_radius_bottom_right = 50
 corner_radius_bottom_left = 50
-corner_detail = 128
+corner_detail = 20
 anti_aliasing_size = 5
 
 [sub_resource type="StyleBoxTexture" id=2]
@@ -28,6 +29,9 @@ margin_top = -2.51733
 margin_right = 1442.52
 margin_bottom = 2557.48
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="TextEdit" type="TextEdit" parent="."]
 anchor_top = 0.078
@@ -39,18 +43,21 @@ margin_right = -20.0
 margin_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 2
+hint_tooltip = "Ajouter votre question ici"
 custom_styles/read_only = ExtResource( 2 )
 custom_styles/focus = ExtResource( 2 )
 custom_styles/normal = ExtResource( 2 )
 custom_styles/completion = ExtResource( 2 )
 custom_fonts/font = ExtResource( 3 )
-text = "Ajoutez votre question ici."
-breakpoint_gutter = true
 context_menu_enabled = false
 smooth_scrolling = true
 wrap_enabled = true
 caret_block_mode = true
 caret_blink = true
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="menu" type="Button" parent="."]
 margin_left = 1247.86
@@ -75,8 +82,12 @@ custom_styles/normal = SubResource( 1 )
 custom_fonts/font = ExtResource( 3 )
 text = "Ajouter la question"
 clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="CheckButton" type="CheckButton" parent="."]
+visible = false
 margin_left = 342.147
 margin_top = 1216.31
 margin_right = 1132.15
@@ -85,4 +96,8 @@ custom_styles/normal = SubResource( 2 )
 custom_fonts/font = ExtResource( 3 )
 text = "Mode Hard"
 clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="menu" to="." method="_on_menu_pressed"]
+[connection signal="pressed" from="ajouter" to="TextEdit" method="_on_ajouter_pressed"]

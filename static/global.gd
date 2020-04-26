@@ -3,9 +3,6 @@ extends Node
 var players = [];
 var game_state = 0; # 0 = in menu / 1 = in progress / 2 = finished
 
-func _ready():
-	pass;
-
 func add_players(player):
 	players.push_front(player);
 

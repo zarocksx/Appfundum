@@ -3,7 +3,7 @@ extends Control
 signal show_settings
 
 func _ready():
-	firebase.anonymous_register(get_node("../HTTPRequest"));
+	firebase.anonymous_register();
 	pass;
 
 func _on_player_added():
@@ -19,13 +19,15 @@ func _on_player_added():
 
 func _on_settings_pressed():
 	emit_signal("show_settings");
-	pass # Replace with function body.
+	pass
 
 
 func _on_HTTPRequest_request_completed(result: int, response_code: int, headers: PoolStringArray, body: PoolByteArray):
-    var response = JSON.parse(body.get_string_from_ascii());
-    if response_code != 200:
-        print("error response : ",response_code);
-    else:
-        print("request completed : ",response.result.idToken);
-    pass;
+	var response = JSON.parse(body.get_string_from_ascii());
+	if response_code != 200 && response_code:
+		print("error response : ",response_code);
+		print(response.result)
+	else:
+		print("request completed : ");
+		pass
+	pass;
