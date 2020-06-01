@@ -15,12 +15,9 @@ func _on_player_added():
 		player_box.not_ready();
 	pass;
 
-
-
 func _on_settings_pressed():
 	emit_signal("show_settings");
 	pass
-
 
 func _on_HTTPRequest_request_completed(result: int, response_code: int, headers: PoolStringArray, body: PoolByteArray):
 	var response = JSON.parse(body.get_string_from_ascii());

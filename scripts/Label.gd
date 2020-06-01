@@ -12,8 +12,7 @@ func _on_Button_pressed():
 	pass;
 
 # P = player | C = cercle | S = second player
-func pic_line() -> void:
-	
+func pic_line():
 	randomize();
 	if (line_ready && cercles_ready) == false :
 		line_ready = $json.load_data();

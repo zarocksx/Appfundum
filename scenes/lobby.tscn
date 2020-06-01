@@ -75,10 +75,13 @@ font_data = ExtResource( 2 )
 
 [node name="lobby" type="Control"]
 margin_left = -1.0
-margin_top = 1.0
+margin_top = 0.586182
 margin_right = 1439.0
-margin_bottom = 2960.0
+margin_bottom = 2959.59
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Title" type="Label" parent="."]
 anchor_right = 1.0
@@ -90,6 +93,9 @@ custom_fonts/font = SubResource( 1 )
 text = "Appfundum"
 align = 1
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Logo CEI" type="TextureRect" parent="."]
 anchor_left = 0.849
@@ -190,22 +196,25 @@ text = "Un joueur de plus?"
 [node name="start2" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 0.891
-margin_left = 5.03503
+margin_left = 1.0
 margin_top = 1769.0
-margin_right = 21.035
+margin_right = 6.0
 margin_bottom = 0.531006
 focus_previous = NodePath("../ScrollContainer")
 size_flags_horizontal = 3
 texture = ExtResource( 7 )
 expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="start" type="Button" parent="."]
 anchor_right = 1.0
 anchor_bottom = 0.891
-margin_left = -4.0
-margin_top = 2082.0
-margin_right = -2.0
-margin_bottom = 0.531006
+margin_left = 199.917
+margin_top = 2157.52
+margin_right = -132.083
+margin_bottom = -51.9441
 focus_previous = NodePath("../ScrollContainer")
 size_flags_horizontal = 3
 custom_styles/hover = SubResource( 7 )
@@ -217,10 +226,13 @@ custom_fonts/font = SubResource( 8 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "On peut y aller! →  "
 align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="BG_YELLOW" type="Sprite" parent="."]
-position = Vector2( 711.011, 2932.21 )
-scale = Vector2( 1.88877, 1 )
+position = Vector2( 719.72, 2933.47 )
+scale = Vector2( 1.79691, 0.995796 )
 texture = ExtResource( 8 )
 
 [node name="Logo CEI2" type="Sprite" parent="."]
@@ -239,6 +251,9 @@ margin_bottom = 554.563
 rect_scale = Vector2( 0.24, 0.24 )
 icon = ExtResource( 10 )
 flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="player_added" from="ScrollContainer/VBoxContainer/PlayerNameBox" to="." method="_on_player_added"]
 [connection signal="pressed" from="TextureButton" to="ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_TextureButton_pressed"]
 [connection signal="pressed" from="aBox/TextEdit" to="ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_TextureButton_pressed"]

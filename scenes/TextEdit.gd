@@ -14,4 +14,6 @@ func _on_ajouter_pressed():
 	question.author = {"stringValue" : firebase.user_info.id};
 
 	firebase.save_document("question",question);
+	var hint = get_node('../RichTextLabel');
+	hint.visible = true;
 	pass;

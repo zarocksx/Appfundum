@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://scenes/settings.gd" type="Script" id=1]
 [ext_resource path="res://assets/style/menu_text_input.tres" type="StyleBox" id=2]
 [ext_resource path="res://assets/new_dynamicfont.tres" type="DynamicFont" id=3]
 [ext_resource path="res://assets/graph/icons/left-arrow.svg" type="Texture" id=4]
 [ext_resource path="res://scenes/TextEdit.gd" type="Script" id=5]
+[ext_resource path="res://assets/style/add_player.tres" type="StyleBox" id=6]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.25098, 0.286275, 0.407843, 1 )
@@ -80,7 +81,7 @@ custom_styles/focus = ExtResource( 2 )
 custom_styles/disabled = ExtResource( 2 )
 custom_styles/normal = SubResource( 1 )
 custom_fonts/font = ExtResource( 3 )
-text = "Ajouter la question"
+text = "proposer une question"
 clip_text = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -99,5 +100,26 @@ clip_text = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+visible = false
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 236.758
+margin_top = -1331.85
+margin_right = -203.245
+margin_bottom = -731.85
+grow_horizontal = 2
+grow_vertical = 2
+custom_styles/focus = ExtResource( 6 )
+custom_styles/normal = ExtResource( 6 )
+custom_fonts/mono_font = ExtResource( 3 )
+custom_fonts/bold_italics_font = ExtResource( 3 )
+custom_fonts/italics_font = ExtResource( 3 )
+custom_fonts/bold_font = ExtResource( 3 )
+custom_fonts/normal_font = ExtResource( 3 )
+text = "Merci, votre proposition a bien été enregistrée."
+scroll_active = false
 [connection signal="pressed" from="menu" to="." method="_on_menu_pressed"]
 [connection signal="pressed" from="ajouter" to="TextEdit" method="_on_ajouter_pressed"]
