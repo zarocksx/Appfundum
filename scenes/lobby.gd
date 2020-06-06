@@ -3,7 +3,7 @@ extends Control
 signal show_settings
 
 func _ready():
-	#firebase.anonymous_register();
+	firebase.anonymous_register();
 	pass;
 
 func _on_player_added():
