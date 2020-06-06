@@ -18,7 +18,7 @@ _global_script_class_icons={
 config/name="Appfundum"
 run/main_scene="res://scenes/Menu.tscn"
 boot_splash/image="res://assets/graph/icons/Logo CEI.png"
-boot_splash/bg_color=Color( 0.25098, 0.286275, 0.407843, 1 )
+boot_splash/bg_color=Color( 0.137255, 0.152941, 0.231373, 1 )
 config/icon="res://assets/graph/icons/Logo CEI.png"
 
 [autoload]
@@ -41,7 +41,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "zylann.project_stats" )
+enabled=PoolStringArray( "github-integration", "zylann.project_stats" )
 
 [gui]
 
@@ -49,10 +49,11 @@ theme/use_hidpi=true
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
 quality/intended_usage/framebuffer_allocation=0
 quality/intended_usage/framebuffer_allocation.mobile=0
 quality/2d/use_pixel_snap=true
 vram_compression/import_etc=true
 quality/reflections/texture_array_reflections=false
-quality/subsurface_scattering/quality=0
 environment/default_clear_color=Color( 0.137255, 0.152941, 0.231373, 1 )
+quality/subsurface_scattering/quality=0
