@@ -1,0 +1,50 @@
+{
+    "0" : {
+        "events" : [
+            {
+                "start" : "Reverse ! les tous le monde redeviens bleu(ette) excepté le/la plus jeune baptisé(e).\nLes fossiles, vous ne savez pas ce que vous ratez !",
+                "end" : "La bleusaille est finie, retour a la normale, et respectez vos ancien(ne)s bordel !"
+            },
+            {
+                "start" : "Chaque fois qu'un joueur(euse) finit son verre, il/elle donne une gorgée a la personne a sa droite. ",
+                "end" : "Finir son verre n'a plus aucun effet mise a part enterrer ta sobrietée."
+            }
+        ]
+    },
+    "1" : {
+        "events" : [
+            {
+                "start" : "{P} est le/la Censor il peux donner des gorgées aux joueur(euse)s les plus bruyant(e)s",
+                "end" : "{P} n'est plus  le/ la Censor !"
+            },
+            {
+                "start" : "'On pisse du sable !', {P} est fushen il s'occupera de vous servir a boire",
+                "end" : "{P} a glorieusement accompli sa mission!"
+            }
+        ]
+    },
+    "2" : {
+        "events" : [
+            {
+                "start" : "test 2 - 1",
+                "end" : "test 2 - 2"
+            },
+            {
+                "start" : "test 2 - 3",
+                "end" : "test 2 - 4"
+            }
+        ]
+    },
+    "3" : {
+        "events" : [
+            {
+                "start" : "test 3 - 1",
+                "end" : "test 3 - 2"
+            },
+            {
+                "start" : "test 3 - 3",
+                "end" : "test 3 - 4"
+            }
+        ]
+    }
+}

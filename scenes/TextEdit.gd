@@ -6,14 +6,14 @@ var question := {
 	}
 
 func _on_ajouter_pressed():
-	if text.empty():
-		print("question empty");
-		return;
-	print(firebase.user_info.id);
-	question.question = {"stringValue" : text};
-	question.author = {"stringValue" : firebase.user_info.id};
+	#if text.empty():
+	#	print("question empty");
+	#	return;
+	#print(firebase.user_info.id);
+	#question.question = {"stringValue" : text};
+	#question.author = {"stringValue" : firebase.user_info.id};
 
-	firebase.save_document("question",question);
-	var hint = get_node('../RichTextLabel');
-	hint.visible = true;
+	#firebase.save_document("question",question);
+	#var hint = get_node('../RichTextLabel');
+	#hint.visible = true;
 	pass;
