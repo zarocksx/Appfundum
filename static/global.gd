@@ -19,7 +19,7 @@ func get_players_size():
 	return players.size();
 
 func get_random_player():
-	return get_players( (randi() % players.size() +1 )-1 );
+	return get_players( (randi() % players.size() +1 ) -1 );
 
 # TODO refactor name in get switched orientation
 func get_view_landscape(): 
@@ -45,7 +45,7 @@ func set_game_finished():
 
 func set_game_started():
 	game_state = 1;
-	return get_tree().change_scene("res://scenes/Game.tscn");
+	return get_tree().change_scene("res://scenes/game.tscn");
 
 func add_event(event):
 	events_active.push_front(event);

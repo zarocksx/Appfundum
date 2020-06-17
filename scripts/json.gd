@@ -6,6 +6,7 @@ export var event = false;
 var events;
 var unreadString = [];
 var alreadyReadString = [];
+const EVENT_MAX_QTE = 3 + 1 # biggest key +1
 
 func load_data() -> bool:
 	var data = File.new();
@@ -41,7 +42,10 @@ func pick_event():
 	print(events.result["0"].events[0].start);
 	# TODO choose a random qty of player, then check if event of this category is valaible, if not choose an other qty of player
 	print(global.players.size()-1);
-	var index = str(randi()%global.players.size())
+	var index = randi()%global.players.size();
+	if (index > 0):
+		index = index % EVENT_MAX_QTE;
+	index = str(index);
 	if events.result[index].events.empty():
 		return {};
 
