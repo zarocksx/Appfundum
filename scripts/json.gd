@@ -33,25 +33,27 @@ func pick_sentence() -> String:
 	return 'Partie terminée !';
 
 func pick_event():
-	var start = "";
-	var end = "";
 	var players = global.get_players(-1);
-	players.shuffle()
+	randomize();
+	players.shuffle();
 
 	print("pick event");
-	print(events.result);
+	print(events.result["0"].events[0].start);
 	# TODO choose a random qty of player, then check if event of this category is valaible, if not choose an other qty of player
-	print(global.players.size());
+	print(global.players.size()-1);
+	var index = str(randi()%global.players.size())
+	if events.result[index].events.empty():
+		return {};
 
-	global.add_event(
-		{
-			"start" : start,
-			"end" : end,
-			"players" : players,
-			"time" : 0
-		}
-	)
-	return 'event';
+	var event_picked = {
+		"start" : str(events.result[index].events[0].start),
+		"end" : str(events.result[index].events[0].end),
+		"players" : players,
+		"time" : 0
+	}
+
+	global.add_event(event_picked)
+	return event_picked;
 
 func is_avalaible(nPlayer: int):
 	#print(nPlayer);

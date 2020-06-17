@@ -19,12 +19,18 @@ func get_players_size():
 	return players.size();
 
 func get_random_player():
-	return get_players((randi()) % ( players.size() ) );
+	return get_players( (randi() % players.size() +1 )-1 );
 
 # TODO refactor name in get switched orientation
 func get_view_landscape(): 
 	var screen = get_viewport().get_visible_rect().size;
 	return Vector2(screen.y,screen.x);
+
+func get_event_active(index: int):
+	if index == -1:
+		return events_active.front();
+		pass
+	return events_active[index];
 
 func is_event_active() -> bool:
 	if events_active.empty():
@@ -43,6 +49,7 @@ func set_game_started():
 
 func add_event(event):
 	events_active.push_front(event);
+	print(events_active)
 	pass
 
 func remove_event(index: int):

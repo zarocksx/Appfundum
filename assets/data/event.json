@@ -14,12 +14,12 @@
     "1" : {
         "events" : [
             {
-                "start" : "{P} est le/la Censor il peux donner des gorgées aux joueur(euse)s les plus bruyant(e)s",
-                "end" : "{P} n'est plus  le/ la Censor !"
+                "start" : "{1} est le/la Censor il peux donner des gorgées aux joueur(euse)s les plus bruyant(e)s",
+                "end" : "{1} n'est plus  le/ la Censor !"
             },
             {
-                "start" : "'On pisse du sable !', {P} est fushen il s'occupera de vous servir a boire",
-                "end" : "{P} a glorieusement accompli sa mission!"
+                "start" : "'On pisse du sable !', {1} est fushen il s'occupera de vous servir a boire",
+                "end" : "{1} a glorieusement accompli sa mission!"
             }
         ]
     },

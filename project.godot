@@ -41,7 +41,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "github-integration", "zylann.project_stats" )
+enabled=PoolStringArray( "zylann.project_stats" )
 
 [gui]
 
