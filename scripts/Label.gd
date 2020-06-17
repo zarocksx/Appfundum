@@ -17,6 +17,7 @@ func _on_Button_pressed():
 
 # P = player | C = cercle | S = second player
 func pic_line():
+	VisualServer.set_default_clear_color(Color(0.14,0.15,0.23,1.0))
 
 	if (line_ready && cercles_ready && events_ready) == false:
 		line_ready = $json.load_data();
@@ -34,6 +35,7 @@ func pic_line():
 						for j in event.players.size():
 							text_final = text_final.format({ str(j): event.players[j] });
 					set_text(text_final);
+					VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0))
 					global.remove_event(i);
 					return "stop event";
 		if $events.is_avalaible( global.get_players_size() ): # start a new event
@@ -43,6 +45,7 @@ func pic_line():
 				var text_final = event.start;
 				for i in event.players.size():
 					text_final = event.start.format({ str(i): event.players[i] });
+				VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0))
 				set_text(text_final);
 				return "start event"
 

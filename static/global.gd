@@ -61,6 +61,13 @@ func back_to_menu():
 	players = [];
 	return get_tree().change_scene("res://scenes/Menu.tscn");
 
+func change_background(random):
+	if random :
+		VisualServer.set_default_clear_color(Color(randf()/1.2,randf()/1.2,randf()/1.2,1.0));
+		print("random")
+	VisualServer.set_default_clear_color(Color(0.14,0.15,0.23,1.0));
+	print("revert")
+
 func screen_metrics():
 	print("                 [Screen Metrics]")
 	print("            Display size: ", OS.get_screen_size())
