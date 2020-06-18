@@ -4,6 +4,8 @@ var players = [];
 var game_state = 0; # 0 = in menu / 1 = in progress / 2 = finished
 var events_allowed = true;
 var events_active = [];
+var game = preload("res://scenes/game.tscn");
+var menu = preload("res://scenes/menu.tscn");
 
 func add_players(player):
 	players.push_front(player);
@@ -19,7 +21,7 @@ func get_players_size():
 	return players.size();
 
 func get_random_player():
-	return get_players( (randi() % players.size() +1 ) -1 );
+	return get_players(randi() % players.size() );
 
 # TODO refactor name in get switched orientation
 func get_view_landscape(): 
@@ -45,7 +47,7 @@ func set_game_finished():
 
 func set_game_started():
 	game_state = 1;
-	return get_tree().change_scene("res://scenes/game.tscn");
+	get_tree().change_scene_to(game);
 
 func add_event(event):
 	events_active.push_front(event);
@@ -57,9 +59,11 @@ func remove_event(index: int):
 	pass
 
 func back_to_menu():
+	get_tree().change_scene_to(menu);
 	game_state = 0;
 	players = [];
-	return get_tree().change_scene("res://scenes/Menu.tscn");
+	print("empty 3");
+	
 
 func change_background(random):
 	if random :
