@@ -8,9 +8,10 @@ var unreadString = [];
 var alreadyReadString = [];
 const EVENT_MAX_QTE = 3 + 1 # biggest key +1
 
-func load_data() -> bool:
+func load_data():
 	var data = File.new();
 	if not data.file_exists(LINES):
+		print("no files ( %s )", LINES)
 		return false;
 
 	data.open(LINES, File.READ);
@@ -21,7 +22,7 @@ func load_data() -> bool:
 	
 	return true;
 
-func pick_sentence() -> String:
+func pick_sentence():
 	randomize();
 	if not is_finish() :
 		var mySeed = randi() % ( unreadString.size() );
@@ -63,7 +64,7 @@ func is_avalaible(nPlayer: int):
 	#print(nPlayer);
 	return true;
 
-func is_finish() -> bool:
+func is_finish():
 	if global.get_game_state() == 2:
 		global.back_to_menu();
 		OS.set_screen_orientation(1);

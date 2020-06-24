@@ -27,7 +27,6 @@ grow_vertical = 2
 rect_rotation = 90.0
 size_flags_horizontal = 4
 custom_fonts/font = ExtResource( 1 )
-text = "TEEEEEEEEEEEST"
 align = 1
 valign = 1
 autowrap = true
@@ -58,5 +57,5 @@ script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-[connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]

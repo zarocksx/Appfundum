@@ -26,8 +26,8 @@
     "2" : {
         "events" : [
             {
-                "start" : "test 2 - 1",
-                "end" : "test 2 - 2"
+                "start" : "Tout le monde vvote, entre {1} et {2}: qui est le plus susceptible de finir alcoolique ?.\nL'alcoolique est a l'eau.",
+                "end" : "l'alcoolique peut a nouveau s'adonner a sa passion alcoolisée"
             },
             {
                 "start" : "test 2 - 3",

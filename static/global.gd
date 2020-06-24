@@ -47,7 +47,9 @@ func set_game_finished():
 
 func set_game_started():
 	game_state = 1;
-	get_tree().change_scene_to(game);
+	print("start game");
+	print(get_tree().change_scene_to(game));
+	print("__________");
 
 func add_event(event):
 	events_active.push_front(event);
@@ -59,7 +61,9 @@ func remove_event(index: int):
 	pass
 
 func back_to_menu():
-	get_tree().change_scene_to(menu);
+	print("back to menu");
+	print(get_tree().change_scene_to(menu));
+	print("_______");
 	game_state = 0;
 	players = [];
 	print("empty 3");
