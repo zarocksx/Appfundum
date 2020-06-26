@@ -18,8 +18,11 @@ func load_data():
 	unreadString = parse_json(data.get_as_text());
 	if event :
 		events = JSON.parse(data.get_as_text());
-		print( events.result["0"].events.front().start );
-	
+		print(events.result)
+		for i in range(EVENT_MAX_QTE) :
+			if 	events.result.has(str(i)) && i >= global.players.size() :
+				events.result.erase(str(i))
+		print(events.result.keys())
 	return true;
 
 func pick_sentence():
@@ -35,28 +38,52 @@ func pick_sentence():
 	return 'Partie terminée !';
 
 func pick_event():
+	if events.result.empty():
+		return false;
 	var players = global.get_players(-1);
 	randomize();
 	players.shuffle();
-
-	print("pick event");
-	print(events.result["0"].events[0].start);
-	# TODO choose a random qty of player, then check if event of this category is valaible, if not choose an other qty of player
-	print(global.players.size()-1);
 	var index = randi()%global.players.size();
+
 	if (index > 0):
 		index = index % EVENT_MAX_QTE;
 	index = str(index);
-	if events.result[index].events.empty():
-		return {};
+
+	while(!events.result.has(index)):
+		randomize();
+		index = (randi()%global.players.size());
+		if (index > 0):
+			index = index % EVENT_MAX_QTE;
+		index = str(index);
+		print("seeking %s", index);
+		
+		if events.result.has(index) :
+			print("has")
+			print("event list %s",events.result[index])
+			if events.result[index].events.empty():
+				print("but empty")
+				events.result.erase(index)
+		
+		if events.result.empty():
+			print("totally empty");
+			return false;
+
+	var event_index;
+	if( events.result[index].events.size() == 0) :
+		events.result.erase(index);
+		return false;
+	else:
+		event_index = randi() % (events.result[index].events.size());
 
 	var event_picked = {
-		"start" : str(events.result[index].events[0].start),
-		"end" : str(events.result[index].events[0].end),
+		"start" : str(events.result[index].events[event_index].start),
+		"end" : str(events.result[index].events[event_index].end),
 		"players" : players,
 		"time" : 0
 	}
 
+	events.result[index].events.remove(event_index);
+	events.result[index].erase(index)
 	global.add_event(event_picked)
 	return event_picked;
 

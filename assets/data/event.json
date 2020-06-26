@@ -2,7 +2,7 @@
     "0" : {
         "events" : [
             {
-                "start" : "Reverse ! les tous le monde redeviens bleu(ette) excepté le/la plus jeune baptisé(e).\nLes fossiles, vous ne savez pas ce que vous ratez !",
+                "start" : "Reverse !\nTous le monde redeviens bleu(ette) excepté le/la plus jeune baptisé(e).\nLes fossiles, vous ne savez pas ce que vous ratez !",
                 "end" : "La bleusaille est finie, retour a la normale, et respectez vos ancien(ne)s bordel !"
             },
             {
@@ -18,20 +18,24 @@
                 "end" : "{1} n'est plus  le/ la Censor !"
             },
             {
-                "start" : "'On pisse du sable !', {1} est fushen il s'occupera de vous servir a boire",
+                "start" : "On pisse du sable !\n {1} est fushen il s'occupera de vous servir a boire",
                 "end" : "{1} a glorieusement accompli sa mission!"
+            },
+            {
+                "start" : "{1} es le/la bleu.ette, tu dois aller chercher à boire pour les autres, si il n' y a pas de fushen",
+                "end" : "{1} n'est plus le/la bleu.ette"
             }
         ]
     },
     "2" : {
         "events" : [
             {
-                "start" : "Tout le monde vvote, entre {1} et {2}: qui est le plus susceptible de finir alcoolique ?.\nL'alcoolique est a l'eau.",
+                "start" : "Tout le monde vote, entre {1} et {2}: qui est le/la plus susceptible de finir alcoolique ?.\nL'alcoolique est a l'eau.",
                 "end" : "l'alcoolique peut a nouveau s'adonner a sa passion alcoolisée"
             },
             {
-                "start" : "test 2 - 3",
-                "end" : "test 2 - 4"
+                "start" : "{1} et {2} sont mirroir jusqu'a nouvel ordre",
+                "end" : "les mirroirs sont libéré de leurs chaines"
             }
         ]
     },
