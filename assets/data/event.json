@@ -38,17 +38,5 @@
                 "end" : "les mirroirs sont libéré de leurs chaines"
             }
         ]
-    },
-    "3" : {
-        "events" : [
-            {
-                "start" : "test 3 - 1",
-                "end" : "test 3 - 2"
-            },
-            {
-                "start" : "test 3 - 3",
-                "end" : "test 3 - 4"
-            }
-        ]
     }
 }
