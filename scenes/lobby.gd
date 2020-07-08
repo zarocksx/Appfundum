@@ -3,7 +3,7 @@ extends Control
 signal show_settings
 
 func _ready():
-	firebase.anonymous_register();
+	#firebase.anonymous_register();
 	pass;
 
 func _on_player_added():
@@ -11,6 +11,7 @@ func _on_player_added():
 		global.set_game_started();
 	else:
 		global.players = [];
+		print("empty 1");
 		var player_box = get_node("ScrollContainer/VBoxContainer/PlayerNameBox");
 		player_box.not_ready();
 	pass;

@@ -4,7 +4,7 @@
 [ext_resource path="res://assets/style/menu_text_input.tres" type="StyleBox" id=2]
 [ext_resource path="res://assets/new_dynamicfont.tres" type="DynamicFont" id=3]
 [ext_resource path="res://assets/graph/icons/left-arrow.svg" type="Texture" id=4]
-[ext_resource path="res://scenes/TextEdit.gd" type="Script" id=5]
+[ext_resource path="res://scenes/textEdit.gd" type="Script" id=5]
 [ext_resource path="res://assets/style/add_player.tres" type="StyleBox" id=6]
 
 [sub_resource type="StyleBoxFlat" id=1]

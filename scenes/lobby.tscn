@@ -1,15 +1,16 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://scenes/lobby.gd" type="Script" id=1]
 [ext_resource path="res://assets/Comfortaa-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://scripts/VBoxContainer.gd" type="Script" id=3]
 [ext_resource path="res://scenes/customNode/customEdit.tscn" type="PackedScene" id=4]
-[ext_resource path="res://assets/graph/icons/round-add-button.svg" type="Texture" id=5]
+[ext_resource path="res://assets/graph/icons/plus_revert.svg" type="Texture" id=5]
 [ext_resource path="res://assets/style/add_player.tres" type="StyleBox" id=6]
 [ext_resource path="res://assets/graph/bottom_screen.svg" type="Texture" id=7]
 [ext_resource path="res://assets/graph/icons/BG_YELLOW.png" type="Texture" id=8]
 [ext_resource path="res://assets/graph/icons/Logo CEI.png" type="Texture" id=9]
 [ext_resource path="res://assets/graph/icons/settings.svg" type="Texture" id=10]
+[ext_resource path="res://assets/graph/icons/plus.svg" type="Texture" id=11]
 
 [sub_resource type="DynamicFont" id=1]
 size = 200
@@ -85,9 +86,11 @@ __meta__ = {
 
 [node name="Title" type="Label" parent="."]
 anchor_right = 1.0
-anchor_bottom = 0.169
-margin_top = 49.9055
-margin_bottom = 147.835
+anchor_bottom = 0.864
+margin_left = 0.987427
+margin_top = 50.9741
+margin_right = 0.987427
+margin_bottom = -1918.61
 size_flags_horizontal = 3
 custom_fonts/font = SubResource( 1 )
 text = "Appfundum"
@@ -114,8 +117,8 @@ stretch_mode = 1
 anchor_top = 0.202
 anchor_right = 1.0
 anchor_bottom = 0.203
-margin_top = 76.282
-margin_bottom = 1060.32
+margin_top = 77.7893
+margin_bottom = 1061.83
 focus_next = NodePath("../TextureButton")
 size_flags_horizontal = 2
 size_flags_stretch_ratio = 0.0
@@ -158,31 +161,37 @@ custom_styles/focus = SubResource( 3 )
 custom_fonts/font = SubResource( 5 )
 
 [node name="TextureButton" type="TextureButton" parent="."]
-margin_left = 208.077
-margin_top = 1675.52
-margin_right = 288.077
-margin_bottom = 1755.52
+margin_left = 186.875
+margin_top = 1676.08
+margin_right = 783.875
+margin_bottom = 2273.08
 grow_horizontal = 2
 grow_vertical = 2
-rect_scale = Vector2( 2, 2 )
+rect_scale = Vector2( 0.3, 0.3 )
 action_mode = 0
+button_mask = 7
 texture_normal = ExtResource( 5 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 5 )
+texture_pressed = ExtResource( 11 )
+texture_hover = ExtResource( 11 )
 stretch_mode = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="aBox" type="HBoxContainer" parent="."]
-margin_left = 100.0
+margin_left = 374.0
 margin_top = 1687.0
-margin_right = 1340.0
+margin_right = 1119.0
 margin_bottom = 1840.0
 grow_horizontal = 2
 grow_vertical = 0
 size_flags_horizontal = 3
-custom_constants/separation = -1000
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="TextEdit" type="Button" parent="aBox"]
-margin_right = 1240.0
+margin_right = 745.0
 margin_bottom = 153.0
 size_flags_horizontal = 3
 custom_styles/hover = ExtResource( 6 )
@@ -242,6 +251,7 @@ scale = Vector2( 0.207387, 0.207387 )
 texture = ExtResource( 9 )
 
 [node name="settings" type="Button" parent="."]
+visible = false
 anchor_left = 1.0
 anchor_right = 1.0
 margin_left = -196.196

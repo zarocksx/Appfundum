@@ -1,17 +1,20 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://scripts/game.gd" type="Script" id=1]
-[ext_resource path="res://assets/new_dynamicfont.tres" type="DynamicFont" id=2]
-[ext_resource path="res://scripts/Label.gd" type="Script" id=3]
-[ext_resource path="res://scenes/customNode/json.tscn" type="PackedScene" id=4]
-[ext_resource path="res://scripts/Button.gd" type="Script" id=5]
+[ext_resource path="res://assets/new_dynamicfont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://scenes/customNode/json.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scripts/game.gd" type="Script" id=3]
+[ext_resource path="res://scripts/Button.gd" type="Script" id=4]
+[ext_resource path="res://scripts/Label.gd" type="Script" id=5]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 size_flags_horizontal = 7
 size_flags_vertical = 3
-script = ExtResource( 1 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Label" type="Label" parent="."]
 anchor_right = 1.0
@@ -23,21 +26,24 @@ grow_horizontal = 2
 grow_vertical = 2
 rect_rotation = 90.0
 size_flags_horizontal = 4
-custom_fonts/font = ExtResource( 2 )
-text = "TEEEEEEEEEEEST"
+custom_fonts/font = ExtResource( 1 )
 align = 1
 valign = 1
 autowrap = true
-script = ExtResource( 3 )
+script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="json" parent="Label" instance=ExtResource( 4 )]
+[node name="json" parent="Label" instance=ExtResource( 2 )]
 limited = true
 
-[node name="cercles" parent="Label" instance=ExtResource( 4 )]
+[node name="cercles" parent="Label" instance=ExtResource( 2 )]
 LINES = "res://assets/data/cercles.json"
+
+[node name="events" parent="Label" instance=ExtResource( 2 )]
+LINES = "res://assets/data/event.json"
+event = true
 
 [node name="Button" type="Button" parent="."]
 modulate = Color( 1, 1, 1, 0 )
@@ -47,9 +53,9 @@ margin_left = -6.0
 margin_top = -10.0
 margin_right = -6.0
 margin_bottom = -10.0
-script = ExtResource( 5 )
+script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-[connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]

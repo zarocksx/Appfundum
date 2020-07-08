@@ -2,20 +2,30 @@ extends Node
 
 export var LINES = 'res://assets/data/Appfundum.json';
 export var limited = false;
+export var event = false;
+var events;
 var unreadString = [];
 var alreadyReadString = [];
+const EVENT_MAX_QTE = 3 + 1 # biggest key +1
 
-func load_data() -> bool:
+func load_data():
 	var data = File.new();
 	if not data.file_exists(LINES):
+		print("no files ( %s )", LINES)
 		return false;
 
 	data.open(LINES, File.READ);
 	unreadString = parse_json(data.get_as_text());
-	
+	if event :
+		events = JSON.parse(data.get_as_text());
+		print(events.result)
+		for i in range(EVENT_MAX_QTE) :
+			if 	events.result.has(str(i)) && i >= global.players.size() :
+				events.result.erase(str(i))
+		print(events.result.keys())
 	return true;
 
-func pick_one() -> String:
+func pick_sentence():
 	randomize();
 	if not is_finish() :
 		var mySeed = randi() % ( unreadString.size() );
@@ -27,7 +37,61 @@ func pick_one() -> String:
 	global.set_game_finished();
 	return 'Partie terminée !';
 
-func is_finish() -> bool:
+func pick_event():
+	if events.result.empty():
+		return false;
+	var players = global.get_players(-1);
+	randomize();
+	players.shuffle();
+	var index = randi()%global.players.size();
+
+	if (index > 0):
+		index = index % EVENT_MAX_QTE;
+	index = str(index);
+
+	while(!events.result.has(index)):
+		randomize();
+		index = (randi()%global.players.size());
+		if (index > 0):
+			index = index % EVENT_MAX_QTE;
+		index = str(index);
+		print("seeking %s", index);
+		
+		if events.result.has(index) :
+			print("has")
+			print("event list %s",events.result[index])
+			if events.result[index].events.empty():
+				print("but empty")
+				events.result.erase(index)
+		
+		if events.result.empty():
+			print("totally empty");
+			return false;
+
+	var event_index;
+	if( events.result[index].events.size() == 0) :
+		events.result.erase(index);
+		return false;
+	else:
+		event_index = randi() % (events.result[index].events.size());
+
+	var event_picked = {
+		"start" : str(events.result[index].events[event_index].start),
+		"end" : str(events.result[index].events[event_index].end),
+		"players" : players,
+		"time" : 0
+	}
+
+	events.result[index].events.remove(event_index);
+	events.result[index].erase(index)
+	global.add_event(event_picked)
+	return event_picked;
+
+func is_avalaible(nPlayer: int):
+	#print(nPlayer);
+	return true;
+
+func is_finish():
 	if global.get_game_state() == 2:
 		global.back_to_menu();
 		OS.set_screen_orientation(1);

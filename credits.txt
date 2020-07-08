@@ -1,3 +1,6 @@
 [Icons]
 	-plus sign : Icon made by Dave Gandy from www.flaticon.com
 	-beer : Icon made by Freepik from www.flaticon.com
+
+commandes :
+ - adb -d logcat godot:V *:S (debug exported app)

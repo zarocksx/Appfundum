@@ -2,20 +2,42 @@ extends Node
 
 var players = [];
 var game_state = 0; # 0 = in menu / 1 = in progress / 2 = finished
+var events_allowed = true;
+var events_active = [];
+var game = preload("res://scenes/game.tscn");
+var menu = preload("res://scenes/menu.tscn");
 
 func add_players(player):
 	players.push_front(player);
 
 func get_players(pos):
+	if pos == -1 :
+		return players;
 	return players[pos];
 
-func random_player():
-	return get_players((randi()) % ( players.size() ) );
+func get_players_size():
+	if players.empty():
+		return 0;
+	return players.size();
+
+func get_random_player():
+	return get_players(randi() % players.size() );
 
 # TODO refactor name in get switched orientation
 func get_view_landscape(): 
 	var screen = get_viewport().get_visible_rect().size;
 	return Vector2(screen.y,screen.x);
+
+func get_event_active(index: int):
+	if index == -1:
+		return events_active.front();
+		pass
+	return events_active[index];
+
+func is_event_active() -> bool:
+	if events_active.empty():
+		return false;
+	return true;
 
 func get_game_state():
 	return game_state;
@@ -25,12 +47,34 @@ func set_game_finished():
 
 func set_game_started():
 	game_state = 1;
-	return get_tree().change_scene("res://scenes/Game.tscn");
+	print("start game");
+	print(get_tree().change_scene_to(game));
+	print("__________");
+
+func add_event(event):
+	events_active.push_front(event);
+	print(events_active)
+	pass
+
+func remove_event(index: int):
+	events_active.remove(index);
+	pass
 
 func back_to_menu():
+	print("back to menu");
+	print(get_tree().change_scene_to(menu));
+	print("_______");
 	game_state = 0;
 	players = [];
-	return get_tree().change_scene("res://scenes/Menu.tscn");
+	print("empty 3");
+	
+
+func change_background(random):
+	if random :
+		VisualServer.set_default_clear_color(Color(randf()/1.2,randf()/1.2,randf()/1.2,1.0));
+		print("random")
+	VisualServer.set_default_clear_color(Color(0.14,0.15,0.23,1.0));
+	print("revert")
 
 func screen_metrics():
 	print("                 [Screen Metrics]")

@@ -13,7 +13,6 @@ func _on_start_pressed():
 	for child in get_children():
 		child.get_text_value();
 	emit_signal("player_added");
-	print("go");
 
 func not_ready() -> void:
 	for child in get_children():
