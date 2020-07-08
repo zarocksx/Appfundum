@@ -29,6 +29,9 @@ align = 1
 valign = 1
 autowrap = true
 script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="json" parent="Label" instance=ExtResource( 4 )]
 limited = true
@@ -45,5 +48,8 @@ margin_top = -10.0
 margin_right = -6.0
 margin_bottom = -10.0
 script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
