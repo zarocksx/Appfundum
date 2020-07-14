@@ -12,19 +12,25 @@ anchor_bottom = 1.0
 size_flags_horizontal = 7
 size_flags_vertical = 3
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Label" type="Label" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 1440.0
-margin_right = 2540.0
+margin_left = 1440.01
+margin_top = 0.0013299
+margin_right = 2540.01
 margin_bottom = -1120.0
 grow_horizontal = 2
 grow_vertical = 2
 rect_rotation = 90.0
+rect_pivot_offset = Vector2( -0.00378943, -0.00512695 )
 size_flags_horizontal = 4
 custom_fonts/font = ExtResource( 2 )
-text = "TEEEEEEEEEEEST"
+text = "
+"
 align = 1
 valign = 1
 autowrap = true
@@ -39,6 +45,10 @@ limited = true
 [node name="cercles" parent="Label" instance=ExtResource( 4 )]
 LINES = "res://assets/data/cercles.json"
 
+[node name="events" parent="Label" instance=ExtResource( 4 )]
+LINES = "res://assets/data/event.json"
+event = true
+
 [node name="Button" type="Button" parent="."]
 modulate = Color( 1, 1, 1, 0 )
 anchor_right = 1.0
@@ -51,5 +61,8 @@ script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-[connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]
+
+[node name="analytics" type="HTTPRequest" parent="."]
+use_threads = true
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]

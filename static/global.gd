@@ -50,10 +50,10 @@ func set_game_started():
 	print("start game");
 	print(get_tree().change_scene_to(game));
 	print("__________");
+	analytics.start_timer();
 
 func add_event(event):
 	events_active.push_front(event);
-	print(events_active)
 	pass
 
 func remove_event(index: int):
@@ -62,19 +62,16 @@ func remove_event(index: int):
 
 func back_to_menu():
 	print("back to menu");
+	firebase.save_time();
 	print(get_tree().change_scene_to(menu));
 	print("_______");
 	game_state = 0;
 	players = [];
-	print("empty 3");
-	
 
 func change_background(random):
 	if random :
 		VisualServer.set_default_clear_color(Color(randf()/1.2,randf()/1.2,randf()/1.2,1.0));
-		print("random")
 	VisualServer.set_default_clear_color(Color(0.14,0.15,0.23,1.0));
-	print("revert")
 
 func screen_metrics():
 	print("                 [Screen Metrics]")
