@@ -49,9 +49,9 @@ func save_document(path: String, fields: Dictionary) :
 	var url = FIRESTORE_URL + path;
 	print(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body));
 
-func save_time() :
-	var fields = analytics.get_time_spend();
-	var path = "time_spend";
+func save_analytics() :
+	var fields = analytics.get_analytics_fields();
+	var path = "analytics";
 	var document = {"fields": fields};
 	var body = to_json(document);
 	var url = FIRESTORE_URL + path;

@@ -62,6 +62,7 @@ func pic_line():
 	text_final = text_final.format({"S": S});
 
 	text_final = text_final.format({"C": $cercles.pick_sentence()});
-
+	
+	global.turn = global.turn+1
 	set_text(text_final);
 	return "question"

@@ -6,6 +6,7 @@ var events_allowed = true;
 var events_active = [];
 var game = preload("res://scenes/game.tscn");
 var menu = preload("res://scenes/menu.tscn");
+var turn = 0
 
 func add_players(player):
 	players.push_front(player);
@@ -47,6 +48,7 @@ func set_game_finished():
 
 func set_game_started():
 	game_state = 1;
+	turn = 0;
 	print("start game");
 	print(get_tree().change_scene_to(game));
 	print("__________");
@@ -62,7 +64,7 @@ func remove_event(index: int):
 
 func back_to_menu():
 	print("back to menu");
-	firebase.save_time();
+	firebase.save_analytics();
 	print(get_tree().change_scene_to(menu));
 	print("_______");
 	game_state = 0;

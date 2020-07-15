@@ -5,7 +5,7 @@ func _notification(notif):
 		# quitting app or back-button on Android
 		print("exit")
 		if (global.get_game_state() > 0):
-			firebase.save_time();
+			firebase.save_analytics();
 			print("time saved")
 		get_tree().quit()
 	if notif == MainLoop.NOTIFICATION_WM_FOCUS_OUT :
