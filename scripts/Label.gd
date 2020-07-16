@@ -38,17 +38,17 @@ func pic_line():
 					VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0))
 					global.remove_event(i);
 					return "stop event";
-		if $events.is_avalaible( global.get_players_size() ): # start a new event
-			if ((randi() % 100) + 1 > 100 - time_since_last_event):
-				time_since_last_event = 0;
-				var event = $events.pick_event();
-				if event :
-					var text_final = event.start;
-					for i in event.players.size():
-						text_final = event.start.format({ str(i): event.players[i] });
-					VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0));
-					set_text(text_final);
-					return "start event";
+		 # start a new event
+		if ((randi() % 100) + 1 > 100 - time_since_last_event):
+			time_since_last_event = 0;
+			var event = $events.pick_event();
+			if event :
+				var text_final = event.start;
+				for i in event.players.size():
+					text_final = event.start.format({ str(i): event.players[i] });
+				VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0));
+				set_text(text_final);
+				return "start event";
 
 	var P = global.get_random_player();
 	var S = global.get_random_player();

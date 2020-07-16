@@ -50,9 +50,8 @@ func set_game_started():
 	game_state = 1;
 	turn = 0;
 	print("start game");
-	print(get_tree().change_scene_to(game));
-	print("__________");
-	analytics.start_timer();
+	get_tree().change_scene_to(game);
+	analytics.start_game_timer();
 
 func add_event(event):
 	events_active.push_front(event);
@@ -63,12 +62,11 @@ func remove_event(index: int):
 	pass
 
 func back_to_menu():
-	print("back to menu");
-	firebase.save_analytics();
-	print(get_tree().change_scene_to(menu));
-	print("_______");
-	game_state = 0;
-	players = [];
+	print("back to menu")
+	firebase.save_analytics()
+	get_tree().change_scene_to(menu)
+	game_state = 0
+	players = []
 
 func change_background(random):
 	if random :

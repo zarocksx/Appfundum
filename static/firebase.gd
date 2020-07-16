@@ -41,7 +41,7 @@ func anonymous_register():
 	var result = yield(http, "request_completed") as Array;
 	if result[1] == 200:
 		user_info = _get_user_info(result);
-		print(_get_user_info(result));
+		_get_user_info(result);
 
 func save_document(path: String, fields: Dictionary) :
 	var document = {"fields" : fields};
@@ -56,7 +56,7 @@ func save_analytics() :
 	var body = to_json(document);
 	var url = FIRESTORE_URL + path;
 	print(fields)
-	print(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body));
+	print("save response : %s",get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body));
 
 func get_document(path: String) :
 	var url = FIRESTORE_URL + path;

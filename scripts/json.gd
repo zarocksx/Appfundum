@@ -1,6 +1,7 @@
 extends Node
 
 export var LINES = 'res://assets/data/Appfundum.json';
+export var question = false
 export var limited = false;
 export var event = false;
 var events;
@@ -18,24 +19,28 @@ func load_data():
 	unreadString = parse_json(data.get_as_text());
 	if event :
 		events = JSON.parse(data.get_as_text());
-		print(events.result)
 		for i in range(EVENT_MAX_QTE) :
 			if 	events.result.has(str(i)) && i >= global.players.size() :
 				events.result.erase(str(i))
-		print(events.result.keys())
 	return true;
+
 
 func pick_sentence():
 	randomize();
 	if not is_finish() :
 		var mySeed = randi() % ( unreadString.size() );
-		var sentence = unreadString[mySeed];
+		var sentence = unreadString[mySeed].sentence;
+		if question :
+			analytics.start_question_timer(unreadString[mySeed].id)
 		if limited :
 			alreadyReadString.push_front(sentence);
 			unreadString.remove(mySeed);
+		
 		return sentence;
+
 	global.set_game_finished();
 	return 'Partie terminée !';
+
 
 func pick_event():
 	if events.result.empty():
@@ -55,17 +60,14 @@ func pick_event():
 		if (index > 0):
 			index = index % EVENT_MAX_QTE;
 		index = str(index);
-		print("seeking %s", index);
-		
+
 		if events.result.has(index) :
-			print("has")
-			print("event list %s",events.result[index])
 			if events.result[index].events.empty():
-				print("but empty")
+				print("ev empty")
 				events.result.erase(index)
-		
+
 		if events.result.empty():
-			print("totally empty");
+			print("ev totally empty");
 			return false;
 
 	var event_index;
@@ -87,9 +89,11 @@ func pick_event():
 	global.add_event(event_picked)
 	return event_picked;
 
+
 func is_avalaible(nPlayer: int):
 	#print(nPlayer);
 	return true;
+
 
 func is_finish():
 	if global.get_game_state() == 2:

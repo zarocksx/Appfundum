@@ -1,10 +1,26 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://scripts/game.gd" type="Script" id=1]
 [ext_resource path="res://assets/new_dynamicfont.tres" type="DynamicFont" id=2]
 [ext_resource path="res://scripts/Label.gd" type="Script" id=3]
 [ext_resource path="res://scenes/customNode/json.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scripts/Button.gd" type="Script" id=5]
+[ext_resource path="res://scripts/textAnim.gd" type="Script" id=6]
+
+[sub_resource type="Animation" id=1]
+resource_name = "texte_start"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -650, 767 ), Vector2( -498, 767 ), Vector2( -574, 767 ) ]
+}
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -19,18 +35,19 @@ __meta__ = {
 [node name="Label" type="Label" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 1440.01
-margin_top = 0.0013299
-margin_right = 2540.01
-margin_bottom = -1120.0
+margin_left = -650.0
+margin_top = 767.0
+margin_right = 78.0
+margin_bottom = -353.0
 grow_horizontal = 2
 grow_vertical = 2
 rect_rotation = 90.0
-rect_pivot_offset = Vector2( -0.00378943, -0.00512695 )
+rect_pivot_offset = Vector2( 1290.84, 722.671 )
 size_flags_horizontal = 4
 custom_fonts/font = ExtResource( 2 )
 text = "
-"
+azertyuioopqsdfhjgfkmlùm frezs fsdreza azmh azùehzam fqjlsdhmhfjsdq fhlqsdjmfh
+fjkedsmùmfdsjkf"
 align = 1
 valign = 1
 autowrap = true
@@ -40,6 +57,7 @@ __meta__ = {
 }
 
 [node name="json" parent="Label" instance=ExtResource( 4 )]
+question = true
 limited = true
 
 [node name="cercles" parent="Label" instance=ExtResource( 4 )]
@@ -49,14 +67,15 @@ LINES = "res://assets/data/cercles.json"
 LINES = "res://assets/data/event.json"
 event = true
 
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Label"]
+anims/texte_start = SubResource( 1 )
+script = ExtResource( 6 )
+
 [node name="Button" type="Button" parent="."]
 modulate = Color( 1, 1, 1, 0 )
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -6.0
-margin_top = -10.0
-margin_right = -6.0
-margin_bottom = -10.0
+margin_left = -1.0
 script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -64,5 +83,6 @@ __meta__ = {
 
 [node name="analytics" type="HTTPRequest" parent="."]
 use_threads = true
-[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button" to="Label/AnimationPlayer" method="_on_Button_pressed"]
