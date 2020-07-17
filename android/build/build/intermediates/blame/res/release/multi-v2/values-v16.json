@@ -4,13 +4,32 @@
             "outputFile": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\441675a737e5cca3d84173d72c0823dc\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\5d11cd2baf4163ef78283600deb2dddf\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
                         "endColumns": "65",
                         "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\2405b4a3b966cf75b7fb6080380e47fe\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
                     }
                 }
             ]

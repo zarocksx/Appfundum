@@ -36,7 +36,7 @@
     <!-- WARNING: This should stay on a single line until the parsing code is improved. See GH-32414. -->
     <application
         android:allowBackup="false"
-        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:appComponentFactory="androidx"
         android:debuggable="true"
         android:icon="@mipmap/icon"
         android:label="@string/godot_project_name_string" >
@@ -67,6 +67,9 @@
 
         <!-- Custom application XML added by add-ons. -->
         <!-- CHUNK_APPLICATION_BEGIN -->
+        <receiver
+            android:name="org.godotengine.godot.LocalNotificationReceiver"
+            android:process=":remote" />
         <!-- CHUNK_APPLICATION_END -->
 
         <service android:name="org.godotengine.godot.GodotDownloaderService" />

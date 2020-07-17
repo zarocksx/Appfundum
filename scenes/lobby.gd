@@ -4,6 +4,14 @@ signal show_settings
 
 func _ready():
 	firebase.anonymous_register();
+	if(Engine.has_singleton("GodotLocalNotification")):
+		var ln = Engine.get_singleton("GodotLocalNotification")
+
+		var message = "Hello ..!!"+ str(OS.get_time())
+		var interval = 10 # 1 minute
+		var tag = 2 # tag is 2
+		ln.show_local_notification(message,"My title 1",interval,tag)
+		print("start notification")
 	pass;
 
 func _on_player_added():
