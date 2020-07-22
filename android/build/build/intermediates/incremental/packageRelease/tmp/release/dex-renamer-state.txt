@@ -1,0 +1,4 @@
+#Mon Jul 20 13:20:22 CEST 2020
+base.0=D\:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex

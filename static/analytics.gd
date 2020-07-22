@@ -2,6 +2,7 @@ extends Node
 
 var game_timer = 0.00;
 var question_played = [];
+var curent_analytics = "";
 
 var current_question := {
 	"question_timer" : 0,
@@ -50,17 +51,16 @@ func get_time_anl():
 
 
 func get_turn_anl():
-	return {"integerValue" : global.turn }
+	return { "integerValue" : global.turn }
 
 
 func get_players_anl():
 	var fields = {}
 	var i = 0
 	for player in global.players:
-		fields[str(i)] = {"stringValue": player }
-		i = i+1
-
-	return { "mapValue" : {"fields" : fields } }
+		fields[str(i)] = { "stringValue" : player }
+		i = i + 1
+	return { "mapValue" : { "fields" : fields } }
 
 
 func get_analytics_fields():
@@ -69,4 +69,3 @@ func get_analytics_fields():
 	fields.players = get_players_anl();
 	fields.questions = get_question_anl();
 	return fields;
-

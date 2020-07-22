@@ -9,11 +9,13 @@ func _ready():
 	pic_line();
 	pass;
 
+
 func _on_Button_pressed():
 	randomize();
 	time_since_last_event += 1;
 	pic_line();
 	pass;
+
 
 # P = player | C = cercle | S = second player
 func pic_line():
@@ -63,6 +65,6 @@ func pic_line():
 
 	text_final = text_final.format({"C": $cercles.pick_sentence()});
 	
-	global.turn = global.turn+1
+	global.next_turn()
 	set_text(text_final);
 	return "question"
