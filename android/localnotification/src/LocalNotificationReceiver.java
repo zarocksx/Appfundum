@@ -28,7 +28,7 @@ public class LocalNotificationReceiver extends BroadcastReceiver {
         String title = intent.getStringExtra("title");
         Log.i(TAG, "Receive notification: "+message);
 
-		Intent intent2 = new Intent(context, com.godot.game.GodotApp.class);
+		Intent intent2 =  new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.appfundum.folklol"));
 		intent2.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
 		PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent2,
 				0);
@@ -43,7 +43,7 @@ public class LocalNotificationReceiver extends BroadcastReceiver {
 		builder.setContentIntent(pendingIntent);
         builder.setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION));        
 
-//        builder.setColor(0xff0000ff);
+        builder.setColor(0xff0000ff);
         Notification notification = builder.build();
 
 		NotificationManager manager = (NotificationManager) context
@@ -54,8 +54,8 @@ public class LocalNotificationReceiver extends BroadcastReceiver {
 		if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
 			nc = new NotificationChannel(DEFAULT_CHANNEL_ID, DEFAULT_CHANNEL_NAME, NotificationManager.IMPORTANCE_HIGH);
 			nc.enableLights(true);
-			nc.enableVibration(true);
-			nc.setLightColor(Color.GRAY);
+			nc.enableVibration(false);
+			nc.setLightColor(Color.YELLOW);
 			nc.setLockscreenVisibility(Notification.VISIBILITY_PUBLIC);
 		}
         

@@ -28,9 +28,10 @@ config/icon="res://assets/graph/icons/Logo CEI.png"
 [autoload]
 
 global="*res://static/global.gd"
-aL="*res://static/android_lifecycle.gd"
+notif="*res://static/notification.gd"
 firebase="*res://static/firebase.gd"
 analytics="*res://static/analytics.gd"
+aL="*res://static/android_lifecycle.gd"
 
 [display]
 

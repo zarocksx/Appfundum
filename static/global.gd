@@ -11,23 +11,28 @@ var turn = 0
 func add_players(player):
 	players.push_front(player);
 
+
 func get_players(pos):
 	if pos == -1 :
 		return players;
 	return players[pos];
+
 
 func get_players_size():
 	if players.empty():
 		return 0;
 	return players.size();
 
+
 func get_random_player():
 	return get_players(randi() % players.size() );
+
 
 # TODO refactor name in get switched orientation
 func get_view_landscape(): 
 	var screen = get_viewport().get_visible_rect().size;
 	return Vector2(screen.y,screen.x);
+
 
 func get_event_active(index: int):
 	if index == -1:
@@ -35,31 +40,40 @@ func get_event_active(index: int):
 		pass
 	return events_active[index];
 
-func is_event_active() -> bool:
+
+func is_event_active() :
 	if events_active.empty():
 		return false;
 	return true;
 
+
 func get_game_state():
 	return game_state;
+
 
 func set_game_finished():
 	game_state = 2;
 
+
 func set_game_started():
+	firebase.save_analytics();
 	game_state = 1;
 	turn = 0;
 	print("start game");
 	get_tree().change_scene_to(game);
 	analytics.start_game_timer();
+	notif.addNotif("Appfundum", "Avez-vous apprecié Appfundum?", 3000)
+
 
 func add_event(event):
 	events_active.push_front(event);
 	pass
 
+
 func remove_event(index: int):
 	events_active.remove(index);
 	pass
+
 
 func back_to_menu():
 	print("back to menu")
@@ -68,10 +82,20 @@ func back_to_menu():
 	game_state = 0
 	players = []
 
+
 func change_background(random):
 	if random :
 		VisualServer.set_default_clear_color(Color(randf()/1.2,randf()/1.2,randf()/1.2,1.0));
 	VisualServer.set_default_clear_color(Color(0.14,0.15,0.23,1.0));
+
+
+func next_turn():
+	turn = turn +1
+	if turn % 5 == 0 :
+		firebase.update_analytics()
+		print("update anal")
+	return turn
+
 
 func screen_metrics():
 	print("                 [Screen Metrics]")

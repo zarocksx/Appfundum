@@ -43,36 +43,59 @@ public class GodotLocalNotification extends Godot.SingletonBase {
         return true;
     }
 
-    public void show_local_notification(String message, String title, int interval, int tag){
-        showLocalNotification(message, title, interval, tag);
+    public boolean show_local_notification(String message, String title, int interval, int tag){
+        return showLocalNotification(message, title, interval, tag);
     }
 
-    public void stop_last_notification(){
-        if (sender != null){
-            AlarmManager am = (AlarmManager)activity.getSystemService(activity.ALARM_SERVICE);
-            am.cancel(sender);
+    public boolean stop_last_notification(){
+        try {
+            if (sender != null){
+                AlarmManager am = (AlarmManager)activity.getSystemService(activity.ALARM_SERVICE);
+                am.cancel(sender);
+                return true;
+            }
+            return false;
+        } catch (Exception e) {
+            return false;
         }
     }
 
-    public void cancel_all(){
-        NotificationManager manager = (NotificationManager)activity.getSystemService(Context.NOTIFICATION_SERVICE);
-        manager.cancelAll();
+    public boolean cancel_all(){
+        try {
+            NotificationManager manager = (NotificationManager)activity.getSystemService(Context.NOTIFICATION_SERVICE);
+            manager.cancelAll();
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+        
     }
 
-    public void cancel(int id){
-        NotificationManager manager = (NotificationManager)activity.getSystemService(Context.NOTIFICATION_SERVICE);
-        manager.cancel(id);
+    public boolean cancel(int id){
+        try {
+            NotificationManager manager = (NotificationManager)activity.getSystemService(Context.NOTIFICATION_SERVICE);
+            manager.cancel(id);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+        
     }
 
-    private void showLocalNotification(String message, String title, int interval, int tag) {
-        if(interval <= 0) return;
-        sender = getPendingIntent(message, title, tag);
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTimeInMillis(System.currentTimeMillis());
-        calendar.add(Calendar.SECOND, interval);
-               
-        AlarmManager am = (AlarmManager)activity.getSystemService(activity.ALARM_SERVICE);
-        am.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), sender);
+    private boolean showLocalNotification(String message, String title, int interval, int tag) {
+        try {
+            if(interval <= 0) return false;
+            sender = getPendingIntent(message, title, tag);
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTimeInMillis(System.currentTimeMillis());
+            calendar.add(Calendar.SECOND, interval);
+                
+            AlarmManager am = (AlarmManager)activity.getSystemService(activity.ALARM_SERVICE);
+            am.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), sender);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public void register_remote_notification() {
