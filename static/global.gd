@@ -7,6 +7,7 @@ var events_active = [];
 var game = preload("res://scenes/game.tscn");
 var menu = preload("res://scenes/menu.tscn");
 var turn = 0
+var gameMode = 0 # fossile=0 classic=1 ACS=2 ACE=3
 
 func add_players(player):
 	players.push_front(player);

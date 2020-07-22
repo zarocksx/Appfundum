@@ -44,7 +44,7 @@ func anonymous_register():
 	var result = yield(http, "request_completed") as Array;
 	if result[1] == 200:
 		user_info = _get_user_info(result);
-		_get_user_info(result);
+		print("registred")
 
 
 func save_analytics() :
@@ -53,7 +53,7 @@ func save_analytics() :
 	var document = {"fields": fields};
 	var body = to_json(document);
 	var url = FIRESTORE_URL + path;
-	print("save response : %s", get_http("_save_complete").request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body));
+	print("save response : " , get_http("_save_complete").request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body ));
 
 
 func update_analytics() :
@@ -61,7 +61,7 @@ func update_analytics() :
 	var path = "analytics";
 	var document = {"fields": fields};
 	var body = to_json(document);
-	var url = FIRESTORE_BASE_URL + analytics.curent_analytics;
+	var url = FIRESTORE_URL + path;
 	print("update response : %S", get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_PATCH, body));
 
 
@@ -93,6 +93,9 @@ func _request_completed(result: int, response_code: int, headers: PoolStringArra
 	match response_code:
 		404:
 			print("response error 404")
+			print(headers)
+			print(body.get_string_from_ascii())
+			print(result)
 		200:
 			print("response successfull")
 
@@ -101,6 +104,7 @@ func _save_complete(result: int, response_code: int, headers: PoolStringArray, b
 	match response_code:
 		404:
 			print("response error 404")
+			print(JSON.parse( body.get_string_from_ascii() ).result)
 		200:
 			print("response successfull")
-	analytics.curent_analytics = JSON.parse( body.get_string_from_ascii() ).result.name
+			analytics.curent_analytics = JSON.parse( body.get_string_from_ascii() ).result.name

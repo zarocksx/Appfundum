@@ -1,6 +1,7 @@
 extends Control
 
 signal show_settings
+signal show_mode
 
 func _ready():
 	firebase.anonymous_register();
@@ -8,7 +9,7 @@ func _ready():
 
 func _on_player_added():
 	if (global.players.size()>0):
-		global.set_game_started();
+		emit_signal("show_mode");
 	else:
 		global.players = [];
 		var player_box = get_node("ScrollContainer/VBoxContainer/PlayerNameBox");
@@ -16,7 +17,6 @@ func _on_player_added():
 
 
 func _on_settings_pressed():
-	print("settings")
 	emit_signal("show_settings");
 
 

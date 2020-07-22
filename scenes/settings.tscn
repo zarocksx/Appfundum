@@ -68,6 +68,9 @@ margin_bottom = 536.363
 rect_scale = Vector2( 0.239999, 0.239999 )
 icon = ExtResource( 4 )
 flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="ajouter" type="Button" parent="."]
 margin_left = 130.0

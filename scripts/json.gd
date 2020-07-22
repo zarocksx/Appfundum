@@ -30,8 +30,19 @@ func pick_sentence():
 	if not is_finish() :
 		var mySeed = randi() % ( unreadString.size() );
 		var sentence = unreadString[mySeed].sentence;
+
 		if question :
+			while (unreadString[mySeed].category > global.gameMode) :
+				unreadString.remove(mySeed);
+				if is_finish():
+					global.set_game_finished();
+					return 'Partie terminée !';
+				randomize();
+				mySeed = randi() % ( unreadString.size() );
+				sentence = unreadString[mySeed].sentence;
+
 			analytics.start_question_timer(unreadString[mySeed].id)
+
 		if limited :
 			alreadyReadString.push_front(sentence);
 			unreadString.remove(mySeed);
