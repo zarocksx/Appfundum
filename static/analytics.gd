@@ -14,7 +14,8 @@ var fields := {
 	"turn" : {},
 	"players" : {},
 	"questions" : {},
-	"gameMode" : {}
+	"gameMode" : {},
+	"gameState" : {}
 };
 
 func start_game_timer():
@@ -63,15 +64,11 @@ func get_players_anl():
 	return { "mapValue" : { "fields" : fields } }
 
 
-func get_gameMode_anl():
-	return { "stringValue" : str(global.gameMode) }
-
-
 func get_analytics_fields():
 	fields.game_time_spend = get_time_anl();
 	fields.turn = get_turn_anl();
 	fields.players = get_players_anl();
 	fields.questions = get_question_anl();
-	fields.gameMode = get_gameMode_anl();
-	print(fields)
+	fields.gameMode = { "integerValue" : global.gameMode }
+	fields.gameState = { "integerValue" : global.game_state }
 	return fields;

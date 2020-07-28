@@ -7,12 +7,14 @@
 [ext_resource path="res://assets/graph/buttons/ACE-selected-1.png" type="Texture" id=5]
 [ext_resource path="res://assets/graph/bottom_screen.svg" type="Texture" id=6]
 [ext_resource path="res://assets/graph/icons/left-arrow.svg" type="Texture" id=7]
-[ext_resource path="res://assets/graph/icons/Logo CEI.png" type="Texture" id=8]
+[ext_resource path="res://assets/graph/cercles/CEI.png" type="Texture" id=8]
 [ext_resource path="res://assets/graph/buttons/ACE-SOON.png" type="Texture" id=9]
 [ext_resource path="res://assets/graph/icons/settings.svg" type="Texture" id=10]
 [ext_resource path="res://assets/graph/buttons/Fosl-selected.png" type="Texture" id=11]
 [ext_resource path="res://assets/graph/buttons/Fosl.png" type="Texture" id=12]
 [ext_resource path="res://scenes/game_mode.gd" type="Script" id=13]
+
+
 
 [node name="game_mode" type="Control"]
 anchor_right = 1.0
@@ -170,6 +172,7 @@ __meta__ = {
 }
 
 [node name="bottom_screen" type="TextureRect" parent="."]
+modulate = Color( 1, 0.831373, 0.164706, 1 )
 anchor_right = 1.004
 anchor_bottom = 1.03
 margin_left = 1.0

@@ -32,6 +32,7 @@ notif="*res://static/notification.gd"
 firebase="*res://static/firebase.gd"
 analytics="*res://static/analytics.gd"
 aL="*res://static/android_lifecycle.gd"
+theme="res://assets/theme/theme.gd"
 
 [display]
 

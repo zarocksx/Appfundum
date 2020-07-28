@@ -5,7 +5,7 @@
 [ext_resource path="res://scenes/lobby.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/game_mode.tscn" type="PackedScene" id=4]
 
-[sub_resource type="Animation" id=3]
+[sub_resource type="Animation" id=1]
 resource_name = "game_mode"
 tracks/0/type = "value"
 tracks/0/path = NodePath("lobby:visible")
@@ -80,8 +80,7 @@ tracks/5/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=1]
-resource_name = "menu"
+[sub_resource type="Animation" id=2]
 tracks/0/type = "value"
 tracks/0/path = NodePath("settings:modulate")
 tracks/0/interp = 1
@@ -155,8 +154,7 @@ tracks/5/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
 }
 
-[sub_resource type="Animation" id=2]
-resource_name = "settings"
+[sub_resource type="Animation" id=3]
 tracks/0/type = "value"
 tracks/0/path = NodePath("lobby:modulate")
 tracks/0/interp = 1
@@ -235,9 +233,9 @@ tracks/5/keys = {
 [node name="lobby" parent="." instance=ExtResource( 3 )]
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-anims/game_mode = SubResource( 3 )
-anims/menu = SubResource( 1 )
-anims/settings = SubResource( 2 )
+anims/game_mode = SubResource( 1 )
+anims/menu = SubResource( 2 )
+anims/settings = SubResource( 3 )
 script = ExtResource( 2 )
 
 [node name="settings" parent="." instance=ExtResource( 1 )]

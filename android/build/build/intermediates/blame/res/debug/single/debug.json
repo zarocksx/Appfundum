@@ -736,12 +736,12 @@
         "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\2405b4a3b966cf75b7fb6080380e47fe\\res\\anim\\btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
     },
     {
-        "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
-        "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\2405b4a3b966cf75b7fb6080380e47fe\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
         "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\2405b4a3b966cf75b7fb6080380e47fe\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
+        "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\2405b4a3b966cf75b7fb6080380e47fe\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -1536,12 +1536,12 @@
         "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\2405b4a3b966cf75b7fb6080380e47fe\\res\\anim\\btn_radio_to_on_mtrl_ring_outer_animation.xml"
     },
     {
-        "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\5d11cd2baf4163ef78283600deb2dddf\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
         "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
         "source": "D:\\dev\\projets\\folkolo\\android\\build\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\5d11cd2baf4163ef78283600deb2dddf\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1556,12 +1556,12 @@
         "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\5d11cd2baf4163ef78283600deb2dddf\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\2405b4a3b966cf75b7fb6080380e47fe\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon.png.flat",
         "source": "D:\\dev\\projets\\folkolo\\android\\build\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\2405b4a3b966cf75b7fb6080380e47fe\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",

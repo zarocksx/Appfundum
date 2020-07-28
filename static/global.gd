@@ -63,7 +63,7 @@ func set_game_started():
 	print("start game");
 	get_tree().change_scene_to(game);
 	analytics.start_game_timer();
-	notif.addNotif("Appfundum", "Avez-vous apprecié Appfundum?", 3000)
+	notif.addNotif("Appfundum", "Avez-vous apprecié Appfundum? \n Donnez nous votre avis", 300)
 
 
 func add_event(event):
@@ -77,17 +77,16 @@ func remove_event(index: int):
 
 
 func back_to_menu():
-	print("back to menu")
+	set_game_finished()
 	firebase.save_analytics()
 	get_tree().change_scene_to(menu)
-	game_state = 0
 	players = []
 
 
 func change_background(random):
 	if random :
 		VisualServer.set_default_clear_color(Color(randf()/1.2,randf()/1.2,randf()/1.2,1.0));
-	VisualServer.set_default_clear_color(Color(0.14,0.15,0.23,1.0));
+	VisualServer.set_default_clear_color(Color("#24263b"));
 
 
 func next_turn():

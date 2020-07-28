@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://scenes/lobby.gd" type="Script" id=1]
 [ext_resource path="res://assets/Comfortaa-Regular.ttf" type="DynamicFontData" id=2]
@@ -7,10 +7,11 @@
 [ext_resource path="res://assets/graph/icons/plus_revert.svg" type="Texture" id=5]
 [ext_resource path="res://assets/style/add_player.tres" type="StyleBox" id=6]
 [ext_resource path="res://assets/graph/bottom_screen.svg" type="Texture" id=7]
-[ext_resource path="res://assets/graph/icons/BG_YELLOW.png" type="Texture" id=8]
-[ext_resource path="res://assets/graph/icons/Logo CEI.png" type="Texture" id=9]
+[ext_resource path="res://assets/graph/cercles/CEI.png" type="Texture" id=9]
 [ext_resource path="res://assets/graph/icons/settings.svg" type="Texture" id=10]
 [ext_resource path="res://assets/graph/icons/plus.svg" type="Texture" id=11]
+
+
 
 [sub_resource type="DynamicFont" id=1]
 size = 200
@@ -202,7 +203,8 @@ custom_styles/normal = ExtResource( 6 )
 custom_fonts/font = SubResource( 6 )
 text = "Un joueur de plus?"
 
-[node name="start2" type="TextureRect" parent="."]
+[node name="bottom" type="TextureRect" parent="."]
+modulate = Color( 1, 0.831373, 0.164706, 1 )
 anchor_right = 1.0
 anchor_bottom = 0.891
 margin_left = 1.0
@@ -238,11 +240,6 @@ align = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="BG_YELLOW" type="Sprite" parent="."]
-position = Vector2( 719.72, 2933.47 )
-scale = Vector2( 1.79691, 0.995796 )
-texture = ExtResource( 8 )
 
 [node name="Logo CEI2" type="Sprite" parent="."]
 position = Vector2( 1023.49, 2117.06 )

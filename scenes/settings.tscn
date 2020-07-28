@@ -84,7 +84,7 @@ custom_styles/focus = ExtResource( 2 )
 custom_styles/disabled = ExtResource( 2 )
 custom_styles/normal = SubResource( 1 )
 custom_fonts/font = ExtResource( 3 )
-text = "proposer une question"
+text = "Faire une proposition"
 clip_text = true
 __meta__ = {
 "_edit_use_anchors_": false
