@@ -36,7 +36,7 @@ public class LocalNotificationReceiver extends BroadcastReceiver {
 		NotificationCompat.Builder builder = new NotificationCompat.Builder(context,DEFAULT_CHANNEL_ID);
         builder.setContentTitle(title);
 		builder.setContentText(message);
-		builder.setSmallIcon(R.drawable.icon);
+		//builder.setSmallIcon(R.drawable.icon);
 		builder.setTicker(message);
 		builder.setAutoCancel(true);
 		builder.setDefaults(Notification.DEFAULT_ALL);

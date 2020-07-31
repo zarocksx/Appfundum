@@ -24,6 +24,8 @@ run/main_scene="res://scenes/menu.tscn"
 boot_splash/image="res://assets/graph/icons/Logo CEI.png"
 boot_splash/bg_color=Color( 0.137255, 0.152941, 0.231373, 1 )
 config/icon="res://assets/graph/icons/Logo CEI.png"
+config/macos_native_icon="res://assets/graph/icons/Logo CEI.png"
+config/windows_native_icon="res://assets/graph/icons/Logo CEI.png"
 
 [autoload]
 
