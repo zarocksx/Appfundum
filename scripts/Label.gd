@@ -11,11 +11,10 @@ func _ready():
 
 
 func _on_Button_pressed():
-	randomize();
-	time_since_last_event += 1;
-	pic_line();
-	pass;
-
+	if self.visible :
+		randomize();
+		time_since_last_event += 1;
+		pic_line();
 
 # P = player | C = cercle | S = second player
 func pic_line():
