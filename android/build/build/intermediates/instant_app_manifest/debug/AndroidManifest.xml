@@ -38,7 +38,6 @@
         android:allowBackup="false"
         android:appComponentFactory="androidx"
         android:debuggable="true"
-        android:icon="@mipmap/icon"
         android:label="@string/godot_project_name_string" >
 
         <!-- The following metadata values are replaced when Godot exports, modifying them here has no effect. -->

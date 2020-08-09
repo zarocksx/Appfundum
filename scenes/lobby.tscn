@@ -11,8 +11,6 @@
 [ext_resource path="res://assets/graph/icons/settings.svg" type="Texture" id=10]
 [ext_resource path="res://assets/graph/icons/plus.svg" type="Texture" id=11]
 
-
-
 [sub_resource type="DynamicFont" id=1]
 size = 200
 outline_size = 2

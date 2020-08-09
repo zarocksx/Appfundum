@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-69:12
+ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-68:12
 MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7a5cd2d6892ce7b3b750279ecbd9f09d\AndroidManifest.xml:2:1-21:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\cc191184c6292959953457e0d6a2124b\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2405b4a3b966cf75b7fb6080380e47fe\AndroidManifest.xml:17:1-24:12
@@ -29,9 +29,9 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\zaroc\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fe0cad81056fb7466569c1a426012d61\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\09a3077e5512d251ae4db551edbfea44\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7f5d35b2823d783c3ae789bb199e7986\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-69:12
+INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:2:1-68:12
 	package
 		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:4:5-29
 		INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml
@@ -67,7 +67,7 @@ ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:19:5-21:35
 	android:required
 		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:21:9-32
 application
-ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:30:5-67:19
+ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:30:5-66:19
 MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7a5cd2d6892ce7b3b750279ecbd9f09d\AndroidManifest.xml:17:5-19:19
 MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7a5cd2d6892ce7b3b750279ecbd9f09d\AndroidManifest.xml:17:5-19:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5d11cd2baf4163ef78283600deb2dddf\AndroidManifest.xml:24:5-89
@@ -77,56 +77,54 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\za
 	android:label
 		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:31:9-58
 	android:appComponentFactory
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:35:9-47
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:34:9-47
 		REJECTED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5d11cd2baf4163ef78283600deb2dddf\AndroidManifest.xml:24:18-86
 	tools:ignore
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:36:9-48
-	android:icon
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:33:9-36
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:35:9-48
 	android:allowBackup
 		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:32:9-36
 	tools:replace
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:34:9-52
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:33:9-52
 meta-data#xr_mode_metadata_name
-ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:42:9-44:54
+ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:41:9-43:54
 	android:value
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:44:13-51
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:43:13-51
 	android:name
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:43:13-49
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:42:13-49
 activity#com.godot.game.GodotApp
-ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:46:9-60:20
+ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:45:9-59:20
 	android:screenOrientation
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:51:13-50
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:50:13-50
 	android:label
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:48:13-62
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:47:13-62
 	android:launchMode
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:50:13-44
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:49:13-44
 	android:resizeableActivity
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:53:13-47
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:52:13-47
 	tools:ignore
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:54:13-43
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:53:13-43
 	android:configChanges
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:52:13-141
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:51:13-141
 	android:theme
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:49:13-77
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:48:13-77
 	android:name
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:47:13-37
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:46:13-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:56:13-59:29
+ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:55:13-58:29
 action#android.intent.action.MAIN
-ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:57:17-69
+ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:57:25-66
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:58:17-77
+ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:57:17-77
 	android:name
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:58:27-74
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:57:27-74
 receiver#org.godotengine.godot.LocalNotificationReceiver
-ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:64:1-102
+ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:63:1-102
 	android:process
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:64:74-99
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:63:74-99
 	android:name
-		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:64:11-73
+		ADDED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml:63:11-73
 uses-sdk
 INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\dev\projets\folkolo\android\build\AndroidManifest.xml

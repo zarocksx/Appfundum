@@ -39,7 +39,6 @@ func pic_line():
 					VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0))
 					global.remove_event(i);
 					return "stop event";
-		 # start a new event
 		if ((randi() % 100) + 1 > 100 - time_since_last_event):
 			time_since_last_event = 0;
 			var event = $events.pick_event();

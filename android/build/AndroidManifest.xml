@@ -30,7 +30,6 @@
     <application 
         android:label="@string/godot_project_name_string"
         android:allowBackup="false"
-        android:icon="@mipmap/icon"
         tools:replace="android:appComponentFactory"
         android:appComponentFactory="androidx"
         tools:ignore="GoogleAppIndexingWarning">
