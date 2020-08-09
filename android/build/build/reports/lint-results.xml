@@ -9,12 +9,12 @@
         priority="6"
         summary="Attribute unused on older versions"
         explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
-        errorLine1="        android:appComponentFactory=&quot;androidx&quot;"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        errorLine1="    &lt;application android:label=&quot;@string/godot_project_name_string&quot; android:allowBackup=&quot;false&quot; tools:replace=&quot;android:appComponentFactory&quot; android:appComponentFactory=&quot;androidx&quot; tools:ignore=&quot;GoogleAppIndexingWarning&quot; android:icon=&quot;@mipmap/icon&quot;>"
+        errorLine2="                                                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="D:\dev\projets\folkolo\android\build\AndroidManifest.xml"
-            line="34"
-            column="9"/>
+            line="30"
+            column="140"/>
     </issue>
 
     <issue
@@ -47,24 +47,6 @@
             file="D:\dev\projets\folkolo\android\build\build.gradle"
             line="47"
             column="1"/>
-    </issue>
-
-    <issue
-        id="MissingApplicationIcon"
-        severity="Warning"
-        message="Should explicitly set `android:icon`, there is no default"
-        category="Usability:Icons"
-        priority="5"
-        summary="Missing application icon"
-        explanation="You should set an icon for the application as whole because there is no default. This attribute must be set as a reference to a drawable resource containing the image (for example `@drawable/icon`)."
-        url="http://developer.android.com/tools/publishing/preparing.html#publishing-configure"
-        urls="http://developer.android.com/tools/publishing/preparing.html#publishing-configure"
-        errorLine1="    &lt;application "
-        errorLine2="     ~~~~~~~~~~~">
-        <location
-            file="D:\dev\projets\folkolo\android\build\AndroidManifest.xml"
-            line="30"
-            column="6"/>
     </issue>
 
 </issues>

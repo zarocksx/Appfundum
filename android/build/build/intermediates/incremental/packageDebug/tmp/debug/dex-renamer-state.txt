@@ -1,4 +1,4 @@
-#Fri Aug 07 19:23:11 CEST 2020
+#Sun Aug 09 20:36:16 CEST 2020
 base.0=D\:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 renamed.0=classes.dex
 path.0=classes.dex

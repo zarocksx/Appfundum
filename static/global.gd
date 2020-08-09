@@ -63,7 +63,7 @@ func set_game_started():
 	print("start game");
 	get_tree().change_scene_to(game);
 	analytics.start_game_timer();
-	notif.addNotif("Appfundum", "Avez-vous apprecié Appfundum? \n Donnez nous votre avis", 300)
+	#notif.addNotif("Appfundum", "Avez-vous apprecié Appfundum? \n Donnez nous votre avis", 300)
 
 
 func add_event(event):

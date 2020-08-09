@@ -22,15 +22,13 @@ modules="org/godotengine/godot/GodotLocalNotification"
 config/name="Appfundum"
 run/main_scene="res://scenes/menu.tscn"
 boot_splash/image="res://assets/graph/icons/Logo CEI.png"
+boot_splash/use_filter=false
 boot_splash/bg_color=Color( 0.137255, 0.152941, 0.231373, 1 )
 config/icon="res://assets/graph/icons/icon.png"
-config/macos_native_icon="res://assets/graph/icons/Logo CEI.png"
-config/windows_native_icon="res://assets/graph/icons/Logo CEI.png"
 
 [autoload]
 
 global="*res://static/global.gd"
-notif="*res://static/notification.gd"
 firebase="*res://static/firebase.gd"
 analytics="*res://static/analytics.gd"
 aL="*res://static/android_lifecycle.gd"
@@ -52,6 +50,10 @@ window/stretch/aspect="keep"
 
 enabled=PoolStringArray( "zylann.project_stats" )
 
+[filesystem]
+
+import/open_asset_import/use_fbx=false
+
 [gui]
 
 theme/use_hidpi=true
@@ -59,10 +61,10 @@ theme/use_hidpi=true
 [rendering]
 
 quality/driver/driver_name="GLES2"
+quality/driver/fallback_to_gles2=true
 quality/intended_usage/framebuffer_allocation=0
 quality/intended_usage/framebuffer_allocation.mobile=0
 quality/2d/use_pixel_snap=true
 vram_compression/import_etc=true
 quality/reflections/texture_array_reflections=false
 environment/default_clear_color=Color( 0.137255, 0.152941, 0.231373, 1 )
-quality/subsurface_scattering/quality=0

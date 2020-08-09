@@ -77,6 +77,18 @@ tracks/4/keys = {
 "update": 1,
 "values": [ true ]
 }
+tracks/5/type = "value"
+tracks/5/path = NodePath("../Button:mouse_filter")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 0 ]
+}
 
 [sub_resource type="Animation" id=2]
 resource_name = "add_player_show"
@@ -130,19 +142,19 @@ tracks/3/keys = {
 "values": [ false ]
 }
 tracks/4/type = "value"
-tracks/4/path = NodePath(".:mouse_filter")
+tracks/4/path = NodePath("../AddPlayerMenu:visible")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/imported = false
-tracks/4/enabled = false
+tracks/4/enabled = true
 tracks/4/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ 2, 2 ]
+"values": [ false ]
 }
 tracks/5/type = "value"
-tracks/5/path = NodePath("../AddPlayerMenu:visible")
+tracks/5/path = NodePath("../Button:mouse_filter")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/imported = false
@@ -151,7 +163,7 @@ tracks/5/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ false ]
+"values": [ 2 ]
 }
 
 [sub_resource type="Animation" id=3]
@@ -178,7 +190,39 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="AddPlayerInput" type="LineEdit" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 80.0
+margin_top = 400.0
+margin_right = -320.0
+margin_bottom = -2000.0
+grow_horizontal = 0
+grow_vertical = 2
+rect_min_size = Vector2( 1000, 0 )
+custom_styles/focus = ExtResource( 10 )
+custom_styles/normal = ExtResource( 9 )
+custom_fonts/font = ExtResource( 11 )
+context_menu_enabled = false
+clear_button_enabled = true
+placeholder_text = "Nom du joueur"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton" type="TextureButton" parent="AddPlayerInput"]
+margin_left = 1279.9
+margin_top = 160.015
+margin_right = 1812.9
+margin_bottom = 693.015
+rect_rotation = 180.0
+rect_scale = Vector2( 0.3, 0.3 )
+texture_normal = ExtResource( 12 )
+script = ExtResource( 13 )
+
 [node name="Label" type="Label" parent="."]
+modulate = Color( 1, 1, 1, 0 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = -650.0
@@ -219,44 +263,12 @@ anims/add_player_show = SubResource( 2 )
 anims/texte_start = SubResource( 3 )
 script = ExtResource( 6 )
 
-[node name="AddPlayerInput" type="LineEdit" parent="."]
-visible = false
-modulate = Color( 1, 1, 1, 0 )
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 771.937
-margin_top = 569.378
-margin_right = 331.937
-margin_bottom = -1857.62
-grow_horizontal = 0
-grow_vertical = 2
-rect_min_size = Vector2( 1000, 0 )
-rect_rotation = 90.0
-custom_styles/focus = ExtResource( 10 )
-custom_styles/normal = ExtResource( 9 )
-custom_fonts/font = ExtResource( 11 )
-context_menu_enabled = false
-clear_button_enabled = true
-placeholder_text = "Nom du joueur"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TextureButton" type="TextureButton" parent="AddPlayerInput"]
-margin_left = 1414.44
-margin_top = 140.0
-margin_right = 1906.44
-margin_bottom = 632.0
-rect_rotation = 180.0
-rect_scale = Vector2( 0.3, 0.3 )
-texture_normal = ExtResource( 12 )
-script = ExtResource( 13 )
-
 [node name="Button" type="Button" parent="."]
 modulate = Color( 1, 1, 1, 0 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = -1.0
+mouse_filter = 2
 script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -281,7 +293,7 @@ __meta__ = {
 [connection signal="text_changed" from="AddPlayerInput" to="AddPlayerInput/TextureButton" method="_on_AddPlayerInput_text_changed"]
 [connection signal="addPlayer" from="AddPlayerInput/TextureButton" to="Label/AnimationPlayer" method="_on_TextureButton_addPlayer"]
 [connection signal="pressed" from="AddPlayerInput/TextureButton" to="AddPlayerInput/TextureButton" method="_on_TextureButton_pressed"]
-[connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]
 [connection signal="pressed" from="Button" to="Label/AnimationPlayer" method="_on_Button_pressed"]
 [connection signal="pressed" from="AddPlayerMenu" to="Label/AnimationPlayer" method="_on_AddPlayerMenu_pressed"]

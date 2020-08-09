@@ -8,4 +8,8 @@ func _on_AddPlayerInput_text_changed(new_text):
 
 
 func _on_TextureButton_pressed():
-	emit_signal("addPlayer", playerName)
+	if playerName = " ":
+		get_node("..").text = ""
+		get_node("..").set_self_modulate(Color(1,0,0))
+	else :
+		emit_signal("addPlayer", playerName)

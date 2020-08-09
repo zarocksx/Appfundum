@@ -45,7 +45,10 @@ func pic_line():
 			if event :
 				var text_final = event.start;
 				for i in event.players.size():
-					text_final = event.start.format({ str(i): event.players[i] });
+					var selectedPlayer = event.players[i]
+					if not event.players[i]:
+						selectedPlayer = global.get_players(0)
+					text_final = event.start.format({ str(i): selectedPlayer });
 				VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0));
 				set_text(text_final);
 				return "start event";
