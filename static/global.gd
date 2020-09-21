@@ -5,7 +5,7 @@ var game_state = 0; # 0 = in menu / 1 = in progress / 2 = finished
 var events_allowed = true;
 var events_active = [];
 var game = preload("res://scenes/game.tscn");
-var menu = preload("res://scenes/menu.tscn");
+var menu = preload("res://scenes/Menu/menu.tscn");
 var turn = 0
 var gameMode = 0 # fossile=0 classic=1 ACS=2 ACE=3
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.appfundum.folklol"
+    package="com.appfundum.app"
     android:installLocation="auto"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="18"
-        android:targetSdkVersion="28" />
+        android:targetSdkVersion="29" />
 
     <!-- Adding custom text to the manifest is fine, but do it outside the custom USER and APPLICATION BEGIN/END comments, -->
     <!-- as that gets rewritten. -->
@@ -35,10 +35,11 @@
     <!-- WARNING: This should stay on a single line until the parsing code is improved. See GH-32414. -->
     <application
         android:allowBackup="false"
-        android:appComponentFactory="androidx"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/icon"
-        android:label="@string/godot_project_name_string" >
+        android:label="@string/godot_project_name_string"
+        android:requestLegacyExternalStorage="true" >
 
         <!-- The following metadata values are replaced when Godot exports, modifying them here has no effect. -->
         <!-- Do these changes in the export preset. Adding new ones is fine. -->
@@ -49,6 +50,11 @@
             android:name="xr_mode_metadata_name"
             android:value="xr_mode_metadata_value" />
 
+        <!-- Metadata populated at export time and used by Godot to figure out which plugins must be enabled. -->
+        <meta-data
+            android:name="plugins"
+            android:value="plugins_value" />
+
         <activity
             android:name="com.godot.game.GodotApp"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
@@ -57,6 +63,12 @@
             android:resizeableActivity="false"
             android:screenOrientation="landscape"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+
+            <!-- Focus awareness metadata is updated at export time if the user enables it in the 'Xr Features' section. -->
+            <meta-data
+                android:name="com.oculus.vr.focusaware"
+                android:value="false" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

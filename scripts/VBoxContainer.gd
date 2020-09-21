@@ -5,6 +5,7 @@ signal player_added;
 var label = load("res://scenes/customNode/customEdit.tscn");
 
 func _on_TextureButton_pressed():
+	print("touch")
 	var playerLabel = label.instance();
 	add_child(playerLabel);
 	pass

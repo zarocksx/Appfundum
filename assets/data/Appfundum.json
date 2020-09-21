@@ -102,5 +102,9 @@
   {"id": "98", "category" : 2, "sentence" : "Si tu as les cheveux ou les poils bouclés comme un mouton, affonne pour le CPC"} ,
   {"id": "99", "category" : 0, "sentence" : "Parrainage ! {P} tu es bleu. {S} lance les enchères en gorgées. Combien vaut ce bleu ?"} ,
   {"id": "100", "category" : 1, "sentence" : "{P} lance une salamandre."} ,
-  {"id": "101", "category" : 0, "sentence" : "C'est parti pour l'Alfabière ! Chacun a votre tour, donnez le nom d'une bière qui correspond à une lettre de l'alphabet dans l'ordre. {P} commence avec la lettre À."}
+  {"id": "101", "category" : 0, "sentence" : "C'est parti pour l'Alfabière ! Chacun a votre tour, donnez le nom d'une bière qui correspond à une lettre de l'alphabet dans l'ordre. {P} commence avec la lettre À."},
+  {"id": "105", "category" : 1, "sentence" : "Tou.te.s ceux.celle.s qui ont Appfundum sur leur smartphone peuvent donner 3 gorgées, \n Tant pis pours les fans d'apple."},
+  {"id": "106", "category" : 1, "sentence" : "Donnes une gorgée pas cercle de l'ACS que tu citera ( max 10/ un affond )!"},
+  {"id": "107", "category" : 1, "sentence" : "Quizz !    (le lecteur ne joue pas) \n Quel est le nom de la seule guilde de l'ACS actuellement ? \n Le premier a trouver bois une gorgée par initiales de la guilde \n La réponse : 'la BBB ( Buveurs de bières belges )' "},
+  {"id": "108", "category" : 1, "sentence" : "Quizz !    (le lecteur ne joue pas) \n Quel est la datede creation de l'ACS ? \n Le premier a trouver donnes 2 gorgée \n La réponse : '1993 (sous l'impulsion du CH) "}
 ]

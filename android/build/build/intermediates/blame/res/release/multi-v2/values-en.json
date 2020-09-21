@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en\\values-en.xml",
+            "outputFile": "F:\\godot\\Appfundum-3.2.3\\android\\build\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en\\values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\7a5cd2d6892ce7b3b750279ecbd9f09d\\res\\values-en\\values-en.xml",
+                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\2f29423de5771cd0c2f475b364e10860\\godot-lib.release\\res\\values-en\\values-en.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

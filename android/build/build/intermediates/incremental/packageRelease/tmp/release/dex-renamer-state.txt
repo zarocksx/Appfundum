@@ -1,4 +1,4 @@
-#Sun Aug 09 20:36:59 CEST 2020
-base.0=D\:\\dev\\projets\\folkolo\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+#Sun Sep 20 22:43:52 CEST 2020
+base.0=F\:\\godot\\Appfundum-3.2.3\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -173,17 +173,16 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 3 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 2 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Sun Aug 09 21:54:34 CEST 2020      </nav>
+Check performed at Sun Sep 20 23:01:22 CEST 2020      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Issue Types</span>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
-      <a class="mdl-navigation__link" href="#UnusedAttribute"><i class="material-icons warning-icon">warning</i>Attribute unused on older versions (1)</a>
       <a class="mdl-navigation__link" href="#VectorRaster"><i class="material-icons warning-icon">warning</i>Vector Image Generation (1)</a>
       <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (1)</a>
     </nav>
@@ -202,14 +201,11 @@ Check performed at Sun Aug 09 21:54:34 CEST 2020      </nav>
 </td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#UnusedAttribute">UnusedAttribute</a>: Attribute unused on older versions</td></tr>
-<tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#VectorRaster">VectorRaster</a>: Vector Image Generation</td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#GradleDependency">GradleDependency</a>: Obsolete Gradle Dependency</td></tr>
-<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (34)</a>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (35)</a>
 </td></tr></table>
 <br/>              </div>
               <div class="mdl-card__actions mdl-card--border">
@@ -218,55 +214,7 @@ Dismiss</button>            </div>
             </div>
           </section>
 <a name="Correctness"></a>
-<a name="UnusedAttribute"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="UnusedAttributeCard" style="display: block;">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Attribute unused on older versions</h2>
-  </div>
-              <div class="mdl-card__supporting-text">
-<div class="issue">
-<div class="warningslist">
-<span class="location"><a href="../../AndroidManifest.xml">../../AndroidManifest.xml</a>:30</span>: <span class="message">Attribute <code>appComponentFactory</code> is only used in API level 28 and higher (current min is 18)</span><br /><pre class="errorlines">
-<span class="lineno"> 27 </span>  <span class="comment">&lt;!-- Any tag in this line after android:icon will be erased when doing custom builds. --></span>
-<span class="lineno"> 28 </span>  <span class="comment">&lt;!-- If you want to add tags manually, do before it. --></span>
-<span class="lineno"> 29 </span>  <span class="comment">&lt;!-- WARNING: This should stay on a single line until the parsing code is improved. See GH-32414. --></span>
-<span class="caretline"><span class="lineno"> 30 </span>  <span class="tag">&lt;application</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/godot_project_name_string"</span> <span class="prefix">android:</span><span class="attribute">allowBackup</span>=<span class="value">"false"</span> <span class="prefix">tools:</span><span class="attribute">replace</span>=<span class="value">"android:appComponentFactory"</span> <span class="warning"><span class="prefix">android:</span><span class="attribute">appComponentFactory</span>=<span class="value">"androidx"</span></span> <span class="prefix">tools:</span><span class="attribute">ignore</span>=<span class="value">"GoogleAppIndexingWarning"</span> <span class="prefix">android:</span><span class="attribute">icon</span>=<span class="value">"@mipmap/icon"</span>></span>
-<span class="lineno"> 31 </span><span class="lineno"> 32 </span>
-<span class="lineno"> 33 </span>      <span class="comment">&lt;!-- The following metadata values are replaced when Godot exports, modifying them here has no effect. --></span></pre>
-
-</div>
-<div class="metadata"><div class="explanation" id="explanationUnusedAttribute" style="display: none;">
-This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the <code>minSdkVersion</code> attribute).<br/>
-<br/>
-This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.<br/>
-<br/>
-Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new <code>&lt;tag></code> element in layouts introduced in API 21.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
-To suppress this error, use the issue id "UnusedAttribute" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="chips">
-<span class="mdl-chip">
-    <span class="mdl-chip__text">UnusedAttribute</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Correctness</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Warning</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 6/10</span>
-</span>
-</div>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationUnusedAttributeLink" onclick="reveal('explanationUnusedAttribute');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="UnusedAttributeCardLink" onclick="hideid('UnusedAttributeCard');">
-Dismiss</button>            </div>
-            </div>
-          </section><a name="VectorRaster"></a>
+<a name="VectorRaster"></a>
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="VectorRasterCard" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
@@ -320,13 +268,13 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:47</span>: <span class="message">A newer version of androidx.appcompat:appcompat than 1.1.0 is available: 1.2.0</span><br /><pre class="errorlines">
-<span class="lineno">  44 </span>        releaseImplementation fileTree(dir: <span class="string">'libs/release'</span>, include: [<span class="string">'*.jar'</span>, <span class="string">'*.aar'</span>])
-<span class="lineno">  45 </span>    }
-<span class="lineno">  46 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
-<span class="caretline"><span class="lineno">  47 </span><span class="warning">implementation <span class="string">'androidx.appcompat:appcompat:1.1.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  48 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
-<span class="lineno">  49 </span>}
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:77</span>: <span class="message">A newer version of androidx.appcompat:appcompat than 1.1.0 is available: 1.2.0</span><br /><pre class="errorlines">
+<span class="lineno">  74 </span>    }
+<span class="lineno">  75 </span>
+<span class="lineno">  76 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
+<span class="caretline"><span class="lineno">  77 </span><span class="warning">implementation <span class="string">'androidx.appcompat:appcompat:1.1.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  78 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
+<span class="lineno">  79 </span>}
 </pre>
 
 </div>
@@ -750,6 +698,15 @@ The unused resource check can ignore tests. If you want to include resources tha
 <br/>
 You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests=true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests=true.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
 To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">ValidActionsXml<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Ensures that an actions XML file is properly formed<br/>To suppress this error, use the issue id "ValidActionsXml" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
 <br/></div>
 </div>
 </div>

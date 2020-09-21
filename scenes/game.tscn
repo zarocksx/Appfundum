@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://scripts/game.gd" type="Script" id=1]
 [ext_resource path="res://assets/new_dynamicfont.tres" type="DynamicFont" id=2]
@@ -13,6 +13,7 @@
 [ext_resource path="res://assets/input.tres" type="DynamicFont" id=11]
 [ext_resource path="res://assets/graph/icons/left-arrow.svg" type="Texture" id=12]
 [ext_resource path="res://scenes/addPlayerButton.gd" type="Script" id=13]
+[ext_resource path="res://assets/graph/icons/icon.png" type="Texture" id=14]
 
 [sub_resource type="Animation" id=1]
 resource_name = "add_player_hide"
@@ -165,6 +166,30 @@ tracks/5/keys = {
 "update": 1,
 "values": [ 2 ]
 }
+tracks/6/type = "value"
+tracks/6/path = NodePath("../AddPlayerInput:self_modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("../AddPlayerInput:text")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "" ]
+}
 
 [sub_resource type="Animation" id=3]
 tracks/0/type = "value"
@@ -192,6 +217,7 @@ __meta__ = {
 
 [node name="AddPlayerInput" type="LineEdit" parent="."]
 visible = false
+modulate = Color( 1, 1, 1, 0 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 80.0
@@ -221,8 +247,16 @@ rect_scale = Vector2( 0.3, 0.3 )
 texture_normal = ExtResource( 12 )
 script = ExtResource( 13 )
 
+[node name="TextureRect" type="TextureRect" parent="AddPlayerInput"]
+margin_left = 400.0
+margin_top = 960.0
+margin_right = 1920.0
+margin_bottom = 2462.0
+rect_scale = Vector2( 0.316, 0.316 )
+texture = ExtResource( 14 )
+
 [node name="Label" type="Label" parent="."]
-modulate = Color( 1, 1, 1, 0 )
+visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = -650.0
@@ -278,6 +312,7 @@ __meta__ = {
 use_threads = true
 
 [node name="AddPlayerMenu" type="TextureButton" parent="."]
+visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 1177.79

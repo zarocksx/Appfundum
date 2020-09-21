@@ -20,7 +20,7 @@ modules="org/godotengine/godot/GodotLocalNotification"
 [application]
 
 config/name="Appfundum"
-run/main_scene="res://scenes/menu.tscn"
+run/main_scene="res://scenes/Menu/menu.tscn"
 boot_splash/image="res://assets/graph/icons/Logo CEI.png"
 boot_splash/use_filter=false
 boot_splash/bg_color=Color( 0.137255, 0.152941, 0.231373, 1 )
@@ -33,6 +33,10 @@ firebase="*res://static/firebase.gd"
 analytics="*res://static/analytics.gd"
 aL="*res://static/android_lifecycle.gd"
 theme="res://assets/theme/theme.gd"
+
+[debug]
+
+settings/stdout/print_fps=true
 
 [display]
 
@@ -60,11 +64,12 @@ theme/use_hidpi=true
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
 quality/driver/fallback_to_gles2=true
 quality/intended_usage/framebuffer_allocation=0
 quality/intended_usage/framebuffer_allocation.mobile=0
 quality/2d/use_pixel_snap=true
+quality/filters/anisotropic_filter_level=6
 vram_compression/import_etc=true
 quality/reflections/texture_array_reflections=false
 environment/default_clear_color=Color( 0.137255, 0.152941, 0.231373, 1 )
+quality/filters/msaa=4
