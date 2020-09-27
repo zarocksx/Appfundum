@@ -32,7 +32,8 @@ global="*res://static/global.gd"
 firebase="*res://static/firebase.gd"
 analytics="*res://static/analytics.gd"
 aL="*res://static/android_lifecycle.gd"
-theme="res://assets/theme/theme.gd"
+globalTheme="*res://static/theme.gd"
+themeStore="*res://assets/theme/theme.gd"
 
 [debug]
 
@@ -52,7 +53,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "zylann.project_stats" )
+enabled=PoolStringArray( "ui_design_tool", "zylann.project_stats" )
 
 [filesystem]
 

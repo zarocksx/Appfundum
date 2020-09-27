@@ -1,0 +1,2 @@
+parfois le nom d'un joueur n'est pas placé dans une sentence provoquant l'apparition d'un '{1}' dans une partie
+vu a chaque début d'event

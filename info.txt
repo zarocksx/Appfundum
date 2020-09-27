@@ -1,0 +1,2 @@
+commandes :
+ - adb -d logcat godot:V *:S (debug exported app)

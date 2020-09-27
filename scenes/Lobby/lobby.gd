@@ -8,11 +8,12 @@ func _ready():
 
 
 func _on_player_added():
-	if (global.players.size()>0):
+	var player_box = get_node("ScrollContainer/VBoxContainer/PlayerNameBox");
+	if (global.players.size()>1):
+		player_box.is_ready();
 		emit_signal("show_mode");
 	else:
 		global.players = [];
-		var player_box = get_node("ScrollContainer/VBoxContainer/PlayerNameBox");
 		player_box.not_ready();
 
 

@@ -1,12 +1,12 @@
 [gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://scenes/Menu/AnimationPlayer.gd" type="Script" id=1]
-[ext_resource path="res://assets/graph/pattern/pattern82.png" type="Texture" id=2]
-[ext_resource path="res://assets/graph/pattern/pattern24.png" type="Texture" id=3]
-[ext_resource path="res://assets/graph/white.png" type="Texture" id=4]
-[ext_resource path="res://scenes/game_mode.tscn" type="PackedScene" id=5]
+[ext_resource path="res://assets/UI/pattern/pattern82.png" type="Texture" id=2]
+[ext_resource path="res://assets/UI/pattern/pattern24.png" type="Texture" id=3]
+[ext_resource path="res://assets/UI/white.png" type="Texture" id=4]
+[ext_resource path="res://scenes/GameMode/game_mode.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/Lobby/lobby.tscn" type="PackedScene" id=6]
-[ext_resource path="res://scenes/settings.tscn" type="PackedScene" id=7]
+[ext_resource path="res://scenes/Settings/settings.tscn" type="PackedScene" id=7]
 
 [sub_resource type="Shader" id=1]
 code = "shader_type canvas_item;
@@ -345,6 +345,8 @@ __meta__ = {
 }
 
 [node name="lobby" parent="." instance=ExtResource( 6 )]
+margin_left = 1.37842
+margin_right = 1441.38
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/game_mode = SubResource( 5 )

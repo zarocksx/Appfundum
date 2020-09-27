@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/style/menu_text_input.tres" type="StyleBox" id=1]
+[ext_resource path="res://scenes/customNode/CustomEdit/customEdit.gd" type="Script" id=2]
+
+[sub_resource type="DynamicFontData" id=1]
+hinting = 0
+font_path = "res://assets/Comfortaa-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 100
+outline_color = Color( 1, 1, 1, 0 )
+use_filter = true
+font_data = SubResource( 1 )
+
+[node name="LineEdit" type="LineEdit"]
+anchor_top = 0.04
+anchor_right = 1.0
+anchor_bottom = 0.092
+margin_left = 240.416
+margin_top = 97.6
+margin_right = -199.584
+margin_bottom = 97.48
+rect_min_size = Vector2( 1000, 0 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/focus = ExtResource( 1 )
+custom_styles/normal = ExtResource( 1 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 0.784314 )
+custom_constants/minimum_spaces = 0
+secret_character = "."
+context_menu_enabled = false
+clear_button_enabled = true
+placeholder_text = "Nom"
+placeholder_alpha = 0.501
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
