@@ -11,7 +11,7 @@
 [sub_resource type="Shader" id=1]
 code = "shader_type canvas_item;
 uniform sampler2D tex_frg_2;
-
+uniform vec3 themeColor = vec3(1, 1, 1);
 void vertex() {
 // Output:0
 
@@ -19,7 +19,7 @@ void vertex() {
 
 void fragment() {
 // Color:4
-	vec3 n_out4p0 = vec3(1.000000, 0.831373, 0.164706);
+	vec3 n_out4p0 = themeColor;
 	float n_out4p1 = 1.000000;
 
 // Input:3
@@ -81,6 +81,7 @@ void light() {
 
 [sub_resource type="ShaderMaterial" id=2]
 shader = SubResource( 1 )
+shader_param/themeColor = Vector3( 1, 1, 1 )
 shader_param/tex_frg_2 = ExtResource( 3 )
 
 [sub_resource type="Shader" id=3]
@@ -321,7 +322,10 @@ tracks/5/keys = {
 
 [node name="Node2D" type="Node"]
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." groups=[
+"theme",
+]]
+modulate = Color( 1, 0.831373, 0.164706, 1 )
 material = SubResource( 2 )
 margin_right = 1437.0
 margin_bottom = 2561.0

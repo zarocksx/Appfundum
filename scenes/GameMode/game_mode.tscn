@@ -179,7 +179,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="bottom_screen" type="TextureRect" parent="."]
+[node name="bottom_screen" type="TextureRect" parent="." groups=[
+"theme",
+]]
 modulate = Color( 1, 0.831373, 0.164706, 1 )
 anchor_right = 1.004
 anchor_bottom = 1.03
@@ -193,11 +195,20 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Logo CEI" type="Sprite" parent="."]
-position = Vector2( 1024.49, 2117.06 )
-rotation = 0.338594
-scale = Vector2( 0.207, 0.207 )
-texture = ExtResource( 8 )
+[node name="Logo CEI" type="TextureButton" parent="." groups=[
+"themeIcon",
+]]
+margin_left = 1117.65
+margin_top = 1745.49
+margin_right = 1444.65
+margin_bottom = 2067.49
+rect_rotation = 23.9117
+texture_normal = ExtResource( 8 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
 
 [node name="back" type="Button" parent="."]
 margin_left = 36.0198

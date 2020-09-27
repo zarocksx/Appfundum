@@ -10,6 +10,7 @@ var curent_analytics;
 var user_info = {};
 
 func _ready():
+	if OS.is_debug_build() : return
 	anonymous_register()
 
 
@@ -39,6 +40,7 @@ func _get_request_headers():
 
 
 func anonymous_register():
+	if OS.is_debug_build() : return
 	var http = get_http()
 	http.request(LOGIN_A, ["Content-Length:0"], false, HTTPClient.METHOD_POST);
 	var result = yield(http, "request_completed") as Array;
@@ -47,6 +49,7 @@ func anonymous_register():
 
 
 func save_analytics() :
+	if OS.is_debug_build() : return
 	var fields = analytics.get_analytics_fields();
 	var path = "analytics";
 	var document = {"fields": fields};
@@ -56,6 +59,7 @@ func save_analytics() :
 
 
 func update_analytics() :
+	if OS.is_debug_build() : return
 	var fields = analytics.get_analytics_fields();
 	var path = "analytics";
 	var document = {"fields": fields};
@@ -66,6 +70,7 @@ func update_analytics() :
 
 
 func save_document(path: String, fields: Dictionary) :
+	if OS.is_debug_build() : return
 	var document = {"fields" : fields};
 	var body = to_json(document);
 	var url = FIRESTORE_URL + path;
@@ -73,6 +78,7 @@ func save_document(path: String, fields: Dictionary) :
 
 
 func update_document(path: String, fields:Dictionary):
+	if OS.is_debug_build() : return
 	var document = { "fields" : fields };
 	var body = to_json(document);
 	var url = FIRESTORE_URL + path;

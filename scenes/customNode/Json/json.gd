@@ -78,7 +78,6 @@ func pick_event():
 				events.result.erase(index)
 
 		if events.result.empty():
-			print("ev totally empty");
 			return false;
 
 	var event_index;

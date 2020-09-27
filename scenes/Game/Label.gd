@@ -5,6 +5,8 @@ var cercles_ready = false;
 var events_ready = false;
 var time_since_last_event = 0;
 
+var debugCall = 0
+
 func _ready():
 	checkJson()
 	pic_line(); # affiche la première sentence
@@ -15,9 +17,10 @@ func _on_Button_pressed():
 	if self.visible :
 		randomize();
 		pic_line();
+		debugCall = 0
 
 
-func pic_line(): 
+func pic_line():
 	globalTheme.setBackgroundColor();
 
 	if global.events_allowed : #Si le mode event est actif
@@ -25,7 +28,7 @@ func pic_line():
 		if global.is_event_active():# si il y a des events actif dispos
 			if event_stop() : return "event_stop";
 		if event_start() : return 'event_start';
-	
+
 	set_sentence();
 	return "sentence"
 
@@ -51,11 +54,16 @@ func event_start():
 		var event = $events.pick_event();
 		if event :
 			var text_final = event.start;
+			var selectedPlayer
+			print("event picked")
 			for i in event.players.size():
-				var selectedPlayer = event.players[i]
-				if not event.players[i]:
-					selectedPlayer = global.get_players(0)
-				text_final = event.start.format({ str(i): selectedPlayer });
+				selectedPlayer = event.players[i]
+				
+				text_final = text_final.format({ str(i+1): selectedPlayer });
+				print('players :' , i)
+				print(text_final)
+			print('player name',selectedPlayer)
+			
 			VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0));
 			set_text(text_final);
 		return true

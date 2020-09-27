@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://scenes/Lobby/Logo.gd" type="Script" id=1]
 [ext_resource path="res://assets/new_dynamicfont.tres" type="DynamicFont" id=2]
@@ -17,25 +17,6 @@ outline_size = 5
 outline_color = Color( 0, 0, 0, 1 )
 use_filter = true
 font_data = ExtResource( 11 )
-
-[sub_resource type="StyleBoxFlat" id=2]
-content_margin_left = 50.0
-bg_color = Color( 0.25098, 0.286275, 0.407843, 1 )
-border_width_left = 5
-border_width_top = 5
-border_width_right = 5
-border_width_bottom = 5
-border_color = Color( 0.25098, 0.286275, 0.407843, 1 )
-border_blend = true
-corner_radius_top_left = 50
-corner_radius_top_right = 50
-corner_radius_bottom_right = 50
-corner_radius_bottom_left = 50
-corner_detail = 10
-expand_margin_right = 5.0
-shadow_size = 5
-shadow_offset = Vector2( 0, 4 )
-anti_aliasing_size = 2
 
 [sub_resource type="DynamicFontData" id=3]
 hinting = 0
@@ -71,7 +52,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="bottom" type="TextureRect" parent="."]
+[node name="bottom" type="TextureRect" parent="." groups=[
+"theme",
+]]
 modulate = Color( 1, 0.831373, 0.164706, 1 )
 anchor_right = 1.0
 anchor_bottom = 0.891
@@ -152,7 +135,6 @@ margin_left = 0.0
 margin_top = 85.0
 margin_right = 1000.0
 margin_bottom = 218.0
-custom_styles/focus = SubResource( 2 )
 custom_fonts/font = SubResource( 4 )
 
 [node name="LineEdit2" parent="ScrollContainer/VBoxContainer/PlayerNameBox" instance=ExtResource( 3 )]
@@ -163,7 +145,6 @@ margin_left = 0.0
 margin_top = 303.0
 margin_right = 1000.0
 margin_bottom = 436.0
-custom_styles/focus = SubResource( 2 )
 custom_fonts/font = SubResource( 4 )
 
 [node name="TextureButton" type="TextureButton" parent="."]
@@ -221,7 +202,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Logo" type="TextureButton" parent="."]
+[node name="Logo" type="TextureButton" parent="." groups=[
+"themeIcon",
+]]
 margin_left = 1117.65
 margin_top = 1745.49
 margin_right = 1444.65

@@ -93,7 +93,6 @@ func next_turn():
 	turn = turn +1
 	if turn % 5 == 0 :
 		firebase.update_analytics()
-		print("update anal")
 	return turn
 
 
