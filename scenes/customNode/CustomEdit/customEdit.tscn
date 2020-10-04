@@ -13,9 +13,7 @@ outline_color = Color( 1, 1, 1, 0 )
 use_filter = true
 font_data = SubResource( 1 )
 
-[node name="LineEdit" type="LineEdit" groups=[
-"themedtheme",
-]]
+[node name="LineEdit" type="LineEdit"]
 anchor_top = 0.04
 anchor_right = 1.0
 anchor_bottom = 0.092
@@ -29,6 +27,8 @@ size_flags_vertical = 3
 custom_styles/focus = ExtResource( 3 )
 custom_styles/normal = ExtResource( 3 )
 custom_fonts/font = SubResource( 2 )
+custom_colors/font_color_selected = Color( 1, 1, 1, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_constants/minimum_spaces = 0
 secret_character = "."
 context_menu_enabled = false

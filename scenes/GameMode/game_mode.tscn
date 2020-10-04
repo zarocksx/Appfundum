@@ -198,6 +198,7 @@ __meta__ = {
 [node name="Logo CEI" type="TextureButton" parent="." groups=[
 "themeIcon",
 ]]
+visible = false
 margin_left = 1117.65
 margin_top = 1745.49
 margin_right = 1444.65

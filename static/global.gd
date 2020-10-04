@@ -9,6 +9,10 @@ var menu = preload("res://scenes/Menu/menu.tscn");
 var turn = 0
 var gameMode = 0 # fossile=0 classic=1 ACS=2 ACE=3
 
+var gameParam = {
+	
+}
+
 func add_players(player):
 	players.push_front(player);
 
