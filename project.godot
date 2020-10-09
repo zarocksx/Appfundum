@@ -33,6 +33,8 @@ analytics="*res://static/analytics.gd"
 aL="*res://static/android_lifecycle.gd"
 globalTheme="*res://static/theme.gd"
 themeStore="*res://assets/theme/theme.gd"
+Notification="*res://static/notification.gd"
+FirebaseNotification="*res://static/Firebase_notification.gd"
 
 [display]
 
@@ -48,7 +50,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "ui_design_tool", "zylann.project_stats" )
+enabled=PoolStringArray( "godot-sqlite", "ui_design_tool", "zylann.project_stats" )
 
 [filesystem]
 

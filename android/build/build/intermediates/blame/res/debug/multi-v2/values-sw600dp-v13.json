@@ -4,13 +4,30 @@
             "outputFile": "F:\\godot\\Appfundum-3.2.3\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\70ee6daa73720f73f1c131a251c19163\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\f2866e5c4cfba618817c84a0ca850861\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
                         "startOffsets": "55,124,193,263,337,413,472,543",
                         "endColumns": "68,68,69,73,75,58,70,67",
                         "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\2c2512476f14515b8ebc6cee626cd436\\firebase-inappmessaging-display-19.0.6\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,128",
+                        "endColumns": "72,71",
+                        "endOffsets": "123,195"
+                    },
+                    "to": {
+                        "startLines": "10,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "611,684",
+                        "endColumns": "72,71",
+                        "endOffsets": "679,751"
                     }
                 }
             ]

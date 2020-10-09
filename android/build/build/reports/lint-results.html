@@ -173,10 +173,10 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 2 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 3 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Sun Oct 04 02:46:57 CEST 2020      </nav>
+Check performed at Fri Oct 09 02:46:01 CEST 2020      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -184,7 +184,7 @@ Check performed at Sun Oct 04 02:46:57 CEST 2020      </nav>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
       <a class="mdl-navigation__link" href="#VectorRaster"><i class="material-icons warning-icon">warning</i>Vector Image Generation (1)</a>
-      <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (1)</a>
+      <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (2)</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -203,7 +203,7 @@ Check performed at Sun Oct 04 02:46:57 CEST 2020      </nav>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#VectorRaster">VectorRaster</a>: Vector Image Generation</td></tr>
 <tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#GradleDependency">GradleDependency</a>: Obsolete Gradle Dependency</td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (35)</a>
 </td></tr></table>
@@ -268,13 +268,23 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:77</span>: <span class="message">A newer version of androidx.appcompat:appcompat than 1.1.0 is available: 1.2.0</span><br /><pre class="errorlines">
-<span class="lineno">  74 </span>    }
-<span class="lineno">  75 </span>
-<span class="lineno">  76 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
-<span class="caretline"><span class="lineno">  77 </span><span class="warning">implementation <span class="string">'androidx.appcompat:appcompat:1.1.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  78 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
-<span class="lineno">  79 </span>}
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:19</span>: <span class="message">A newer version of com.google.gms:google-services than 4.3.3 is available: 4.3.4</span><br /><pre class="errorlines">
+<span class="lineno">  16 </span>    dependencies {
+<span class="lineno">  17 </span>        classpath libraries.androidGradlePlugin
+<span class="lineno">  18 </span>        classpath libraries.kotlinGradlePlugin
+<span class="caretline"><span class="lineno">  19 </span>        <span class="warning">classpath <span class="string">'com.google.gms:google-services:4.3.3'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  20 </span><span class="comment">//CHUNK_BUILDSCRIPT_DEPENDENCIES_BEGIN</span>
+<span class="lineno">  21 </span><span class="comment">//CHUNK_BUILDSCRIPT_DEPENDENCIES_END</span>
+<span class="lineno">  22 </span>    }
+</pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:78</span>: <span class="message">A newer version of androidx.appcompat:appcompat than 1.1.0 is available: 1.2.0</span><br /><pre class="errorlines">
+<span class="lineno">  75 </span>    }
+<span class="lineno">  76 </span>
+<span class="lineno">  77 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
+<span class="caretline"><span class="lineno">  78 </span><span class="warning">implementation <span class="string">'androidx.appcompat:appcompat:1.1.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  79 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
+<span class="lineno">  80 </span>}
 </pre>
 
 </div>

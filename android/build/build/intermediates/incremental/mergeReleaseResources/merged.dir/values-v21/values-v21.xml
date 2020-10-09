@@ -224,6 +224,20 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
+    <style name="FiamUI.Banner" parent="@style/FiamUI">
+        <item name="android:elevation">4dp</item>
+    </style>
+    <style name="FiamUI.Card" parent="@style/FiamUI">
+        <item name="android:elevation">4dp</item>
+    </style>
+    <style name="FiamUI.CollapseButton" parent="FiamUI.CollapseButtonBase">
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="FiamUI.Modal" parent="@style/FiamUI">
+        <item name="android:elevation">4dp</item>
+    </style>
     <style name="Platform.AppCompat" parent="Platform.V21.AppCompat"/>
     <style name="Platform.AppCompat.Light" parent="Platform.V21.AppCompat.Light"/>
     <style name="Platform.ThemeOverlay.AppCompat" parent="">

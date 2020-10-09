@@ -6,4 +6,5 @@ func _on_Close_pressed():
 
 
 func _on_Logo_pressed():
-	popup_centered()
+	#popup_centered()
+	pass

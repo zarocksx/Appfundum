@@ -56,7 +56,7 @@ __meta__ = {
 [node name="bottom" type="TextureRect" parent="." groups=[
 "theme",
 ]]
-modulate = Color( 1, 0.831373, 0.164706, 1 )
+self_modulate = Color( 1, 0.831373, 0.164706, 1 )
 anchor_right = 1.0
 anchor_bottom = 0.891
 margin_left = 1.0
@@ -237,10 +237,9 @@ __meta__ = {
 }
 
 [node name="ThemePopup" parent="." instance=ExtResource( 10 )]
-visible = false
 [connection signal="player_added" from="ScrollContainer/VBoxContainer/PlayerNameBox" to="." method="_on_player_added"]
 [connection signal="pressed" from="TextureButton" to="ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_TextureButton_pressed"]
 [connection signal="pressed" from="start" to="ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_start_pressed"]
-[connection signal="pressed" from="Logo" to="ThemePopup" method="_on_Logo_pressed"]
 [connection signal="pressed" from="Logo" to="Logo" method="_on_Logo_pressed"]
+[connection signal="pressed" from="Logo" to="ThemePopup" method="_on_Logo_pressed"]
 [connection signal="pressed" from="settings" to="." method="_on_settings_pressed"]

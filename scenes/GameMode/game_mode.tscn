@@ -182,7 +182,7 @@ __meta__ = {
 [node name="bottom_screen" type="TextureRect" parent="." groups=[
 "theme",
 ]]
-modulate = Color( 1, 0.831373, 0.164706, 1 )
+self_modulate = Color( 1, 0.831373, 0.164706, 1 )
 anchor_right = 1.004
 anchor_bottom = 1.03
 margin_left = 1.0

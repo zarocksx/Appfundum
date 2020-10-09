@@ -16,6 +16,7 @@ buildscript {
     dependencies {
         classpath libraries.androidGradlePlugin
         classpath libraries.kotlinGradlePlugin
+        classpath 'com.google.gms:google-services:4.3.3'
 //CHUNK_BUILDSCRIPT_DEPENDENCIES_BEGIN
 //CHUNK_BUILDSCRIPT_DEPENDENCIES_END
     }
@@ -164,6 +165,8 @@ android {
         }
     }
 }
+
+apply plugin: 'com.google.gms.google-services'
 
 //CHUNK_GLOBAL_BEGIN
 //CHUNK_GLOBAL_END

@@ -325,7 +325,7 @@ tracks/5/keys = {
 [node name="TextureRect" type="TextureRect" parent="." groups=[
 "theme",
 ]]
-modulate = Color( 1, 0.831373, 0.164706, 1 )
+self_modulate = Color( 1, 0.831373, 0.164706, 1 )
 material = SubResource( 2 )
 margin_right = 1437.0
 margin_bottom = 2561.0

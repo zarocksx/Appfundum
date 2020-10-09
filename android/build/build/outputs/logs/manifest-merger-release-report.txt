@@ -1,44 +1,100 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-71:12
-INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-71:12
-INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-71:12
-INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-71:12
-MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:2:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\72b4d95a0e8b43ee4215c0c4e8b0fb72\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3a2f8d614676183a411d5d0a5ccffd59\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0cb8e9b70eb18e6366ea818d50894e47\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\70ee6daa73720f73f1c131a251c19163\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bc6997ad05a1af84d78303dcea3eae39\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aaee865af0a0237048c0d692ceb5e3d9\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3ae307e411008a5abe35b795699599f8\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\58990e31d8d4b533b7ff983aa60b00fc\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\53bf8556c8b730ae1255779c2895d59b\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1d849761628829d2295b320ffc5152e0\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\de0e40a64f4e2358c42b14de689f3293\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\dab48ee8d761a62192a7c0c78bc8a1aa\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fa1cda0d762347a9cb7d79eaeeb289e8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\366555e0658123cedccaf0883b3651bc\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\850bf142cefab6ec1f243621257bf44e\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\f6f80dc4871d749a0cd888fb14aba5f3\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7d767b2deaf02a4aa041ae0685eb6b5e\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\263114587795ce3a15b18060381f86be\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5dfc5a5702135fca228c20b684dee9e\activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\518a570b82b25c292fdf7fed2295775a\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\48131e2042a7caf8d73ea50c24ae0f3a\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4a2e878b05969d2ed625e4d2f2f4a071\core-1.1.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\157e39bb99c978d081f37e13d2ab360e\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1f0eea5572e817d886a572edc39d8e7d\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\da71bec5a2783434e3fa1872433d49ac\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7f304c13f8d08f7c389d2cae44e8a25c\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9180283ae214e030164cb294841a7487\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0530fd952fd1ec33fcda9664c94741cf\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\544dca927150e14fa9823512699084ba\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2dcd651659a69cd0aedaacfe01bcdf4e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bfe07fb09b8c31788950d560b7c4be09\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-71:12
-INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-71:12
-INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-71:12
+ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-74:12
+INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-74:12
+INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-74:12
+INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-74:12
+MERGED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:2:1-21:12
+MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c54ae29c8fdca481d41631cb9cb2145f\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ads.mediation:unity:3.4.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\dacc2762a347f77ef84c118d1fabd297\unity-3.4.2.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-ads:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\268eac6b650c9e8f0ccb1093b3ccebae\jetified-play-services-ads-19.1.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e883052cdae2a867af4fbb62b9aeb6ef\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1639fe45cb2d87a2d3e392240d557829\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5f5dd377c1aa66991cd64f6ef012440f\firebase-analytics-17.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1d337b7b41287d561acf5fe893a6238f\play-services-measurement-sdk-17.4.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\65aa17522b2c8d1f9e9aefc070681e1e\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fe7af2934cf7d228b0884e794fec6266\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:17:1-132:12
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\898d88de593920d131a9d405bc945bfe\grpc-android-1.21.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\f2866e5c4cfba618817c84a0ca850861\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2fa10371a8fa817677c696209cde87d4\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7a7dd4e44370f85ebd0f6e9bfb10dcaa\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fbb7ef56af24d99a57e147192ed48960\play-services-auth-api-phone-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\84e727fd1d721e7b2670e96161f4c26c\play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4406870e516538993af837b44681d74a\firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ca01da4f4969b1a32b39ac899e47b163\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-gass:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\37b2788e4afcc5b07399c67d78cd3c8f\play-services-gass-19.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8ce0ebf7dff80bd17714914476db8d6d\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e4bbb9fd8d9931241ba9264dd14e7a2c\firebase-installations-interop-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\29e79f96b1914af42f669e427902e0f0\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\18ec0f339552c67bf4e604a75bef716c\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c0088f869e23107c33e5e1aca0dd24be\play-services-measurement-sdk-api-17.4.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a9cf866c7243c77021db77cffa01f2bd\play-services-measurement-base-17.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\86af1ffb7ae8651e0a87f025336429a5\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6b8581df0e98c36f40ca58a1e9bce9e5\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f098d5615050915d42b5f8a7332d2f8\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07aff9ca47dfe7d0ae80a7679994d992\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c79d89b44109b0c1646a9bc53443f88\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\756cc3dd2ec7880776a0a0e9847d595c\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e60a464826d54e5d81ba9cd83021bd78\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b6affce9965f1f6e8c815731f7857ca2\firebase-encoders-json-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\492bd3b4f91264e2df208d80533ec31e\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c2b4f755308bd17c6c5b8b3763b01102\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\12a6a42cf7b4c5ed6604612ba14e3b0f\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\d702fae23a80c03c71c00b8798ad6fed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fbc211210abc6f4e7789fec2fd785f6b\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\f078c5305bebc6fb0569b1e4cb30cd1f\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\dac1e33804d26d80cfeefb62e7949eed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\20661d21e38033c2f1eba2fea9824359\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b97128c838e439985e520df0d265aadc\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6180b5ce7aedf4bd2d3f014ea280c5cb\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6897e0a4f416c424c984541673fef11e\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ff6c9fae18b6a4df7708f19839d56405\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\612c61a498cc356fa2c95342bbef0705\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e9e4dda52393e594cac14bf961f51cf6\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\93aa2271964eb89adb5309d3971a4a4c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a1fe1145b39ba4f551c0a6dc59a95808\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b42fd46cc37ed60f11bb56077af82020\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5e2e7abbd355ab4cdba28f6128991a6d\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\39c303027840370dca36ef427658a58f\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fc8b90766abbbb0c8a46d41cc9ca5411\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9f6e52eb36f83144b7654558a4ea3d3b\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4281fe5ac6c518af553a922a60f8d663\lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\42a37964043baee061a4c0885057c947\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fee75db54357b35a19a94c7e85834913\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\148b8dfbd589821bd9ba3d6e510fc48b\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\70cf94f72c780b923c42034fef0aad1b\play-services-ads-base-19.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:2:1-37:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\93c8b441bd267e44f488b685fc51e820\protolite-well-known-types-17.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f47bfd3c0f770a92e194af6b611b28f\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0e49120d7a237b5573b075fc69688270\transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\39e593b70da228d79e70c91e9c9c8178\rxandroid-2.0.2\AndroidManifest.xml:15:1-21:12
+INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-74:12
+INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-74:12
+INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:2:1-74:12
 	package
 		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:4:5-29
 		INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
@@ -74,17 +130,91 @@ ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:19:5-21:35
 	android:required
 		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:21:9-32
 application
-ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:5-69:19
-MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:18:5-20:19
-MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:18:5-20:19
-MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4a2e878b05969d2ed625e4d2f2f4a071\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4a2e878b05969d2ed625e4d2f2f4a071\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\da71bec5a2783434e3fa1872433d49ac\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\da71bec5a2783434e3fa1872433d49ac\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:5-72:19
+MERGED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:15:5-19:19
+MERGED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:15:5-19:19
+MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:18:5-20:19
+MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-analytics:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5f5dd377c1aa66991cd64f6ef012440f\firebase-analytics-17.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5f5dd377c1aa66991cd64f6ef012440f\firebase-analytics-17.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1d337b7b41287d561acf5fe893a6238f\play-services-measurement-sdk-17.4.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1d337b7b41287d561acf5fe893a6238f\play-services-measurement-sdk-17.4.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\65aa17522b2c8d1f9e9aefc070681e1e\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\65aa17522b2c8d1f9e9aefc070681e1e\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:29:5-37:19
+MERGED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:30:5-130:19
+MERGED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:30:5-130:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7a7dd4e44370f85ebd0f6e9bfb10dcaa\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7a7dd4e44370f85ebd0f6e9bfb10dcaa\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ca01da4f4969b1a32b39ac899e47b163\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ca01da4f4969b1a32b39ac899e47b163\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-gass:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\37b2788e4afcc5b07399c67d78cd3c8f\play-services-gass-19.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\37b2788e4afcc5b07399c67d78cd3c8f\play-services-gass-19.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8ce0ebf7dff80bd17714914476db8d6d\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8ce0ebf7dff80bd17714914476db8d6d\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\29e79f96b1914af42f669e427902e0f0\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\29e79f96b1914af42f669e427902e0f0\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\18ec0f339552c67bf4e604a75bef716c\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\18ec0f339552c67bf4e604a75bef716c\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a9cf866c7243c77021db77cffa01f2bd\play-services-measurement-base-17.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a9cf866c7243c77021db77cffa01f2bd\play-services-measurement-base-17.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ff6c9fae18b6a4df7708f19839d56405\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ff6c9fae18b6a4df7708f19839d56405\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5e2e7abbd355ab4cdba28f6128991a6d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5e2e7abbd355ab4cdba28f6128991a6d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\70cf94f72c780b923c42034fef0aad1b\play-services-ads-base-19.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\70cf94f72c780b923c42034fef0aad1b\play-services-ads-base-19.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:14:5-35:19
+MERGED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:14:5-35:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f47bfd3c0f770a92e194af6b611b28f\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f47bfd3c0f770a92e194af6b611b28f\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 	android:requestLegacyExternalStorage
-		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:18:18-61
+		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:18:18-61
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4a2e878b05969d2ed625e4d2f2f4a071\core-1.1.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ff6c9fae18b6a4df7708f19839d56405\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:18-67
 	tools:ignore
@@ -139,82 +269,202 @@ category#android.intent.category.LAUNCHER
 ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:60:17-77
 	android:name
 		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:60:27-74
-receiver#org.godotengine.godot.LocalNotificationReceiver
-ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:66:1-102
-	android:process
-		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:66:74-99
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:65:1-67:61
+	android:value
+		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:67:5-59
 	android:name
-		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:66:11-73
+		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:66:5-61
+receiver#org.godotengine.godot.LocalNotificationReceiver
+ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:69:1-102
+	android:process
+		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:69:74-99
+	android:name
+		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:69:11-73
 uses-sdk
 INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
 INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
-MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:7:5-9:41
-MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\72b4d95a0e8b43ee4215c0c4e8b0fb72\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\72b4d95a0e8b43ee4215c0c4e8b0fb72\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3a2f8d614676183a411d5d0a5ccffd59\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3a2f8d614676183a411d5d0a5ccffd59\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0cb8e9b70eb18e6366ea818d50894e47\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0cb8e9b70eb18e6366ea818d50894e47\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\70ee6daa73720f73f1c131a251c19163\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\70ee6daa73720f73f1c131a251c19163\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bc6997ad05a1af84d78303dcea3eae39\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bc6997ad05a1af84d78303dcea3eae39\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aaee865af0a0237048c0d692ceb5e3d9\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aaee865af0a0237048c0d692ceb5e3d9\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3ae307e411008a5abe35b795699599f8\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3ae307e411008a5abe35b795699599f8\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\58990e31d8d4b533b7ff983aa60b00fc\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\58990e31d8d4b533b7ff983aa60b00fc\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\53bf8556c8b730ae1255779c2895d59b\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\53bf8556c8b730ae1255779c2895d59b\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1d849761628829d2295b320ffc5152e0\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1d849761628829d2295b320ffc5152e0\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\de0e40a64f4e2358c42b14de689f3293\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\de0e40a64f4e2358c42b14de689f3293\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\dab48ee8d761a62192a7c0c78bc8a1aa\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\dab48ee8d761a62192a7c0c78bc8a1aa\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fa1cda0d762347a9cb7d79eaeeb289e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fa1cda0d762347a9cb7d79eaeeb289e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\366555e0658123cedccaf0883b3651bc\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\366555e0658123cedccaf0883b3651bc\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\850bf142cefab6ec1f243621257bf44e\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\850bf142cefab6ec1f243621257bf44e\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\f6f80dc4871d749a0cd888fb14aba5f3\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\f6f80dc4871d749a0cd888fb14aba5f3\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7d767b2deaf02a4aa041ae0685eb6b5e\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7d767b2deaf02a4aa041ae0685eb6b5e\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\263114587795ce3a15b18060381f86be\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\263114587795ce3a15b18060381f86be\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5dfc5a5702135fca228c20b684dee9e\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5dfc5a5702135fca228c20b684dee9e\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\518a570b82b25c292fdf7fed2295775a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\518a570b82b25c292fdf7fed2295775a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\48131e2042a7caf8d73ea50c24ae0f3a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\48131e2042a7caf8d73ea50c24ae0f3a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4a2e878b05969d2ed625e4d2f2f4a071\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4a2e878b05969d2ed625e4d2f2f4a071\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\157e39bb99c978d081f37e13d2ab360e\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\157e39bb99c978d081f37e13d2ab360e\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1f0eea5572e817d886a572edc39d8e7d\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1f0eea5572e817d886a572edc39d8e7d\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\da71bec5a2783434e3fa1872433d49ac\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\da71bec5a2783434e3fa1872433d49ac\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7f304c13f8d08f7c389d2cae44e8a25c\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7f304c13f8d08f7c389d2cae44e8a25c\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9180283ae214e030164cb294841a7487\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9180283ae214e030164cb294841a7487\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0530fd952fd1ec33fcda9664c94741cf\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0530fd952fd1ec33fcda9664c94741cf\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\544dca927150e14fa9823512699084ba\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\544dca927150e14fa9823512699084ba\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2dcd651659a69cd0aedaacfe01bcdf4e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2dcd651659a69cd0aedaacfe01bcdf4e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bfe07fb09b8c31788950d560b7c4be09\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bfe07fb09b8c31788950d560b7c4be09\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:7:5-9:41
+MERGED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:7:5-9:41
+MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:7:5-9:41
+MERGED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c54ae29c8fdca481d41631cb9cb2145f\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c54ae29c8fdca481d41631cb9cb2145f\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ads.mediation:unity:3.4.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\dacc2762a347f77ef84c118d1fabd297\unity-3.4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ads.mediation:unity:3.4.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\dacc2762a347f77ef84c118d1fabd297\unity-3.4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-ads:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\268eac6b650c9e8f0ccb1093b3ccebae\jetified-play-services-ads-19.1.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\268eac6b650c9e8f0ccb1093b3ccebae\jetified-play-services-ads-19.1.0\AndroidManifest.xml:21:5-23:52
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e883052cdae2a867af4fbb62b9aeb6ef\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e883052cdae2a867af4fbb62b9aeb6ef\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1639fe45cb2d87a2d3e392240d557829\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1639fe45cb2d87a2d3e392240d557829\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5f5dd377c1aa66991cd64f6ef012440f\firebase-analytics-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5f5dd377c1aa66991cd64f6ef012440f\firebase-analytics-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1d337b7b41287d561acf5fe893a6238f\play-services-measurement-sdk-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1d337b7b41287d561acf5fe893a6238f\play-services-measurement-sdk-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\65aa17522b2c8d1f9e9aefc070681e1e\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\65aa17522b2c8d1f9e9aefc070681e1e\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fe7af2934cf7d228b0884e794fec6266\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fe7af2934cf7d228b0884e794fec6266\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:21:5-23:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\898d88de593920d131a9d405bc945bfe\grpc-android-1.21.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\898d88de593920d131a9d405bc945bfe\grpc-android-1.21.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\f2866e5c4cfba618817c84a0ca850861\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\f2866e5c4cfba618817c84a0ca850861\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2fa10371a8fa817677c696209cde87d4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2fa10371a8fa817677c696209cde87d4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7a7dd4e44370f85ebd0f6e9bfb10dcaa\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\7a7dd4e44370f85ebd0f6e9bfb10dcaa\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fbb7ef56af24d99a57e147192ed48960\play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fbb7ef56af24d99a57e147192ed48960\play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\84e727fd1d721e7b2670e96161f4c26c\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\84e727fd1d721e7b2670e96161f4c26c\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4406870e516538993af837b44681d74a\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4406870e516538993af837b44681d74a\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ca01da4f4969b1a32b39ac899e47b163\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ca01da4f4969b1a32b39ac899e47b163\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\37b2788e4afcc5b07399c67d78cd3c8f\play-services-gass-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\37b2788e4afcc5b07399c67d78cd3c8f\play-services-gass-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8ce0ebf7dff80bd17714914476db8d6d\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8ce0ebf7dff80bd17714914476db8d6d\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e4bbb9fd8d9931241ba9264dd14e7a2c\firebase-installations-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e4bbb9fd8d9931241ba9264dd14e7a2c\firebase-installations-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\29e79f96b1914af42f669e427902e0f0\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\29e79f96b1914af42f669e427902e0f0\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\18ec0f339552c67bf4e604a75bef716c\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\18ec0f339552c67bf4e604a75bef716c\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c0088f869e23107c33e5e1aca0dd24be\play-services-measurement-sdk-api-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c0088f869e23107c33e5e1aca0dd24be\play-services-measurement-sdk-api-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a9cf866c7243c77021db77cffa01f2bd\play-services-measurement-base-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a9cf866c7243c77021db77cffa01f2bd\play-services-measurement-base-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\86af1ffb7ae8651e0a87f025336429a5\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\86af1ffb7ae8651e0a87f025336429a5\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6b8581df0e98c36f40ca58a1e9bce9e5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6b8581df0e98c36f40ca58a1e9bce9e5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f098d5615050915d42b5f8a7332d2f8\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f098d5615050915d42b5f8a7332d2f8\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07aff9ca47dfe7d0ae80a7679994d992\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07aff9ca47dfe7d0ae80a7679994d992\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c79d89b44109b0c1646a9bc53443f88\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c79d89b44109b0c1646a9bc53443f88\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\756cc3dd2ec7880776a0a0e9847d595c\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\756cc3dd2ec7880776a0a0e9847d595c\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e60a464826d54e5d81ba9cd83021bd78\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e60a464826d54e5d81ba9cd83021bd78\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b6affce9965f1f6e8c815731f7857ca2\firebase-encoders-json-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b6affce9965f1f6e8c815731f7857ca2\firebase-encoders-json-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\492bd3b4f91264e2df208d80533ec31e\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\492bd3b4f91264e2df208d80533ec31e\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c2b4f755308bd17c6c5b8b3763b01102\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c2b4f755308bd17c6c5b8b3763b01102\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\12a6a42cf7b4c5ed6604612ba14e3b0f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\12a6a42cf7b4c5ed6604612ba14e3b0f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\d702fae23a80c03c71c00b8798ad6fed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\d702fae23a80c03c71c00b8798ad6fed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fbc211210abc6f4e7789fec2fd785f6b\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fbc211210abc6f4e7789fec2fd785f6b\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\f078c5305bebc6fb0569b1e4cb30cd1f\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\f078c5305bebc6fb0569b1e4cb30cd1f\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\dac1e33804d26d80cfeefb62e7949eed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\dac1e33804d26d80cfeefb62e7949eed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\20661d21e38033c2f1eba2fea9824359\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\20661d21e38033c2f1eba2fea9824359\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b97128c838e439985e520df0d265aadc\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b97128c838e439985e520df0d265aadc\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6180b5ce7aedf4bd2d3f014ea280c5cb\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6180b5ce7aedf4bd2d3f014ea280c5cb\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6897e0a4f416c424c984541673fef11e\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6897e0a4f416c424c984541673fef11e\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ff6c9fae18b6a4df7708f19839d56405\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ff6c9fae18b6a4df7708f19839d56405\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\612c61a498cc356fa2c95342bbef0705\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\612c61a498cc356fa2c95342bbef0705\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e9e4dda52393e594cac14bf961f51cf6\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e9e4dda52393e594cac14bf961f51cf6\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\93aa2271964eb89adb5309d3971a4a4c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\93aa2271964eb89adb5309d3971a4a4c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a1fe1145b39ba4f551c0a6dc59a95808\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a1fe1145b39ba4f551c0a6dc59a95808\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b42fd46cc37ed60f11bb56077af82020\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b42fd46cc37ed60f11bb56077af82020\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5e2e7abbd355ab4cdba28f6128991a6d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5e2e7abbd355ab4cdba28f6128991a6d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\39c303027840370dca36ef427658a58f\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\39c303027840370dca36ef427658a58f\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fc8b90766abbbb0c8a46d41cc9ca5411\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fc8b90766abbbb0c8a46d41cc9ca5411\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9f6e52eb36f83144b7654558a4ea3d3b\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9f6e52eb36f83144b7654558a4ea3d3b\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4281fe5ac6c518af553a922a60f8d663\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4281fe5ac6c518af553a922a60f8d663\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\42a37964043baee061a4c0885057c947\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\42a37964043baee061a4c0885057c947\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fee75db54357b35a19a94c7e85834913\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fee75db54357b35a19a94c7e85834913\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\148b8dfbd589821bd9ba3d6e510fc48b\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\148b8dfbd589821bd9ba3d6e510fc48b\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\70cf94f72c780b923c42034fef0aad1b\play-services-ads-base-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\70cf94f72c780b923c42034fef0aad1b\play-services-ads-base-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\93c8b441bd267e44f488b685fc51e820\protolite-well-known-types-17.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\93c8b441bd267e44f488b685fc51e820\protolite-well-known-types-17.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f47bfd3c0f770a92e194af6b611b28f\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f47bfd3c0f770a92e194af6b611b28f\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0e49120d7a237b5573b075fc69688270\transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0e49120d7a237b5573b075fc69688270\transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\39e593b70da228d79e70c91e9c9c8178\rxandroid-2.0.2\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\39e593b70da228d79e70c91e9c9c8178\rxandroid-2.0.2\AndroidManifest.xml:19:5-43
 INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
 INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\268eac6b650c9e8f0ccb1093b3ccebae\jetified-play-services-ads-19.1.0\AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
 		INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
 		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
@@ -223,17 +473,627 @@ INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
 		INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
 		ADDED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
 		INJECTED from F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c0088f869e23107c33e5e1aca0dd24be\play-services-measurement-sdk-api-17.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c0088f869e23107c33e5e1aca0dd24be\play-services-measurement-sdk-api-17.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
+MERGED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:12:5-67
+MERGED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:26:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\898d88de593920d131a9d405bc945bfe\grpc-android-1.21.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\898d88de593920d131a9d405bc945bfe\grpc-android-1.21.0\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c0088f869e23107c33e5e1aca0dd24be\play-services-measurement-sdk-api-17.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c0088f869e23107c33e5e1aca0dd24be\play-services-measurement-sdk-api-17.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:11:5-79
+MERGED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:13:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c0088f869e23107c33e5e1aca0dd24be\play-services-measurement-sdk-api-17.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c0088f869e23107c33e5e1aca0dd24be\play-services-measurement-sdk-api-17.4.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:13:22-65
+meta-data#org.godotengine.plugin.v1.Firebase
+ADDED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:16:9-18:79
+	android:value
+		ADDED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:18:13-76
+	android:name
+		ADDED from [Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:17:13-62
 instrumentation
-ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:11:5-15:57
+ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:11:5-15:57
 	android:label
-		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:14:9-58
+		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:14:9-58
 	android:icon
-		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:13:9-36
+		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:13:9-36
 	android:targetPackage
-		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:15:9-54
+		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:15:9-54
 	android:name
-		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:12:9-45
+		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:12:9-45
 service#org.godotengine.godot.GodotDownloaderService
-ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:19:9-80
+ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:19:9-80
 	android:name
-		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2f29423de5771cd0c2f475b364e10860\godot-lib.release\AndroidManifest.xml:19:18-77
+		ADDED from [godot-lib.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e62b06453a39335a64f5f2ce0e5d7c9f\godot-lib.release\AndroidManifest.xml:19:18-77
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:17:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:16:13-84
+meta-data#com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar
+ADDED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:19:17-144
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3541a983dc475f25b003dc95f30e5a76\play-services-measurement-impl-17.4.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:40:13-87
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:32:25-75
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:39:17-119
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar
+ADDED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:18:17-129
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:42:25-78
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:28:22-74
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:31:9-37:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:33:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:36:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:32:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:114:13-118:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:115:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:115:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:127:25-95
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:18:17-127
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from [com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:14:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+activity#com.unity3d.services.ads.adunit.AdUnitActivity
+ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:15:9-19:74
+	android:hardwareAccelerated
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:18:13-47
+	android:configChanges
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:17:13-170
+	android:theme
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:19:13-71
+	android:name
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:16:13-74
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentActivity
+ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:20:9-24:86
+	android:hardwareAccelerated
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:23:13-47
+	android:configChanges
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:22:13-170
+	android:theme
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:24:13-83
+	android:name
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:21:13-85
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity
+ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:25:9-29:86
+	android:hardwareAccelerated
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:28:13-48
+	android:configChanges
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:27:13-170
+	android:theme
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:29:13-83
+	android:name
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:26:13-93
+activity#com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
+ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:30:9-34:74
+	android:hardwareAccelerated
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:33:13-48
+	android:configChanges
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:32:13-170
+	android:theme
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:34:13-71
+	android:name
+		ADDED from [com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:31:13-82

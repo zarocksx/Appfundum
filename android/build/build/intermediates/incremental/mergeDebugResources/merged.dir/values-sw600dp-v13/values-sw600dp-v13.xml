@@ -8,4 +8,6 @@
     <dimen name="abc_config_prefDialogWidth">580dp</dimen>
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <item format="float" name="dialogHeightPct" type="dimen">0.80</item>
+    <item format="float" name="dialogWidthPct" type="dimen">0.75</item>
 </resources>

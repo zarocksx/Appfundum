@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "286047253513",
+    "firebase_url": "https://appfundum-1.firebaseio.com",
+    "project_id": "appfundum-1",
+    "storage_bucket": "appfundum-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286047253513:android:b4b2445bd4de0b99ee34d8",
+        "android_client_info": {
+          "package_name": "com.appfundumV1.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286047253513-gur3mmtd46netiap8mfnt01eonrve0ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh849Oqyk-knlPhUb2t8kfYnWW-QsaJgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286047253513-gur3mmtd46netiap8mfnt01eonrve0ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

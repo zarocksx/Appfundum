@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_job_service_default">true</bool>
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="android:TextAppearance.Material.Widget.ActionBar.Menu"/>
     <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="android:TextAppearance.Material.Widget.Button.Inverse"/>
     <style name="Base.Theme.AppCompat" parent="Base.V23.Theme.AppCompat"/>
@@ -45,5 +47,8 @@
     <style name="Base.Widget.AppCompat.TextView" parent="android:Widget.Material.TextView">
         <item name="android:hyphenationFrequency">none</item>
         <item name="android:breakStrategy">high_quality</item>
+    </style>
+    <style name="CardView" parent="Base.CardView">
+        <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
     </style>
 </resources>
