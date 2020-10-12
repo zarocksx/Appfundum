@@ -1,0 +1,857 @@
+[gd_scene load_steps=26 format=2]
+
+[ext_resource path="res://assets/graph/cercles/ISIB.png" type="Texture" id=1]
+[ext_resource path="res://assets/graph/cercles/CDF.png" type="Texture" id=2]
+[ext_resource path="res://assets/graph/cercles/IMC.png" type="Texture" id=3]
+[ext_resource path="res://assets/graph/cercles/ACS.png" type="Texture" id=4]
+[ext_resource path="res://assets/graph/cercles/CPG.png" type="Texture" id=5]
+[ext_resource path="res://assets/graph/cercles/CSL.png" type="Texture" id=6]
+[ext_resource path="res://assets/graph/cercles/CCS.png" type="Texture" id=7]
+[ext_resource path="res://assets/UI/button/IconValidate.png" type="Texture" id=8]
+[ext_resource path="res://assets/graph/cercles/CPC.png" type="Texture" id=9]
+[ext_resource path="res://assets/graph/cercles/CMH.png" type="Texture" id=10]
+[ext_resource path="res://assets/UI/button/IconMoney.png" type="Texture" id=11]
+[ext_resource path="res://assets/graph/cercles/CERIA.png" type="Texture" id=12]
+[ext_resource path="res://fonts/Comfortaa/Comfortaa-Regular.ttf" type="DynamicFontData" id=13]
+[ext_resource path="res://assets/graph/cercles/CEI.png" type="Texture" id=14]
+[ext_resource path="res://assets/graph/cercles/CH.png" type="Texture" id=15]
+
+[sub_resource type="DynamicFont" id=1]
+size = 96
+use_filter = true
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 48
+use_filter = true
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 72
+use_filter = true
+font_data = ExtResource( 13 )
+
+[sub_resource type="StreamTexture" id=4]
+flags = 4
+load_path = "res://.import/CEMA.png-3018dedf83630fac853d8e42604a82c1.stex"
+
+[sub_resource type="DynamicFont" id=5]
+size = 72
+use_filter = true
+font_data = ExtResource( 13 )
+
+[sub_resource type="StreamTexture" id=6]
+flags = 4
+load_path = "res://.import/CIESSID.png-69e0f81afc0be4bc5423a8707ec306c7.stex"
+
+[sub_resource type="DynamicFont" id=7]
+size = 72
+use_filter = true
+font_data = ExtResource( 13 )
+
+[sub_resource type="StreamTexture" id=8]
+flags = 4
+load_path = "res://.import/LUKOT.png-7fdf3d327e5506bf4acd4d45a0e87a6a.stex"
+
+[sub_resource type="DynamicFont" id=9]
+size = 72
+use_filter = true
+font_data = ExtResource( 13 )
+
+[sub_resource type="StreamTexture" id=10]
+flags = 4
+load_path = "res://.import/OMEGA.png-d54cf27ac0ba1d60560bfa0e4f364950.stex"
+
+[node name="ThemeList" type="GridContainer"]
+anchor_right = 0.999
+anchor_bottom = 1.0
+margin_top = 311.0
+margin_right = 0.139893
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+margin_right = 1138.0
+margin_bottom = 1949.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+scroll_horizontal_enabled = false
+
+[node name="ItemList" type="VBoxContainer" parent="ScrollContainer"]
+margin_right = 1138.0
+margin_bottom = 900.0
+size_flags_horizontal = 3
+custom_constants/separation = 60
+
+[node name="CEI" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_right = 1114.0
+margin_bottom = 200.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CEI"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "CEI"
+icon = ExtResource( 14 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CEI"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+collapsed = true
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CEI/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CEI/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+focus_mode = 0
+size_flags_horizontal = 3
+disabled = true
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="CH" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 260.0
+margin_right = 1114.0
+margin_bottom = 460.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CH"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "CH"
+icon = ExtResource( 15 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CH"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CH/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CH/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="CCS" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 520.0
+margin_right = 1114.0
+margin_bottom = 720.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CCS"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "CCS"
+icon = ExtResource( 7 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CCS"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CCS/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CCS/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="CDF" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 780.0
+margin_right = 1114.0
+margin_bottom = 980.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CDF"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "CDF"
+icon = ExtResource( 2 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CDF"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CDF/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CDF/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="CEMA" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 1040.0
+margin_right = 1114.0
+margin_bottom = 1240.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CEMA"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 3 )
+custom_constants/hseparation = 50
+text = "CEMA"
+icon = SubResource( 4 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CEMA"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CEMA/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CEMA/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="CERIA" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 1300.0
+margin_right = 1114.0
+margin_bottom = 1500.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CERIA"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "CERIA"
+icon = ExtResource( 12 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CERIA"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CERIA/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CERIA/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="CIESSID" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 1560.0
+margin_right = 1114.0
+margin_bottom = 1760.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CIESSID"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 5 )
+custom_constants/hseparation = 50
+text = "CIESSID"
+icon = SubResource( 6 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CIESSID"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CIESSID/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CIESSID/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="CMH" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 1820.0
+margin_right = 1114.0
+margin_bottom = 2020.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CMH"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "CMH"
+icon = ExtResource( 10 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CMH"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CMH/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CMH/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="CPC" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 2080.0
+margin_right = 1114.0
+margin_bottom = 2280.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CPC"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "CPC"
+icon = ExtResource( 9 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CPC"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CPC/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CPC/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="CPG" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 2340.0
+margin_right = 1114.0
+margin_bottom = 2540.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CPG"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "CPG"
+icon = ExtResource( 5 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CPG"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CPG/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CPG/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="CSL" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 2600.0
+margin_right = 1114.0
+margin_bottom = 2800.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/CSL"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "CSL"
+icon = ExtResource( 6 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/CSL"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/CSL/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/CSL/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="IMC" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 2860.0
+margin_right = 1114.0
+margin_bottom = 3060.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/IMC"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "IMC"
+icon = ExtResource( 3 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/IMC"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/IMC/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/IMC/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="ISIB" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 3120.0
+margin_right = 1114.0
+margin_bottom = 3320.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/ISIB"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "ISIB"
+icon = ExtResource( 1 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/ISIB"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/ISIB/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/ISIB/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="LUKOT" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 3380.0
+margin_right = 1114.0
+margin_bottom = 3580.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/LUKOT"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 7 )
+custom_constants/hseparation = 50
+text = "LUKOT"
+icon = SubResource( 8 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/LUKOT"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/LUKOT/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/LUKOT/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="OMEGA" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 3640.0
+margin_right = 1114.0
+margin_bottom = 3840.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/OMEGA"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 9 )
+custom_constants/hseparation = 50
+text = "OMEGA"
+icon = SubResource( 10 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/OMEGA"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/OMEGA/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/OMEGA/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5
+
+[node name="ACS" type="HSplitContainer" parent="ScrollContainer/ItemList"]
+margin_top = 3900.0
+margin_right = 1114.0
+margin_bottom = 4100.0
+mouse_filter = 1
+dragger_visibility = 1
+
+[node name="Logo" type="Button" parent="ScrollContainer/ItemList/ACS"]
+margin_right = 545.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 0, 200 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_constants/hseparation = 50
+text = "ACS"
+icon = ExtResource( 4 )
+flat = true
+align = 0
+expand_icon = true
+
+[node name="Shop" type="HSplitContainer" parent="ScrollContainer/ItemList/ACS"]
+margin_left = 569.0
+margin_right = 1114.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+dragger_visibility = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/ItemList/ACS/Shop"]
+margin_top = 72.0
+margin_right = 260.0
+margin_bottom = 127.0
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "2.99€"
+align = 2
+
+[node name="Action" type="TextureButton" parent="ScrollContainer/ItemList/ACS/Shop"]
+margin_left = 284.0
+margin_right = 545.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 8 )
+expand = true
+stretch_mode = 5

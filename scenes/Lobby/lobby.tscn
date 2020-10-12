@@ -9,7 +9,7 @@
 [ext_resource path="res://assets/UI/bottom_screen.svg" type="Texture" id=7]
 [ext_resource path="res://assets/UI/button/IconGear.png" type="Texture" id=8]
 [ext_resource path="res://assets/graph/cercles/CEI.png" type="Texture" id=9]
-[ext_resource path="res://scenes/ThemePopup/ThemePopup.tscn" type="PackedScene" id=10]
+[ext_resource path="res://scenes/Popup/Blank/Popup.tscn" type="PackedScene" id=10]
 [ext_resource path="res://fonts/Comfortaa/Comfortaa-Regular.ttf" type="DynamicFontData" id=11]
 
 [sub_resource type="DynamicFont" id=1]
@@ -240,6 +240,6 @@ __meta__ = {
 [connection signal="player_added" from="ScrollContainer/VBoxContainer/PlayerNameBox" to="." method="_on_player_added"]
 [connection signal="pressed" from="TextureButton" to="ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_TextureButton_pressed"]
 [connection signal="pressed" from="start" to="ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_start_pressed"]
-[connection signal="pressed" from="Logo" to="Logo" method="_on_Logo_pressed"]
 [connection signal="pressed" from="Logo" to="ThemePopup" method="_on_Logo_pressed"]
+[connection signal="pressed" from="Logo" to="Logo" method="_on_Logo_pressed"]
 [connection signal="pressed" from="settings" to="." method="_on_settings_pressed"]

@@ -59,14 +59,20 @@ func event_start():
 			for i in event.players.size():
 				selectedPlayer = event.players[i]
 				
-				text_final = text_final.format({ str(i+1): selectedPlayer });
+				text_final = text_final.format({ str(i+1): selectedPlayer })
 				print('players :' , i)
 				print(text_final)
 			print('player name',selectedPlayer)
 			
-			VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0));
+			VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0))
 			set_text(text_final);
 		return true
+
+
+func get_random_letter():
+	var alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+	alphabet.shuffle()
+	return alphabet[0].to_upper()
 
 
 func set_sentence():
@@ -78,10 +84,11 @@ func set_sentence():
 		S = global.get_random_player();
 
 	var text_final = $json.pick_sentence();
+
 	text_final = text_final.format({"P": P}); # P = player
 	text_final = text_final.format({"S": S}); # S = second player
-
 	text_final = text_final.format({"C": $cercles.pick_sentence()}); # C = cercle
+	text_final = text_final.format({"L": get_random_letter()}); # L = letter ( random )
 	
 	global.next_turn()
 	set_text(text_final);
@@ -93,5 +100,3 @@ func checkJson():
 		line_ready = $json.load_data();
 		cercles_ready = $cercles.load_data();
 		events_ready = $events.load_data();
-
-	pass

@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://scenes/Settings/settings.gd" type="Script" id=1]
 [ext_resource path="res://assets/style/menu_text_input.tres" type="StyleBox" id=2]
@@ -21,8 +21,6 @@ corner_radius_bottom_right = 50
 corner_radius_bottom_left = 50
 corner_detail = 20
 anti_aliasing_size = 5
-
-[sub_resource type="StyleBoxTexture" id=2]
 
 [node name="settings" type="Control"]
 margin_left = 2.51746
@@ -86,20 +84,6 @@ custom_styles/disabled = ExtResource( 2 )
 custom_styles/normal = SubResource( 1 )
 custom_fonts/font = ExtResource( 3 )
 text = "Faire une proposition"
-clip_text = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="CheckButton" type="CheckButton" parent="."]
-visible = false
-margin_left = 342.147
-margin_top = 1216.31
-margin_right = 1132.15
-margin_bottom = 1375.31
-custom_styles/normal = SubResource( 2 )
-custom_fonts/font = ExtResource( 3 )
-text = "Mode Hard"
 clip_text = true
 __meta__ = {
 "_edit_use_anchors_": false
