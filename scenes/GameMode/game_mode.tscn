@@ -249,5 +249,6 @@ __meta__ = {
 }
 [connection signal="pressed" from="title/Fossile" to="." method="_on_Fossile_pressed"]
 [connection signal="pressed" from="title/Fossile/TextureButton" to="." method="_on_Fossile_pressed"]
+[connection signal="pressed" from="title/ACS/TextureButton" to="." method="_on_ACS_pressed"]
 [connection signal="pressed" from="back" to="." method="_on_back_pressed"]
 [connection signal="pressed" from="settings" to="." method="_on_settings_pressed"]

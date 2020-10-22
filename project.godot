@@ -50,7 +50,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "godot-sqlite", "ui_design_tool", "zylann.project_stats" )
+enabled=PoolStringArray( "ui_design_tool", "zylann.project_stats" )
 
 [filesystem]
 

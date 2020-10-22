@@ -6,5 +6,5 @@ func _ready():
 	self.visible = true
 
 func _on_Close_pressed():
-	self.visible = false
-	self.queue_free()
+	if self.is_inside_tree():
+		self.queue_free()
