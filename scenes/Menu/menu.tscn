@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://scenes/Menu/AnimationPlayer.gd" type="Script" id=1]
 [ext_resource path="res://assets/UI/pattern/pattern82.png" type="Texture" id=2]
@@ -8,7 +8,8 @@
 [ext_resource path="res://scenes/Lobby/lobby.tscn" type="PackedScene" id=6]
 [ext_resource path="res://scenes/Settings/settings.tscn" type="PackedScene" id=7]
 [ext_resource path="res://scenes/Popup/InfoPopup/InfoPopup.tscn" type="PackedScene" id=8]
-[ext_resource path="res://scenes/customNode/Tracker/Tracker.gd" type="Script" id=9]
+[ext_resource path="res://Achievements/UI/AchievementInterface.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Achievements/Scripts/AchievementManager.gd" type="Script" id=10]
 
 [sub_resource type="Shader" id=1]
 code = "shader_type canvas_item;
@@ -369,10 +370,13 @@ use_threads = true
 [node name="game_mode" parent="." instance=ExtResource( 5 )]
 visible = false
 
-[node name="InfoPopup" parent="." instance=ExtResource( 8 )]
+[node name="archievement" type="Node" parent="."]
+script = ExtResource( 10 )
 
-[node name="Tracker" type="Node" parent="."]
-script = ExtResource( 9 )
+[node name="Achievement System" parent="." instance=ExtResource( 9 )]
+margin_top = 1834.0
+
+[node name="InfoPopup" parent="." instance=ExtResource( 8 )]
 [connection signal="show_mode" from="lobby" to="AnimationPlayer" method="_on_lobby_show_mode"]
 [connection signal="show_settings" from="lobby" to="AnimationPlayer" method="_on_lobby_show_settings"]
 [connection signal="menu_pressed" from="settings" to="AnimationPlayer" method="_on_menu_pressed"]

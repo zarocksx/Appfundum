@@ -1,0 +1,130 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Achievements/UI/AchievementInterface.gd" type="Script" id=1]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.136719, 0.134867, 0.132446, 1 )
+border_color = Color( 0, 0, 0, 1 )
+shadow_color = Color( 0.00390625, 0.00390625, 0.00390625, 0.6 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.800781, 0.22522, 0.22522, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.74902, 0.215686, 0.121569, 1 )
+
+[node name="Achievement System" type="MarginContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_right = 30
+custom_constants/margin_top = 30
+custom_constants/margin_left = 30
+custom_constants/margin_bottom = 30
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="Panel" parent="."]
+margin_left = 30.0
+margin_top = 30.0
+margin_right = 1410.0
+margin_bottom = 2530.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="Layout" type="VBoxContainer" parent="Background"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TitleBar" type="Panel" parent="Background/Layout"]
+margin_right = 1380.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 30 )
+custom_styles/panel = SubResource( 2 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Background/Layout/TitleBar"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="Background/Layout/TitleBar/HBoxContainer"]
+margin_right = 1342.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/margin_right = 0
+custom_constants/margin_top = 0
+custom_constants/margin_left = 5
+custom_constants/margin_bottom = 0
+
+[node name="Label" type="Label" parent="Background/Layout/TitleBar/HBoxContainer/MarginContainer"]
+margin_left = 5.0
+margin_top = 2.0
+margin_right = 1342.0
+margin_bottom = 27.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+custom_colors/font_color = Color( 1, 1, 1, 0.762431 )
+text = "Achievements"
+valign = 1
+
+[node name="Button" type="Button" parent="Background/Layout/TitleBar/HBoxContainer"]
+margin_left = 1350.0
+margin_right = 1380.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 30, 0 )
+size_flags_vertical = 3
+custom_styles/hover = SubResource( 3 )
+custom_styles/normal = SubResource( 4 )
+
+[node name="Label" type="Label" parent="Background/Layout/TitleBar/HBoxContainer/Button"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "x"
+align = 1
+valign = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="Background/Layout"]
+margin_top = 30.0
+margin_right = 1380.0
+margin_bottom = 2500.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/margin_right = 0
+custom_constants/margin_top = 0
+custom_constants/margin_left = 0
+custom_constants/margin_bottom = 0
+
+[node name="Panel" type="Panel" parent="Background/Layout/MarginContainer"]
+margin_right = 1380.0
+margin_bottom = 2470.0
+
+[node name="MarginContainer" type="MarginContainer" parent="Background/Layout/MarginContainer/Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_right = 5
+custom_constants/margin_top = 5
+custom_constants/margin_left = 5
+custom_constants/margin_bottom = 5
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Background/Layout/MarginContainer/Panel/MarginContainer"]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 1375.0
+margin_bottom = 2465.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Background/Layout/MarginContainer/Panel/MarginContainer/ScrollContainer"]
+margin_right = 1370.0
+margin_bottom = 2460.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+[connection signal="pressed" from="Background/Layout/TitleBar/HBoxContainer/Button" to="." method="_on_Button_pressed"]

@@ -92,10 +92,13 @@ text = "Attention !
 
 En continuant, vous confirmez être résponsable de vous même et de vos actions.
 
-Vous pouvez jouer avec de l'eau.
+Vous pouvez jouer avec des boissons non-alcoolisées.
 "
 align = 1
 valign = 1
 autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="ThemePopup/Background/Close" to="ThemePopup" method="_on_Close_pressed"]
 [connection signal="pressed" from="ThemePopup/Background/Close" to="." method="_on_Close_pressed"]
