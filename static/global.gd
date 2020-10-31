@@ -67,7 +67,7 @@ func set_game_started():
 	print("start game");
 	get_tree().change_scene_to(game);
 	analytics.start_game_timer();
-	#notif.addNotif("Appfundum", "Avez-vous apprecié Appfundum? \n Donnez nous votre avis", 300)
+	notif.addNotif("Appfundum", "Avez-vous apprecié Appfundum? \n Donnez nous votre avis", 300);
 
 
 func add_event(event):
@@ -98,6 +98,12 @@ func next_turn():
 	if turn % 5 == 0 :
 		firebase.update_analytics()
 	return turn
+
+func get_screen_orientation():
+	if game_state == 1:
+		return 'landscape'
+	else:
+		return 'portrait'
 
 
 func screen_metrics():

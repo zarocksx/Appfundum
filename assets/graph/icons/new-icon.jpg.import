@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/some-achievement-picture.png-3e288412e1771eafd7f74ed8abfa6320.stex"
+path="res://.import/new-icon.jpg-ecf5db582904020067961a9d9c92809b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Achievements/Images/some-achievement-picture.png"
-dest_files=[ "res://.import/some-achievement-picture.png-3e288412e1771eafd7f74ed8abfa6320.stex" ]
+source_file="res://assets/graph/icons/new-icon.jpg"
+dest_files=[ "res://.import/new-icon.jpg-ecf5db582904020067961a9d9c92809b.stex" ]
 
 [params]
 

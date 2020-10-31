@@ -539,7 +539,7 @@ __meta__ = {
 [connection signal="text_changed" from="AddPlayerInput" to="AddPlayerInput/TextureButton" method="_on_AddPlayerInput_text_changed"]
 [connection signal="addPlayer" from="AddPlayerInput/TextureButton" to="Label/AnimationPlayer" method="_on_TextureButton_addPlayer"]
 [connection signal="pressed" from="AddPlayerInput/TextureButton" to="AddPlayerInput/TextureButton" method="_on_TextureButton_pressed"]
-[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Button" to="Label" method="_on_Button_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Button" to="Label/AnimationPlayer" method="_on_Button_pressed"]
 [connection signal="pressed" from="AddPlayerMenu" to="Label/AnimationPlayer" method="_on_AddPlayerMenu_pressed"]

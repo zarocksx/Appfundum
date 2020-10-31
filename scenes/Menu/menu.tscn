@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://scenes/Menu/AnimationPlayer.gd" type="Script" id=1]
 [ext_resource path="res://assets/UI/pattern/pattern82.png" type="Texture" id=2]
@@ -8,8 +8,6 @@
 [ext_resource path="res://scenes/Lobby/lobby.tscn" type="PackedScene" id=6]
 [ext_resource path="res://scenes/Settings/settings.tscn" type="PackedScene" id=7]
 [ext_resource path="res://scenes/Popup/InfoPopup/InfoPopup.tscn" type="PackedScene" id=8]
-[ext_resource path="res://Achievements/UI/AchievementInterface.tscn" type="PackedScene" id=9]
-[ext_resource path="res://Achievements/Scripts/AchievementManager.gd" type="Script" id=10]
 
 [sub_resource type="Shader" id=1]
 code = "shader_type canvas_item;
@@ -330,10 +328,11 @@ tracks/5/keys = {
 ]]
 self_modulate = Color( 1, 0.831373, 0.164706, 1 )
 material = SubResource( 2 )
-margin_right = 1437.0
-margin_bottom = 2561.0
+margin_right = 1440.0
+margin_bottom = 2560.0
 texture = ExtResource( 2 )
 stretch_mode = 2
+flip_h = true
 flip_v = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -369,12 +368,6 @@ use_threads = true
 
 [node name="game_mode" parent="." instance=ExtResource( 5 )]
 visible = false
-
-[node name="archievement" type="Node" parent="."]
-script = ExtResource( 10 )
-
-[node name="Achievement System" parent="." instance=ExtResource( 9 )]
-margin_top = 1834.0
 
 [node name="InfoPopup" parent="." instance=ExtResource( 8 )]
 [connection signal="show_mode" from="lobby" to="AnimationPlayer" method="_on_lobby_show_mode"]

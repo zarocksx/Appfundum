@@ -1,10 +1,10 @@
-#Mon Oct 12 13:46:03 CEST 2020
-base.2=F\:\\godot\\Appfundum-3.2.3\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes3.dex
+#Fri Oct 30 18:00:35 CET 2020
 path.2=classes3.dex
-base.1=F\:\\godot\\Appfundum-3.2.3\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes2.dex
 path.1=classes2.dex
-base.0=F\:\\godot\\Appfundum-3.2.3\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-path.0=classes.dex
+base.2=F\:\\godot\\Appfundum-3.2.3\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes3.dex
+base.1=F\:\\godot\\Appfundum-3.2.3\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes2.dex
+base.0=F\:\\godot\\Appfundum-3.2.3\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
