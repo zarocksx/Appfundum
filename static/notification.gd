@@ -1,12 +1,13 @@
 extends Node
 
+
 var localNotification = null
 var tagCounter = 0;
+
 
 func _ready():
 	if(Engine.has_singleton("GodotLocalNotification")):
 		localNotification = Engine.get_singleton("GodotLocalNotification")
-	print("NOTIFICATION")
 
 
 func addNotif( title = "", body = "", interval = 1):

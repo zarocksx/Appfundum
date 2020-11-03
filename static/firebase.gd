@@ -1,5 +1,6 @@
 extends Node
 
+
 const API_KEY = "AIzaSyDSVyawCG-_Fl2-JflunVrZRnlbknAaHKY";
 const PROJECT_ID = "appfundum-1";
 const LOGIN_A := "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=%s" % API_KEY;
@@ -8,6 +9,7 @@ const FIRESTORE_BASE_URL := "https://firestore.googleapis.com/v1/";
 
 var curent_analytics;
 var user_info = {};
+
 
 func _ready():
 	if OS.is_debug_build() : return
@@ -48,7 +50,7 @@ func anonymous_register():
 		user_info = _get_user_info(result);
 
 
-func save_analytics() :
+func save_analytics():
 	if OS.is_debug_build() : return
 	var fields = analytics.get_analytics_fields();
 	var path = "analytics";
@@ -58,23 +60,23 @@ func save_analytics() :
 	get_http("_save_complete").request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body );
 
 
-func update_analytics() :
+func update_analytics():
 	if OS.is_debug_build() : return
 	var fields = analytics.get_analytics_fields();
 	var path = "analytics";
 	var document = {"fields": fields};
 	var body = to_json(document);
 	var url = FIRESTORE_BASE_URL + analytics.curent_analytics;
-	print(analytics.curent_analytics)
+	push_warning(analytics.curent_analytics)
 	get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_PATCH, body);
 
 
-func save_document(path: String, fields: Dictionary) :
+func save_document(path: String, fields: Dictionary):
 	if OS.is_debug_build() : return
 	var document = {"fields" : fields};
 	var body = to_json(document);
 	var url = FIRESTORE_URL + path;
-	print(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body));
+	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body));
 
 
 func update_document(path: String, fields:Dictionary):
@@ -82,38 +84,38 @@ func update_document(path: String, fields:Dictionary):
 	var document = { "fields" : fields };
 	var body = to_json(document);
 	var url = FIRESTORE_URL + path;
-	print(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_PATCH, body));
+	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_PATCH, body));
 
 
-func get_document(path: String) :
+func get_document(path: String):
 	var url = FIRESTORE_URL + path;
-	print(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_GET));
+	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_GET));
 
 
 func delete_document(path: String):
 	var url = FIRESTORE_URL + path;
-	print(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_DELETE));
+	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_DELETE));
 
 
 func _request_completed(result: int, response_code: int, headers: PoolStringArray, body: PoolByteArray):
 	match response_code:
 		404:
-			print("response error 404")
-			print(body.get_string_from_ascii())
+			push_warning("response error 404")
+			push_warning(body.get_string_from_ascii())
 		200:
-			print("response successfull")
+			push_warning("response successfull")
 		_:
-			print(body.get_string_from_ascii())
+			push_warning(body.get_string_from_ascii())
 
 
 func _save_complete(result: int, response_code: int, headers: PoolStringArray, body: PoolByteArray):
 	match response_code :
 		404:
-			print("response error 404")
-			print(JSON.parse( body.get_string_from_ascii() ).result)
+			push_warning("response error 404")
+			push_warning(JSON.parse( body.get_string_from_ascii() ).result)
 		200:
-			print("response successfull")
+			push_warning("response successfull")
 			analytics.curent_analytics = JSON.parse( body.get_string_from_ascii() ).result.name
 		_:
-			print(body.get_string_from_ascii())
-			print(analytics.get_analytics_fields())
+			push_warning(body.get_string_from_ascii())
+			push_warning(analytics.get_analytics_fields())

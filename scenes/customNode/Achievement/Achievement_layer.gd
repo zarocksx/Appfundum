@@ -1,6 +1,8 @@
 extends CanvasLayer
 
+
 onready var panel = $Panel
+
 
 func _ready():
 	set_layer(999)
@@ -9,6 +11,7 @@ func _ready():
 func set_caption(title, description):
 	panel.set_title(title)
 	panel.set_description(description)
+
 
 func show():
 	if global.game_state != 1:

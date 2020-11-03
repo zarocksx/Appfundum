@@ -1,27 +1,29 @@
 extends Node
 
+
 var text = "hello"
+
 
 func setBackgroundColor(colorSelected = "default"):
 	var theme = themeStore.getThemeValues(themeStore.getCurrentTheme())
 	var defaultColor = "#ffffff"
-	match colorSelected :
-		"default" :
+	match colorSelected:
+		"default":
 			defaultColor = theme.main
 	VisualServer.set_default_clear_color(Color(defaultColor))
 	pass;
+
 
 func nextTheme():
 	var themes = themeStore.getThemes();
 	themes.sort();
 	var currentThemePos = themes.bsearch(themeStore.getCurrentTheme())
 	if (currentThemePos+1) < (themes.size()): # si le theme n'est pas le dernier theme de la liste de themes trié, renvoye le suivant
-		print(themes[currentThemePos+1])
 		themeStore.setCurrentTheme(themes[currentThemePos+1])
 	else : # Si pas de theme suivant, passe au premier theme, si il n'y a qu'un theme il renverra toujours le même theme
-		print(themes[0])
 		themeStore.setCurrentTheme(themes[0]);
 	actualize_theme()
+
 
 func actualize_theme():
 	setBackgroundColor()
@@ -41,4 +43,3 @@ func actualize_theme():
 	for element in themedtheme:
 		element.set_style(secondary,subSecondary)
 	#TODO: update each element who is affected by the theme
-	pass

@@ -1,8 +1,10 @@
 extends Node
-onready var current_achievement_item = preload('res://scenes/customNode/Achievement/Achievement_item_vertical.tscn').instance();
-var achievement_list = 'res://assets/data/Appfundum_achievement.json';
 
+
+var achievement_list = 'res://assets/data/Appfundum_achievement.json';
 var achievements
+
+onready var current_achievement_item = preload('res://scenes/customNode/Achievement/Achievement_item_vertical.tscn').instance();
 
 
 func _ready():
@@ -19,12 +21,11 @@ func load_achievment():
 	var achievements_file = File.new();
 	if not achievements_file.file_exists(achievement_list):
 		printerr("no Achievement found", achievement_list)
-		return false;
-	achievements_file.open(achievement_list, File.READ);
-	achievements = parse_json(achievements_file.get_as_text());
-	print(achievements)
+		return
+	achievements_file.open(achievement_list, File.READ)
+	achievements = parse_json(achievements_file.get_as_text())
 	achievements_file.close()
-	return true;
+
 
 
 func save_achievement():
@@ -44,11 +45,11 @@ func increment_achievement(achievement_name, amount):
 		achievements[achievement_name].progress.value += amount
 		check_step(achievement_name)
 	else :
-		print("no archievement with this name")
+		push_warning("No archievement with this name found")
 
 
 func check_step(achievement_name):
-	if achievements[achievement_name].progress.value >= achievements[achievement_name].total.value && not achievements[achievement_name].total.done:
+	if achievements[achievement_name].progress.value >= achievements[achievement_name].total.value and not achievements[achievement_name].total.done:
 		var achievement = achievements[achievement_name].desc
 		achievements[achievement_name].total.done = true
 		show_current_achievement_item(achievement.name, achievement.desc)

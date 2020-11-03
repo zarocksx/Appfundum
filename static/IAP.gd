@@ -1,6 +1,8 @@
 extends Node
 
+
 var payment
+
 
 func _ready():
     if Engine.has_singleton("GodotGooglePlayBilling"):
@@ -22,4 +24,4 @@ func _ready():
 
         payment.startConnection()
     else:
-        print("Android IAP support is not enabled. Make sure you have enabled 'Custom Build' and the GodotGooglePlayBilling plugin in your Android export settings! IAP will not work.")
+        push_error("Android IAP support is not enabled. Make sure you have enabled 'Custom Build' and the GodotGooglePlayBilling plugin in your Android export settings! IAP will not work.")

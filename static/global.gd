@@ -1,17 +1,16 @@
 extends Node
 
+
 var players = [];
 var game_state = 0; # 0 = in menu / 1 = in progress / 2 = finished
 var events_allowed = true;
 var events_active = [];
-var game = preload("res://scenes/Game/game.tscn");
-var menu = preload("res://scenes/Menu/menu.tscn");
 var turn = 0
 var gameMode = 0 # fossile=0 classic=1 ACS=2 ACE=3
 
-var gameParam = {
-	
-}
+onready var game = preload("res://scenes/Game/game.tscn");
+onready var menu = preload("res://scenes/Menu/menu.tscn");
+
 
 func add_players(player):
 	players.push_front(player);

@@ -2,20 +2,6 @@
 <issues format="5" by="lint 3.5.3">
 
     <issue
-        id="ObsoleteLintCustomCheck"
-        severity="Warning"
-        message="Lint found an issue registry (`androidx.work.lint.WorkManagerIssueRegistry`) which is older than the current API level; these checks may not work correctly.&#xA;&#xA;Recompile the checks against the latest version. Custom check API version is 3 (3.3), current lint API level is 5 (3.5+)"
-        category="Lint"
-        priority="10"
-        summary="Obsolete custom lint check"
-        explanation="Lint can be extended with &quot;custom checks&quot;: additional checks implemented by developers and libraries to for example enforce specific API usages required by a library or a company coding style guideline.&#xA;&#xA;The Lint APIs are not yet stable, so these checks may either cause a performance degradation, or stop working, or provide wrong results.&#xA;&#xA;This warning flags custom lint checks that are found to be using obsolete APIs and will need to be updated to run in the current lint environment.&#xA;&#xA;It may also flag issues found to be using a **newer** version of the API, meaning that you need to use a newer version of lint (or Android Studio or Gradle plugin etc) to work with these checks."
-        includedVariants="debug"
-        excludedVariants="release">
-        <location
-            file="C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\jars\lint.jar"/>
-    </issue>
-
-    <issue
         id="VectorRaster"
         severity="Warning"
         message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more"

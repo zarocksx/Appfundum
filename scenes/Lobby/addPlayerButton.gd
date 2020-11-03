@@ -1,7 +1,9 @@
 extends TextureButton
+
 signal addPlayer
 
 var playerName
+
 
 func _on_AddPlayerInput_text_changed(new_text):
 	playerName = get_node("..").text

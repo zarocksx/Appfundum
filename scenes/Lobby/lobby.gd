@@ -3,6 +3,7 @@ extends Control
 signal show_settings
 signal show_mode
 
+
 func _ready():
 	firebase.anonymous_register();
 
@@ -23,7 +24,5 @@ func _on_settings_pressed():
 
 func _on_HTTPRequest_request_completed(result: int, response_code: int, headers: PoolStringArray, body: PoolByteArray):
 	var response = JSON.parse(body.get_string_from_ascii());
-	if response_code != 200 && response_code:
-		print("error response : ",response_code);
-	else:
-		print("request completed : ");
+	if response_code != 200 and response_code:
+		push_warning("error response : ",response_code);

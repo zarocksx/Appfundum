@@ -1,6 +1,8 @@
 extends AnimationPlayer
 
+
 var isLobby = true
+
 
 func _on_lobby_show_settings():
     show_settings()
@@ -31,11 +33,9 @@ func show_game_mode():
     play("game_mode")
 
 
-
 func show_menu():
     play("menu")
 
 
 func show_settings():
     play("settings")
-

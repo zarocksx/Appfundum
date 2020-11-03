@@ -1,7 +1,9 @@
 extends Control
 
+
 signal settings
 signal menu
+
 
 func _on_Fossile_pressed():
 	global.gameMode = 0
