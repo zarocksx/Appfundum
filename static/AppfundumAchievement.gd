@@ -7,7 +7,6 @@ var achievements
 
 func _ready():
 	add_child(current_achievement_item)
-	show_current_achievement_item("test", "descTest")
 	load_achievment()
 
 
@@ -24,7 +23,20 @@ func load_achievment():
 	achievements_file.open(achievement_list, File.READ);
 	achievements = parse_json(achievements_file.get_as_text());
 	print(achievements)
+	achievements_file.close()
 	return true;
+
+
+func save_achievement():
+	var achievements_file = File.new();
+	if not achievements_file.file_exists(achievement_list):
+		printerr("no Achievement found", achievement_list)
+		return false;
+	achievements_file.open(achievement_list, File.READ_WRITE);
+	if achievements_file.is_open():
+		achievements_file.store_string(to_json(achievements))
+		achievements_file.close()
+
 
 
 func increment_achievement(achievement_name, amount):
@@ -40,3 +52,4 @@ func check_step(achievement_name):
 		var achievement = achievements[achievement_name].desc
 		achievements[achievement_name].total.done = true
 		show_current_achievement_item(achievement.name, achievement.desc)
+	save_achievement()
