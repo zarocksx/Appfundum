@@ -15,7 +15,6 @@ func _on_start_pressed():
 	for child in get_children():
 		if child is LineEdit :
 			child.get_text_value()
-		else :
 	emit_signal("player_added")
 
 

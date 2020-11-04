@@ -1,9 +1,6 @@
 extends Node
 
 
-var text = "hello"
-
-
 func setBackgroundColor(colorSelected = "default"):
 	var theme = themeStore.getThemeValues(themeStore.getCurrentTheme())
 	var defaultColor = "#ffffff"

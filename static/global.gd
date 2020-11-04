@@ -14,6 +14,8 @@ onready var menu = preload("res://scenes/Menu/menu.tscn");
 
 func add_players(player):
 	players.push_front(player);
+	if players.size() > 4:
+		AppfundumAchievement.increment_achievement("fiveOrMorePlayer", 1)
 
 
 func get_players(pos):
@@ -45,7 +47,7 @@ func get_event_active(index: int):
 	return events_active[index];
 
 
-func is_event_active() :
+func is_event_active():
 	if events_active.empty():
 		return false;
 	return true;
@@ -63,10 +65,11 @@ func set_game_started():
 	firebase.save_analytics();
 	game_state = 1;
 	turn = 0;
-	print("start game");
-	get_tree().change_scene_to(game);
-	analytics.start_game_timer();
-	notif.addNotif("Appfundum", "Avez-vous apprecié Appfundum? \n Donnez nous votre avis", 300);
+	if get_tree().change_scene_to(game) == OK:
+		analytics.start_game_timer();
+		notif.addNotif("Appfundum", "Avez-vous apprecié Appfundum? \n Donnez nous votre avis", 300);
+	else:
+		push_error("start_failed")
 
 
 func add_event(event):
@@ -82,8 +85,10 @@ func remove_event(index: int):
 func back_to_menu():
 	set_game_finished()
 	firebase.save_analytics()
-	get_tree().change_scene_to(menu)
-	players = []
+	if get_tree().change_scene_to(menu) == OK:
+		players = []
+	else:
+		push_error("back_failed")
 
 
 func change_background(random):

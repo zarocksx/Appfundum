@@ -96,5 +96,19 @@
                 "value": 1,
                 "done": false
             }
+        },
+        "fiveOrMorePlayer": {
+            "desc": {
+                "desc": "Jouer avec 5 joueur ou plus",
+                "name": "Plus on est de fou plus on vomit !"
+            },
+            "progress": {
+                "value": 0,
+                "consistent": true
+            },
+            "total": {
+                "value": 1,
+                "done": false
+            }
         }
     }

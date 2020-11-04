@@ -12,7 +12,8 @@ var user_info = {};
 
 
 func _ready():
-	if OS.is_debug_build() : return
+	if OS.is_debug_build():
+		return
 	anonymous_register()
 
 
@@ -42,7 +43,8 @@ func _get_request_headers():
 
 
 func anonymous_register():
-	if OS.is_debug_build() : return
+	if OS.is_debug_build():
+		return
 	var http = get_http()
 	http.request(LOGIN_A, ["Content-Length:0"], false, HTTPClient.METHOD_POST);
 	var result = yield(http, "request_completed") as Array;
@@ -51,7 +53,8 @@ func anonymous_register():
 
 
 func save_analytics():
-	if OS.is_debug_build() : return
+	if OS.is_debug_build():
+		return
 	var fields = analytics.get_analytics_fields();
 	var path = "analytics";
 	var document = {"fields": fields};
@@ -61,9 +64,9 @@ func save_analytics():
 
 
 func update_analytics():
-	if OS.is_debug_build() : return
+	if OS.is_debug_build():
+		return
 	var fields = analytics.get_analytics_fields();
-	var path = "analytics";
 	var document = {"fields": fields};
 	var body = to_json(document);
 	var url = FIRESTORE_BASE_URL + analytics.curent_analytics;
@@ -72,7 +75,8 @@ func update_analytics():
 
 
 func save_document(path: String, fields: Dictionary):
-	if OS.is_debug_build() : return
+	if OS.is_debug_build():
+		return
 	var document = {"fields" : fields};
 	var body = to_json(document);
 	var url = FIRESTORE_URL + path;
@@ -80,7 +84,8 @@ func save_document(path: String, fields: Dictionary):
 
 
 func update_document(path: String, fields:Dictionary):
-	if OS.is_debug_build() : return
+	if OS.is_debug_build():
+		return
 	var document = { "fields" : fields };
 	var body = to_json(document);
 	var url = FIRESTORE_URL + path;
@@ -97,7 +102,7 @@ func delete_document(path: String):
 	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_DELETE));
 
 
-func _request_completed(result: int, response_code: int, headers: PoolStringArray, body: PoolByteArray):
+func _request_completed(_result: int, response_code: int, _headers: PoolStringArray, body: PoolByteArray):
 	match response_code:
 		404:
 			push_warning("response error 404")
@@ -108,11 +113,11 @@ func _request_completed(result: int, response_code: int, headers: PoolStringArra
 			push_warning(body.get_string_from_ascii())
 
 
-func _save_complete(result: int, response_code: int, headers: PoolStringArray, body: PoolByteArray):
+func _save_complete(_result: int, response_code: int, _headers: PoolStringArray, body: PoolByteArray):
 	match response_code :
 		404:
-			push_warning("response error 404")
-			push_warning(JSON.parse( body.get_string_from_ascii() ).result)
+			push_error("response error 404")
+			push_error(JSON.parse( body.get_string_from_ascii() ).result)
 		200:
 			push_warning("response successfull")
 			analytics.curent_analytics = JSON.parse( body.get_string_from_ascii() ).result.name

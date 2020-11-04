@@ -22,7 +22,7 @@ func _on_settings_pressed():
 	emit_signal("show_settings");
 
 
-func _on_HTTPRequest_request_completed(result: int, response_code: int, headers: PoolStringArray, body: PoolByteArray):
-	var response = JSON.parse(body.get_string_from_ascii());
+func _on_HTTPRequest_request_completed(_result: int, response_code: int, _headers: PoolStringArray, body: PoolByteArray):
+	var _response = JSON.parse(body.get_string_from_ascii());
 	if response_code != 200 and response_code:
-		push_warning("error response : ",response_code);
+		push_warning("error response : %d" % [response_code]);
