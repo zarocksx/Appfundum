@@ -3,6 +3,7 @@ extends Panel
 
 onready var tween = $Tween
 onready var timer = $Timer
+onready var style = load("res://assets/theme/AchievmentStyle.tres")
 onready var title = $MarginContainer/HBoxContainer/Title setget set_title, get_title
 onready var description = $MarginContainer/HBoxContainer/Title setget set_description, get_description
 
@@ -22,6 +23,13 @@ func set_description(new_description):
 	description.text = new_description.to_lower()
 
 
+func set_style():
+	var color1 = themeStore.getThemeValues(themeStore.getCurrentTheme()).main
+	var color2 = themeStore.getThemeValues(themeStore.getCurrentTheme()).secondary
+	style.set_bg_color(Color(color1))
+	style.set_border_color(Color(color2))
+
+
 func get_title():
 	return title.text
 
@@ -31,6 +39,7 @@ func get_description():
 
 
 func show():
+	set_style()
 	var final_position
 	var initial_position = rect_position
 	final_position = rect_position + Vector2(0, slide_distance)

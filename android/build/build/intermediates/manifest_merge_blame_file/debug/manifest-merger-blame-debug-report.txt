@@ -62,595 +62,619 @@
 37    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 37-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:27:5-81
 37-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:27:22-78
-38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Custom user permissions XML added by add-ons. It's recommended to add them from the export preset, though. -->
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 38-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:28:5-77
 38-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:28:22-74
-39    <!-- CHUNK_USER_PERMISSIONS_BEGIN -->
-40    <!-- CHUNK_USER_PERMISSIONS_END -->
-41    <!-- Any tag in this line after android:icon will be erased when doing custom builds. -->
-42    <!-- If you want to add tags manually, do before it. -->
-43    <!-- WARNING: This should stay on a single line until the parsing code is improved. See GH-32414. -->
-44    <application
-44-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:5-72:19
-45        android:allowBackup="false"
-45-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:68-95
-46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-46-->[androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ff6c9fae18b6a4df7708f19839d56405\core-1.1.0\AndroidManifest.xml:24:18-86
-47        android:debuggable="true"
-48        android:icon="@mipmap/icon"
-48-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:136-163
-49        android:label="@string/godot_project_name_string"
-49-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:18-67
-50        android:requestLegacyExternalStorage="true" >
-50-->[godot-lib.debug.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b40d35cbfe22d6b39f903f2dbeae7a6e\godot-lib.debug\AndroidManifest.xml:18:18-61
-51
-52        <!-- The following metadata values are replaced when Godot exports, modifying them here has no effect. -->
-53        <!-- Do these changes in the export preset. Adding new ones is fine. -->
-54
+39    <uses-permission android:name="com.android.vending.BILLING" /> <!-- Custom user permissions XML added by add-ons. It's recommended to add them from the export preset, though. -->
+39-->[com.android.billingclient:billing:3.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a035e8500a2a119e38aeb24a5a11a379\billing-3.0.0\AndroidManifest.xml:10:5-67
+39-->[com.android.billingclient:billing:3.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a035e8500a2a119e38aeb24a5a11a379\billing-3.0.0\AndroidManifest.xml:10:22-64
+40    <!-- CHUNK_USER_PERMISSIONS_BEGIN -->
+41    <!-- CHUNK_USER_PERMISSIONS_END -->
+42    <!-- Any tag in this line after android:icon will be erased when doing custom builds. -->
+43    <!-- If you want to add tags manually, do before it. -->
+44    <!-- WARNING: This should stay on a single line until the parsing code is improved. See GH-32414. -->
+45    <application
+45-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:5-72:19
+46        android:allowBackup="false"
+46-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:68-95
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\ff6c9fae18b6a4df7708f19839d56405\core-1.1.0\AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:icon="@mipmap/icon"
+49-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:136-163
+50        android:label="@string/godot_project_name_string"
+50-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:30:18-67
+51        android:requestLegacyExternalStorage="true" >
+51-->[godot-lib.debug.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b40d35cbfe22d6b39f903f2dbeae7a6e\godot-lib.debug\AndroidManifest.xml:18:18-61
+52
+53        <!-- The following metadata values are replaced when Godot exports, modifying them here has no effect. -->
+54        <!-- Do these changes in the export preset. Adding new ones is fine. -->
 55
-56        <!-- XR mode metadata. This is modified by the exporter based on the selected xr mode. DO NOT CHANGE the values here. -->
-57        <meta-data
-57-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:36:9-38:54
-58            android:name="xr_mode_metadata_name"
-58-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:37:13-49
-59            android:value="xr_mode_metadata_value" />
-59-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:38:13-51
-60
-61        <!-- Metadata populated at export time and used by Godot to figure out which plugins must be enabled. -->
-62        <meta-data
-62-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:41:9-43:44
-63            android:name="plugins"
-63-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:42:13-35
-64            android:value="plugins_value" />
-64-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:43:13-42
-65
-66        <activity
-66-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:45:9-62:20
-67            android:name="com.godot.game.GodotApp"
-67-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:46:13-37
-68            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
-68-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:51:13-141
-69            android:label="@string/godot_project_name_string"
-69-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:47:13-62
-70            android:launchMode="singleTask"
-70-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:49:13-44
-71            android:resizeableActivity="false"
-71-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:52:13-47
-72            android:screenOrientation="landscape"
-72-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:50:13-50
-73            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
-73-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:48:13-77
-74
-75            <!-- Focus awareness metadata is updated at export time if the user enables it in the 'Xr Features' section. -->
-76            <meta-data
-76-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:56:13-88
-77                android:name="com.oculus.vr.focusaware"
-77-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:56:24-63
-78                android:value="false" />
-78-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:56:64-85
-79
-80            <intent-filter>
-80-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:58:13-61:29
-81                <action android:name="android.intent.action.MAIN" />
-81-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:59:17-69
-81-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:59:25-66
-82
-83                <category android:name="android.intent.category.LAUNCHER" />
-83-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:60:17-77
-83-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:60:27-74
-84            </intent-filter>
-85        </activity>
-86
-87        <!-- Custom application XML added by add-ons. -->
-88        <meta-data
-88-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:65:1-67:61
-89            android:name="com.google.android.gms.ads.APPLICATION_ID"
-89-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:66:5-61
-90            android:value="ca-app-pub-3412283605864558~6982540318" />
-90-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:67:5-59
-91        <!-- CHUNK_APPLICATION_BEGIN -->
-92        <receiver
-92-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:69:1-102
-93            android:name="org.godotengine.godot.LocalNotificationReceiver"
-93-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:69:11-73
-94            android:process=":remote" />
-94-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:69:74-99
-95        <!-- CHUNK_APPLICATION_END -->
-96
-97        <service android:name="org.godotengine.godot.GodotDownloaderService" />
-97-->[godot-lib.debug.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b40d35cbfe22d6b39f903f2dbeae7a6e\godot-lib.debug\AndroidManifest.xml:19:9-80
-97-->[godot-lib.debug.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b40d35cbfe22d6b39f903f2dbeae7a6e\godot-lib.debug\AndroidManifest.xml:19:18-77
-98
-99        <meta-data
-99-->[Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:16:9-18:79
-100            android:name="org.godotengine.plugin.v1.Firebase"
-100-->[Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:17:13-62
-101            android:value="org.godotengine.androidplugin.firebase.Firebase" />
-101-->[Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:18:13-76
-102
-103        <service
-103-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:15:9-21:19
-104            android:name="com.google.firebase.components.ComponentDiscoveryService"
-104-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:16:13-84
-105            android:directBootAware="true"
-105-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-106            android:exported="false" >
-106-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:17:13-37
-107            <meta-data
-107-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:18:13-20:85
-108                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
-108-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:19:17-144
-109                android:value="com.google.firebase.components.ComponentRegistrar" />
-109-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:20:17-82
-110            <meta-data
-110-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:38:13-40:85
-111                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-111-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:39:17-119
-112                android:value="com.google.firebase.components.ComponentRegistrar" />
-112-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:40:17-82
-113            <meta-data
-113-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:30:13-32:85
-114                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-114-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:31:17-139
-115                android:value="com.google.firebase.components.ComponentRegistrar" />
-115-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:32:17-82
-116            <meta-data
-116-->[com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:17:13-19:85
-117                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
-117-->[com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:18:17-129
-118                android:value="com.google.firebase.components.ComponentRegistrar" />
-118-->[com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\6e9a14fb984ddf56e606aace1585a506\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:19:17-82
-119            <meta-data
-119-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:32:13-34:85
-120                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-120-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:33:17-96
-121                android:value="com.google.firebase.components.ComponentRegistrar" />
-121-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:34:17-82
-122            <meta-data
-122-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
-123                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-123-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
-124                android:value="com.google.firebase.components.ComponentRegistrar" />
-124-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
-125            <meta-data
-125-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:20:13-22:85
-126                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-126-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:21:17-111
-127                android:value="com.google.firebase.components.ComponentRegistrar" />
-127-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b0e446f774873c164068d15f42723a30\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:22:17-82
-128            <meta-data
-128-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
-129                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-129-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
-130                android:value="com.google.firebase.components.ComponentRegistrar" />
-130-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
-131            <meta-data
-131-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
-132                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-132-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
-133                android:value="com.google.firebase.components.ComponentRegistrar" />
-133-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
-134            <meta-data
-134-->[com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:17:13-19:85
-135                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-135-->[com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:18:17-127
-136                android:value="com.google.firebase.components.ComponentRegistrar" />
-136-->[com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:19:17-82
-137            <meta-data
-137-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:13:13-15:85
-138                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
-138-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:14:17-109
-139                android:value="com.google.firebase.components.ComponentRegistrar" />
-139-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:15:17-82
-140        </service>
-141
-142        <receiver
-142-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:29:9-33:20
-143            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-143-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:30:13-85
-144            android:enabled="true"
-144-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:31:13-35
-145            android:exported="false" >
-145-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:32:13-37
-146        </receiver>
-147
-148        <service
-148-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:35:9-38:40
-149            android:name="com.google.android.gms.measurement.AppMeasurementService"
-149-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:36:13-84
-150            android:enabled="true"
-150-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:37:13-35
-151            android:exported="false" />
-151-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:38:13-37
+56
+57        <!-- XR mode metadata. This is modified by the exporter based on the selected xr mode. DO NOT CHANGE the values here. -->
+58        <meta-data
+58-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:36:9-38:54
+59            android:name="xr_mode_metadata_name"
+59-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:37:13-49
+60            android:value="xr_mode_metadata_value" />
+60-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:38:13-51
+61
+62        <!-- Metadata populated at export time and used by Godot to figure out which plugins must be enabled. -->
+63        <meta-data
+63-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:41:9-43:44
+64            android:name="plugins"
+64-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:42:13-35
+65            android:value="plugins_value" />
+65-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:43:13-42
+66
+67        <activity
+67-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:45:9-62:20
+68            android:name="com.godot.game.GodotApp"
+68-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:46:13-37
+69            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
+69-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:51:13-141
+70            android:label="@string/godot_project_name_string"
+70-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:47:13-62
+71            android:launchMode="singleTask"
+71-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:49:13-44
+72            android:resizeableActivity="false"
+72-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:52:13-47
+73            android:screenOrientation="landscape"
+73-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:50:13-50
+74            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+74-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:48:13-77
+75
+76            <!-- Focus awareness metadata is updated at export time if the user enables it in the 'Xr Features' section. -->
+77            <meta-data
+77-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:56:13-88
+78                android:name="com.oculus.vr.focusaware"
+78-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:56:24-63
+79                android:value="false" />
+79-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:56:64-85
+80
+81            <intent-filter>
+81-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:58:13-61:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:59:17-69
+82-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:59:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:60:17-77
+84-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:60:27-74
+85            </intent-filter>
+86        </activity>
+87
+88        <!-- Custom application XML added by add-ons. -->
+89        <meta-data
+89-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:65:1-67:61
+90            android:name="com.google.android.gms.ads.APPLICATION_ID"
+90-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:66:5-61
+91            android:value="ca-app-pub-3412283605864558~6982540318" />
+91-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:67:5-59
+92        <!-- CHUNK_APPLICATION_BEGIN -->
+93        <receiver
+93-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:69:1-102
+94            android:name="org.godotengine.godot.LocalNotificationReceiver"
+94-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:69:11-73
+95            android:process=":remote" />
+95-->F:\godot\Appfundum-3.2.3\android\build\AndroidManifest.xml:69:74-99
+96        <!-- CHUNK_APPLICATION_END -->
+97
+98        <service android:name="org.godotengine.godot.GodotDownloaderService" />
+98-->[godot-lib.debug.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b40d35cbfe22d6b39f903f2dbeae7a6e\godot-lib.debug\AndroidManifest.xml:19:9-80
+98-->[godot-lib.debug.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b40d35cbfe22d6b39f903f2dbeae7a6e\godot-lib.debug\AndroidManifest.xml:19:18-77
+99
+100        <meta-data
+100-->[Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:16:9-18:79
+101            android:name="org.godotengine.plugin.v1.Firebase"
+101-->[Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:17:13-62
+102            android:value="org.godotengine.androidplugin.firebase.Firebase" />
+102-->[Firebase.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\07c14457b664327fd12611ecd6636753\Firebase.release\AndroidManifest.xml:18:13-76
+103        <meta-data
+103-->[GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a77cb3f2b11c4bda5722ba65bff4035d\GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:12:9-14:101
+104            android:name="org.godotengine.plugin.v1.GodotGooglePlayBilling"
+104-->[GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a77cb3f2b11c4bda5722ba65bff4035d\GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:13:13-76
+105            android:value="org.godotengine.godot.plugin.googleplaybilling.GodotGooglePlayBilling" />
+105-->[GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a77cb3f2b11c4bda5722ba65bff4035d\GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:14:13-98
+106
+107        <service
+107-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:15:9-21:19
+108            android:name="com.google.firebase.components.ComponentDiscoveryService"
+108-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:16:13-84
+109            android:directBootAware="true"
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67c19a5762b0b3eb3bfde5d153a18a84\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+110            android:exported="false" >
+110-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:17:13-37
+111            <meta-data
+111-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:18:13-20:85
+112                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+112-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:19:17-144
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-inappmessaging-display:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c2512476f14515b8ebc6cee626cd436\firebase-inappmessaging-display-19.0.6\AndroidManifest.xml:20:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\75504ca60af7a19caab6f4a7891e1b38\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:38:13-40:85
+115                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+115-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\75504ca60af7a19caab6f4a7891e1b38\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:39:17-119
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\75504ca60af7a19caab6f4a7891e1b38\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:40:17-82
+117            <meta-data
+117-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:30:13-32:85
+118                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+118-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:31:17-139
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\450d540e23f4c9277b4cdcf9d8d87dbf\play-services-measurement-api-17.4.0\AndroidManifest.xml:32:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\df832e3516bd2a4b69e9a26b6001e3e1\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:17:13-19:85
+121                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+121-->[com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\df832e3516bd2a4b69e9a26b6001e3e1\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:18:17-129
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-inappmessaging:19.0.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\df832e3516bd2a4b69e9a26b6001e3e1\jetified-firebase-inappmessaging-19.0.6\AndroidManifest.xml:19:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:32:13-34:85
+124                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+124-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:33:17-96
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:34:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+127                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+127-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c4055c6901d2462c19b54a74da35961e\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:20:13-22:85
+130                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+130-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c4055c6901d2462c19b54a74da35961e\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:21:17-111
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c4055c6901d2462c19b54a74da35961e\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:22:17-82
+132            <meta-data
+132-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+133                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+133-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\3f2d5bf3a064e877bf8b0ccbb2ba2d77\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+136                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+136-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0caeac28e7b750f9086f269c0b9b292d\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:17:13-19:85
+139                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+139-->[com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:18:17-127
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-installations:16.2.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\2c769cf1102ec418fb53b0ea7b7c738c\firebase-installations-16.2.2\AndroidManifest.xml:19:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:13:13-15:85
+142                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+142-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:14:17-109
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\4bbb3b9eb53aa9833cda93cb5d37b355\firebase-abt-19.0.1\AndroidManifest.xml:15:17-82
+144        </service>
+145
+146        <receiver
+146-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:29:9-33:20
+147            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+147-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:30:13-85
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:31:13-35
+149            android:exported="false" >
+149-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:32:13-37
+150        </receiver>
+151
 152        <service
-152-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:39:9-43:72
-153            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-153-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:40:13-87
+152-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:35:9-38:40
+153            android:name="com.google.android.gms.measurement.AppMeasurementService"
+153-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:36:13-84
 154            android:enabled="true"
-154-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:41:13-35
-155            android:exported="false"
-155-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:42:13-37
-156            android:permission="android.permission.BIND_JOB_SERVICE" />
-156-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:43:13-69
-157        <!--
-158             FirebaseMessagingService performs security checks at runtime,
-159             but set to not exported to explicitly avoid allowing another app to call it.
-160        -->
-161        <service
-161-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:28:9-34:19
-162            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-162-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:29:13-82
-163            android:exported="false" >
-163-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:30:13-37
-164            <intent-filter android:priority="-500" >
-164-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:31:13-33:29
-164-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:31:28-51
-165                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-165-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:32:17-78
-165-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e436dca6ae31964f5cfb86c8ea256d68\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:32:25-75
-166            </intent-filter>
-167        </service>
-168
-169        <receiver
-169-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:37:9-44:20
-170            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-170-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:38:13-78
-171            android:exported="true"
-171-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:39:13-36
-172            android:permission="com.google.android.c2dm.permission.SEND" >
-172-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:40:13-73
-173            <intent-filter>
-173-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:41:13-43:29
-174                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-174-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:42:17-81
-174-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:42:25-78
-175            </intent-filter>
-176        </receiver>
-177
-178        <activity
-178-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
-179            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-179-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
-180            android:excludeFromRecents="true"
-180-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
-181            android:exported="true"
-181-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
-182            android:launchMode="singleTask"
-182-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
-183            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-183-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
-184            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-184-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
-185        <activity
-185-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
-186            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-186-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
-187            android:excludeFromRecents="true"
-187-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
-188            android:exported="false"
-188-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
-189            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-189-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
-190        <!--
-191            Service handling Google Sign-In user revocation. For apps that do not integrate with
-192            Google Sign-In, this service will never be started.
-193        -->
-194        <service
-194-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
-195            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-195-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
-196            android:exported="true"
-196-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
-197            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-197-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
-198
-199        <provider
-199-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:31:9-37:35
-200            android:name="androidx.work.impl.WorkManagerInitializer"
-200-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:32:13-69
-201            android:authorities="com.appfundumV1.app.workmanager-init"
-201-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:33:13-68
-202            android:directBootAware="false"
-202-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:34:13-44
-203            android:exported="false"
-203-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:35:13-37
-204            android:multiprocess="true" />
-204-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:36:13-40
-205
-206        <service
-206-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:39:9-44:35
-207            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-207-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:40:13-88
-208            android:directBootAware="false"
-208-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:41:13-44
-209            android:enabled="@bool/enable_system_alarm_service_default"
-209-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:42:13-72
-210            android:exported="false" />
-210-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:43:13-37
-211        <service
-211-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:45:9-51:35
-212            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-212-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:46:13-84
-213            android:directBootAware="false"
-213-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:47:13-44
-214            android:enabled="@bool/enable_system_job_service_default"
-214-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:48:13-70
-215            android:exported="true"
-215-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:49:13-36
-216            android:permission="android.permission.BIND_JOB_SERVICE" />
-216-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:50:13-69
-217        <service
-217-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:52:9-57:35
-218            android:name="androidx.work.impl.foreground.SystemForegroundService"
-218-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:53:13-81
-219            android:directBootAware="false"
-219-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:54:13-44
-220            android:enabled="@bool/enable_system_foreground_service_default"
-220-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:55:13-77
-221            android:exported="false" />
-221-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:56:13-37
-222
-223        <receiver
-223-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:59:9-64:35
-224            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-224-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:60:13-88
-225            android:directBootAware="false"
-225-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:61:13-44
-226            android:enabled="true"
-226-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:62:13-35
-227            android:exported="false" />
-227-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:63:13-37
-228        <receiver
-228-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:65:9-75:20
-229            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-229-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:66:13-106
-230            android:directBootAware="false"
-230-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:67:13-44
-231            android:enabled="false"
-231-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:68:13-36
-232            android:exported="false" >
-232-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:69:13-37
-233            <intent-filter>
-233-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:71:13-74:29
-234                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-234-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:72:17-87
-234-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:72:25-84
-235                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-235-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:73:17-90
-235-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:73:25-87
-236            </intent-filter>
-237        </receiver>
-238        <receiver
-238-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:76:9-86:20
-239            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-239-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:77:13-104
-240            android:directBootAware="false"
-240-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:78:13-44
-241            android:enabled="false"
-241-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:79:13-36
-242            android:exported="false" >
-242-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:80:13-37
-243            <intent-filter>
-243-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:82:13-85:29
-244                <action android:name="android.intent.action.BATTERY_OKAY" />
-244-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:83:17-77
-244-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:83:25-74
-245                <action android:name="android.intent.action.BATTERY_LOW" />
-245-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:84:17-76
-245-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:84:25-73
-246            </intent-filter>
-247        </receiver>
-248        <receiver
-248-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:87:9-97:20
-249            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-249-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:88:13-104
-250            android:directBootAware="false"
-250-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:89:13-44
-251            android:enabled="false"
-251-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:90:13-36
-252            android:exported="false" >
-252-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:91:13-37
-253            <intent-filter>
-253-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:93:13-96:29
-254                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-254-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:94:17-83
-254-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:94:25-80
-255                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-255-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:95:17-82
-255-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:95:25-79
-256            </intent-filter>
-257        </receiver>
-258        <receiver
-258-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:98:9-107:20
-259            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-259-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:99:13-103
-260            android:directBootAware="false"
-260-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:100:13-44
-261            android:enabled="false"
-261-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:101:13-36
-262            android:exported="false" >
-262-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:102:13-37
-263            <intent-filter>
-263-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:104:13-106:29
-264                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-264-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:105:17-79
-264-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:105:25-76
-265            </intent-filter>
-266        </receiver>
-267        <receiver
-267-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:108:9-119:20
-268            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-268-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:109:13-88
-269            android:directBootAware="false"
-269-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:110:13-44
-270            android:enabled="false"
-270-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:111:13-36
-271            android:exported="false" >
-271-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:112:13-37
-272            <intent-filter>
-272-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:114:13-118:29
-273                <action android:name="android.intent.action.BOOT_COMPLETED" />
-273-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:115:17-79
-273-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:115:25-76
-274                <action android:name="android.intent.action.TIME_SET" />
-274-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:116:17-73
-274-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:116:25-70
-275                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-275-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:117:17-81
-275-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:117:25-78
-276            </intent-filter>
-277        </receiver>
-278        <receiver
-278-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:120:9-129:20
-279            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-279-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:121:13-99
-280            android:directBootAware="false"
-280-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:122:13-44
-281            android:enabled="@bool/enable_system_alarm_service_default"
-281-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:123:13-72
-282            android:exported="false" >
-282-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:124:13-37
-283            <intent-filter>
-283-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:126:13-128:29
-284                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-284-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:127:17-98
-284-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:127:25-95
-285            </intent-filter>
-286        </receiver>
-287
-288        <activity
-288-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-289            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-289-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-290            android:exported="false"
-290-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-291            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-291-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-292        <activity
-292-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
-293            android:name="com.google.android.gms.ads.AdActivity"
-293-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
-294            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-294-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
-295            android:exported="false"
-295-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
-296            android:theme="@android:style/Theme.Translucent" />
-296-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
-297
-298        <provider
-298-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
-299            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-299-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
-300            android:authorities="com.appfundumV1.app.mobileadsinitprovider"
-300-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
-301            android:exported="false"
-301-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
-302            android:initOrder="100" />
-302-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
-303        <provider
-303-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-304            android:name="com.google.firebase.provider.FirebaseInitProvider"
-304-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-305            android:authorities="com.appfundumV1.app.firebaseinitprovider"
-305-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-306            android:exported="false"
-306-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-307            android:initOrder="100" />
-307-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67329c25314d03cf3a5f2bfe1878dcec\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-308
-309        <meta-data
-309-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-310            android:name="com.google.android.gms.version"
-310-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
-311            android:value="@integer/google_play_services_version" />
-311-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0c721c183a5db47f7cb3b4b5f11a84b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
-312
-313        <provider
-313-->[com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-314            android:name="com.squareup.picasso.PicassoProvider"
-314-->[com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-315            android:authorities="com.appfundumV1.app.com.squareup.picasso"
-315-->[com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-316            android:exported="false" />
-316-->[com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\238340483fb58c0fcabc344b390475ad\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-317
-318        <service
-318-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
-319            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-319-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
-320            android:exported="false" >
-320-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
-321            <meta-data
-321-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
-322                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-322-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
-323                android:value="cct" />
-323-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
-324        </service>
-325        <service
-325-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
-326            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-326-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
-327            android:exported="false"
-327-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
-328            android:permission="android.permission.BIND_JOB_SERVICE" >
-328-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
-329        </service>
-330
-331        <receiver
-331-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
-332            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-332-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
-333            android:exported="false" />
-333-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
-334
-335        <service
-335-->[androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
-336            android:name="androidx.room.MultiInstanceInvalidationService"
-336-->[androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
-337            android:exported="false" />
-337-->[androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
-338
-339        <activity
-339-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:15:9-19:74
-340            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
-340-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:16:13-74
-341            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-341-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:17:13-170
-342            android:hardwareAccelerated="true"
-342-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:18:13-47
-343            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-343-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:19:13-71
-344        <activity
-344-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:20:9-24:86
-345            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
-345-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:21:13-85
-346            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-346-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:22:13-170
-347            android:hardwareAccelerated="true"
-347-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:23:13-47
-348            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-348-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:24:13-83
-349        <activity
-349-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:25:9-29:86
-350            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
-350-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:26:13-93
-351            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-351-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:27:13-170
-352            android:hardwareAccelerated="false"
-352-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:28:13-48
-353            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-353-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:29:13-83
-354        <activity
-354-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:30:9-34:74
-355            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
-355-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:31:13-82
-356            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-356-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:32:13-170
-357            android:hardwareAccelerated="false"
-357-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:33:13-48
-358            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-358-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:34:13-71
-359    </application>
-360
-361</manifest>
+154-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:37:13-35
+155            android:exported="false" />
+155-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:38:13-37
+156        <service
+156-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:39:9-43:72
+157            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+157-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:40:13-87
+158            android:enabled="true"
+158-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:41:13-35
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:42:13-37
+160            android:permission="android.permission.BIND_JOB_SERVICE" />
+160-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\9ccb1284b96776c2863b4defaca51e13\play-services-measurement-17.4.0\AndroidManifest.xml:43:13-69
+161        <!--
+162             FirebaseMessagingService performs security checks at runtime,
+163             but set to not exported to explicitly avoid allowing another app to call it.
+164        -->
+165        <service
+165-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\75504ca60af7a19caab6f4a7891e1b38\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:28:9-34:19
+166            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+166-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\75504ca60af7a19caab6f4a7891e1b38\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:29:13-82
+167            android:exported="false" >
+167-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\75504ca60af7a19caab6f4a7891e1b38\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:30:13-37
+168            <intent-filter android:priority="-500" >
+168-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\75504ca60af7a19caab6f4a7891e1b38\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:31:13-33:29
+168-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\75504ca60af7a19caab6f4a7891e1b38\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:31:28-51
+169                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+169-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\75504ca60af7a19caab6f4a7891e1b38\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:32:17-78
+169-->[com.google.firebase:firebase-messaging:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\75504ca60af7a19caab6f4a7891e1b38\jetified-firebase-messaging-20.1.6\AndroidManifest.xml:32:25-75
+170            </intent-filter>
+171        </service>
+172
+173        <receiver
+173-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:37:9-44:20
+174            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+174-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:38:13-78
+175            android:exported="true"
+175-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:39:13-36
+176            android:permission="com.google.android.c2dm.permission.SEND" >
+176-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:40:13-73
+177            <intent-filter>
+177-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:41:13-43:29
+178                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+178-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:42:17-81
+178-->[com.google.firebase:firebase-iid:20.1.6] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\e0318f0132674b9983f08ed61c60a89f\firebase-iid-20.1.6\AndroidManifest.xml:42:25-78
+179            </intent-filter>
+180        </receiver>
+181
+182        <activity
+182-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+183            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+183-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+184            android:excludeFromRecents="true"
+184-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+185            android:exported="true"
+185-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+186            android:launchMode="singleTask"
+186-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+187            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+187-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+188            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+188-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\fda79979817440548c24143a3010e7bb\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+189        <activity
+189-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+190            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+190-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+191            android:excludeFromRecents="true"
+191-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+192            android:exported="false"
+192-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+193-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+194        <!--
+195            Service handling Google Sign-In user revocation. For apps that do not integrate with
+196            Google Sign-In, this service will never be started.
+197        -->
+198        <service
+198-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+199            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+199-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+200            android:exported="true"
+200-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+201            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+201-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\0f3a25237674887cb86b9e8809f0485c\play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+202
+203        <provider
+203-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:31:9-37:35
+204            android:name="androidx.work.impl.WorkManagerInitializer"
+204-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:32:13-69
+205            android:authorities="com.appfundumV1.app.workmanager-init"
+205-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:33:13-68
+206            android:directBootAware="false"
+206-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:34:13-44
+207            android:exported="false"
+207-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:35:13-37
+208            android:multiprocess="true" />
+208-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:36:13-40
+209
+210        <service
+210-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:39:9-44:35
+211            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+211-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:40:13-88
+212            android:directBootAware="false"
+212-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:41:13-44
+213            android:enabled="@bool/enable_system_alarm_service_default"
+213-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:42:13-72
+214            android:exported="false" />
+214-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:43:13-37
+215        <service
+215-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:45:9-51:35
+216            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+216-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:46:13-84
+217            android:directBootAware="false"
+217-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:47:13-44
+218            android:enabled="@bool/enable_system_job_service_default"
+218-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:48:13-70
+219            android:exported="true"
+219-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:49:13-36
+220            android:permission="android.permission.BIND_JOB_SERVICE" />
+220-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:50:13-69
+221        <service
+221-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:52:9-57:35
+222            android:name="androidx.work.impl.foreground.SystemForegroundService"
+222-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:53:13-81
+223            android:directBootAware="false"
+223-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:54:13-44
+224            android:enabled="@bool/enable_system_foreground_service_default"
+224-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:55:13-77
+225            android:exported="false" />
+225-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:56:13-37
+226
+227        <receiver
+227-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:59:9-64:35
+228            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+228-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:60:13-88
+229            android:directBootAware="false"
+229-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:61:13-44
+230            android:enabled="true"
+230-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:62:13-35
+231            android:exported="false" />
+231-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:63:13-37
+232        <receiver
+232-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:65:9-75:20
+233            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+233-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:66:13-106
+234            android:directBootAware="false"
+234-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:67:13-44
+235            android:enabled="false"
+235-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:68:13-36
+236            android:exported="false" >
+236-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:69:13-37
+237            <intent-filter>
+237-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:71:13-74:29
+238                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+238-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:72:17-87
+238-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:72:25-84
+239                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+239-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:73:17-90
+239-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:73:25-87
+240            </intent-filter>
+241        </receiver>
+242        <receiver
+242-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:76:9-86:20
+243            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+243-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:77:13-104
+244            android:directBootAware="false"
+244-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:78:13-44
+245            android:enabled="false"
+245-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:79:13-36
+246            android:exported="false" >
+246-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:80:13-37
+247            <intent-filter>
+247-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:82:13-85:29
+248                <action android:name="android.intent.action.BATTERY_OKAY" />
+248-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:83:17-77
+248-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:83:25-74
+249                <action android:name="android.intent.action.BATTERY_LOW" />
+249-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:84:17-76
+249-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:84:25-73
+250            </intent-filter>
+251        </receiver>
+252        <receiver
+252-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:87:9-97:20
+253            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+253-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:88:13-104
+254            android:directBootAware="false"
+254-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:89:13-44
+255            android:enabled="false"
+255-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:90:13-36
+256            android:exported="false" >
+256-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:91:13-37
+257            <intent-filter>
+257-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:93:13-96:29
+258                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+258-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:94:17-83
+258-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:94:25-80
+259                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+259-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:95:17-82
+259-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:95:25-79
+260            </intent-filter>
+261        </receiver>
+262        <receiver
+262-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:98:9-107:20
+263            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+263-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:99:13-103
+264            android:directBootAware="false"
+264-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:100:13-44
+265            android:enabled="false"
+265-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:101:13-36
+266            android:exported="false" >
+266-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:102:13-37
+267            <intent-filter>
+267-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:104:13-106:29
+268                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+268-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:105:17-79
+268-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:105:25-76
+269            </intent-filter>
+270        </receiver>
+271        <receiver
+271-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:108:9-119:20
+272            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+272-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:109:13-88
+273            android:directBootAware="false"
+273-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:110:13-44
+274            android:enabled="false"
+274-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:111:13-36
+275            android:exported="false" >
+275-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:112:13-37
+276            <intent-filter>
+276-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:114:13-118:29
+277                <action android:name="android.intent.action.BOOT_COMPLETED" />
+277-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:115:17-79
+277-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:115:25-76
+278                <action android:name="android.intent.action.TIME_SET" />
+278-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:116:17-73
+278-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:116:25-70
+279                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+279-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:117:17-81
+279-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:117:25-78
+280            </intent-filter>
+281        </receiver>
+282        <receiver
+282-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:120:9-129:20
+283            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+283-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:121:13-99
+284            android:directBootAware="false"
+284-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:122:13-44
+285            android:enabled="@bool/enable_system_alarm_service_default"
+285-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:123:13-72
+286            android:exported="false" >
+286-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:124:13-37
+287            <intent-filter>
+287-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:126:13-128:29
+288                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+288-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:127:17-98
+288-->[androidx.work:work-runtime:2.3.4] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\aa480904776c791cb1fafe7fbd35fb4b\work-runtime-2.3.4\AndroidManifest.xml:127:25-95
+289            </intent-filter>
+290        </receiver>
+291
+292        <meta-data
+292-->[com.android.billingclient:billing:3.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a035e8500a2a119e38aeb24a5a11a379\billing-3.0.0\AndroidManifest.xml:13:9-15:37
+293            android:name="com.google.android.play.billingclient.version"
+293-->[com.android.billingclient:billing:3.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a035e8500a2a119e38aeb24a5a11a379\billing-3.0.0\AndroidManifest.xml:14:13-73
+294            android:value="3.0.0" />
+294-->[com.android.billingclient:billing:3.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a035e8500a2a119e38aeb24a5a11a379\billing-3.0.0\AndroidManifest.xml:15:13-34
+295
+296        <activity
+296-->[com.android.billingclient:billing:3.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a035e8500a2a119e38aeb24a5a11a379\billing-3.0.0\AndroidManifest.xml:17:9-20:75
+297            android:name="com.android.billingclient.api.ProxyBillingActivity"
+297-->[com.android.billingclient:billing:3.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a035e8500a2a119e38aeb24a5a11a379\billing-3.0.0\AndroidManifest.xml:18:13-78
+298            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+298-->[com.android.billingclient:billing:3.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a035e8500a2a119e38aeb24a5a11a379\billing-3.0.0\AndroidManifest.xml:19:13-96
+299            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+299-->[com.android.billingclient:billing:3.0.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\a035e8500a2a119e38aeb24a5a11a379\billing-3.0.0\AndroidManifest.xml:20:13-72
+300        <activity
+300-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+301            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+301-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+302            android:exported="false"
+302-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+303            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+303-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\bd978a7b83eb2d22fd128f9e3bf03290\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+304        <activity
+304-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
+305            android:name="com.google.android.gms.ads.AdActivity"
+305-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
+306            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+306-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
+307            android:exported="false"
+307-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
+308            android:theme="@android:style/Theme.Translucent" />
+308-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
+309
+310        <provider
+310-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
+311            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+311-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
+312            android:authorities="com.appfundumV1.app.mobileadsinitprovider"
+312-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
+313            android:exported="false"
+313-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
+314            android:initOrder="100" />
+314-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\1cb7b13358a051cdcb708ee60435ca4e\play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
+315        <provider
+315-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67c19a5762b0b3eb3bfde5d153a18a84\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+316            android:name="com.google.firebase.provider.FirebaseInitProvider"
+316-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67c19a5762b0b3eb3bfde5d153a18a84\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+317            android:authorities="com.appfundumV1.app.firebaseinitprovider"
+317-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67c19a5762b0b3eb3bfde5d153a18a84\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+318            android:exported="false"
+318-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67c19a5762b0b3eb3bfde5d153a18a84\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+319            android:initOrder="100" />
+319-->[com.google.firebase:firebase-common:19.3.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\67c19a5762b0b3eb3bfde5d153a18a84\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+320
+321        <meta-data
+321-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c25bb405ee50b9c8c41bf28d538693b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+322            android:name="com.google.android.gms.version"
+322-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c25bb405ee50b9c8c41bf28d538693b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+323            android:value="@integer/google_play_services_version" />
+323-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\c25bb405ee50b9c8c41bf28d538693b6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+324
+325        <provider
+325-->[com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5e40883eb713966c1d5584529547e361\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+326            android:name="com.squareup.picasso.PicassoProvider"
+326-->[com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5e40883eb713966c1d5584529547e361\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+327            android:authorities="com.appfundumV1.app.com.squareup.picasso"
+327-->[com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5e40883eb713966c1d5584529547e361\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+328            android:exported="false" />
+328-->[com.squareup.picasso:picasso:2.71828] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\5e40883eb713966c1d5584529547e361\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+329
+330        <service
+330-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+331            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+331-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+332            android:exported="false" >
+332-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+333            <meta-data
+333-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+334                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+334-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+335                android:value="cct" />
+335-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\787747318500e40cadd00e91d3dc1f03\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+336        </service>
+337        <service
+337-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+338            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+338-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+339            android:exported="false"
+339-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+340            android:permission="android.permission.BIND_JOB_SERVICE" >
+340-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+341        </service>
+342
+343        <receiver
+343-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+344            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+344-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+345            android:exported="false" />
+345-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\8450f46e65600275676c54c25b738e33\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+346
+347        <service
+347-->[androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+348            android:name="androidx.room.MultiInstanceInvalidationService"
+348-->[androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+349            android:exported="false" />
+349-->[androidx.room:room-runtime:2.2.3] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\daa60661fb52d33e8758aae7cf95432c\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+350
+351        <activity
+351-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:15:9-19:74
+352            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+352-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:16:13-74
+353            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+353-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:17:13-170
+354            android:hardwareAccelerated="true"
+354-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:18:13-47
+355            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+355-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:19:13-71
+356        <activity
+356-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:20:9-24:86
+357            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+357-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:21:13-85
+358            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+358-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:22:13-170
+359            android:hardwareAccelerated="true"
+359-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:23:13-47
+360            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+360-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:24:13-83
+361        <activity
+361-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:25:9-29:86
+362            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+362-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:26:13-93
+363            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+363-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:27:13-170
+364            android:hardwareAccelerated="false"
+364-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:28:13-48
+365            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+365-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:29:13-83
+366        <activity
+366-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:30:9-34:74
+367            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+367-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:31:13-82
+368            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+368-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:32:13-170
+369            android:hardwareAccelerated="false"
+369-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:33:13-48
+370            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+370-->[com.unity3d.ads:unity-ads:3.4.2] C:\Users\zaroc\.gradle\caches\transforms-2\files-2.1\b5276f9585bd9e197b6369540e00ffef\unity-ads-3.4.2\AndroidManifest.xml:34:13-71
+371    </application>
+372
+373</manifest>

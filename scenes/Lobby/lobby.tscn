@@ -44,10 +44,8 @@ expand_margin_right = 5.0
 anti_aliasing_size = 2
 
 [node name="lobby" type="Control"]
-margin_left = -1.0
-margin_top = 0.586182
-margin_right = 1439.0
-margin_bottom = 2959.59
+anchor_right = 0.999
+anchor_bottom = 1.0
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -58,11 +56,12 @@ __meta__ = {
 ]]
 self_modulate = Color( 1, 0.831373, 0.164706, 1 )
 anchor_right = 1.0
-anchor_bottom = 0.891
-margin_left = 1.0
-margin_top = 1769.0
-margin_right = 6.0
-margin_bottom = -56.4724
+anchor_bottom = 1.0
+margin_left = -1.0
+margin_top = 1770.0
+margin_right = 5.43994
+margin_bottom = 3.0
+grow_horizontal = 2
 focus_previous = NodePath("../ScrollContainer")
 size_flags_horizontal = 3
 texture = ExtResource( 7 )
@@ -104,7 +103,7 @@ __meta__ = {
 }
 
 [node name="VBoxContainer" type="HBoxContainer" parent="ScrollContainer"]
-margin_right = 1440.0
+margin_right = 1438.56
 margin_bottom = 436.0
 grow_vertical = 2
 size_flags_horizontal = 3
@@ -115,8 +114,8 @@ __meta__ = {
 }
 
 [node name="PlayerNameBox" type="VBoxContainer" parent="ScrollContainer/VBoxContainer"]
-margin_left = 220.0
-margin_right = 1220.0
+margin_left = 219.0
+margin_right = 1219.0
 margin_bottom = 436.0
 grow_horizontal = 2
 size_flags_horizontal = 5
@@ -150,11 +149,11 @@ custom_fonts/font = SubResource( 3 )
 
 [node name="TextureButton" type="TextureButton" parent="."]
 anchor_right = 1.0
-anchor_bottom = 0.865
-margin_left = 549.727
-margin_top = 1923.73
-margin_right = 277.727
-margin_bottom = 492.189
+anchor_bottom = 1.0
+margin_left = 550.0
+margin_top = 1925.0
+margin_right = 280.0
+margin_bottom = 145.0
 grow_horizontal = 2
 grow_vertical = 2
 rect_scale = Vector2( 0.3, 0.3 )
@@ -167,23 +166,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="aBox" type="HBoxContainer" parent="."]
-anchor_right = 1.0
-anchor_bottom = 0.865
-margin_left = 232.0
-margin_top = 1814.0
-margin_right = -1.0
-margin_bottom = -565.538
-grow_horizontal = 2
-grow_vertical = 0
-size_flags_horizontal = 3
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="start" type="Button" parent="."]
 anchor_right = 1.0
-anchor_bottom = 0.891
+anchor_bottom = 1.0
 margin_left = 286.102
 margin_top = 2285.22
 margin_right = -45.8979
@@ -206,8 +191,8 @@ __meta__ = {
 [node name="Logo" type="TextureButton" parent="." groups=[
 "themeIcon",
 ]]
-anchor_right = 1.001
-anchor_bottom = 0.865
+anchor_right = 1.0
+anchor_bottom = 1.0
 margin_left = 1117.65
 margin_top = 1745.49
 margin_right = 3.20996

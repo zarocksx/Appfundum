@@ -35,7 +35,8 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Custom user permissions XML added by add-ons. It's recommended to add them from the export preset, though. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.android.vending.BILLING" /> <!-- Custom user permissions XML added by add-ons. It's recommended to add them from the export preset, though. -->
     <!-- CHUNK_USER_PERMISSIONS_BEGIN -->
     <!-- CHUNK_USER_PERMISSIONS_END -->
     <!-- Any tag in this line after android:icon will be erased when doing custom builds. -->
@@ -99,6 +100,9 @@
         <meta-data
             android:name="org.godotengine.plugin.v1.Firebase"
             android:value="org.godotengine.androidplugin.firebase.Firebase" />
+        <meta-data
+            android:name="org.godotengine.plugin.v1.GodotGooglePlayBilling"
+            android:value="org.godotengine.godot.plugin.googleplaybilling.GodotGooglePlayBilling" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -285,6 +289,14 @@
             </intent-filter>
         </receiver>
 
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="3.0.0" />
+
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

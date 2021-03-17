@@ -38,6 +38,7 @@ themeStore="*res://assets/theme/theme.gd"
 notif="*res://static/notification.gd"
 FirebaseNotification="*res://static/Firebase_notification.gd"
 AppfundumAchievement="*res://static/AppfundumAchievement.gd"
+IAP="*res://static/IAP.gd"
 
 [display]
 
@@ -54,7 +55,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "ui_design_tool", "zylann.project_stats" )
+enabled=PoolStringArray( "NativeLib", "ui_design_tool", "zylann.project_stats" )
 
 [filesystem]
 

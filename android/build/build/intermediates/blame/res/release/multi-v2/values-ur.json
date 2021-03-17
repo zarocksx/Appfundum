@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\268eac6b650c9e8f0ccb1093b3ccebae\\jetified-play-services-ads-19.1.0\\res\\values-ur\\values.xml",
+                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\c80c3075a698525a308070c85bd8cb7c\\jetified-play-services-ads-19.1.0\\res\\values-ur\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",
@@ -35,23 +35,6 @@
                         "startOffsets": "5666,5743,5862,5933,6005,6086,6194",
                         "endColumns": "76,118,70,71,80,107,77",
                         "endOffsets": "5738,5857,5928,6000,6081,6189,6267"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\e436dca6ae31964f5cfb86c8ea256d68\\jetified-firebase-messaging-20.1.6\\res\\values-ur\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "207",
-                        "endColumns": "101",
-                        "endOffsets": "308"
-                    },
-                    "to": {
-                        "startLines": "47",
-                        "startColumns": "4",
-                        "startOffsets": "5560",
-                        "endColumns": "105",
-                        "endOffsets": "5661"
                     }
                 },
                 {
@@ -72,7 +55,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\0c721c183a5db47f7cb3b4b5f11a84b6\\jetified-play-services-basement-17.1.1\\res\\values-ur\\values.xml",
+                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\ff6c9fae18b6a4df7708f19839d56405\\core-1.1.0\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "56",
+                        "startColumns": "4",
+                        "startOffsets": "6357",
+                        "endColumns": "100",
+                        "endOffsets": "6453"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\c25bb405ee50b9c8c41bf28d538693b6\\jetified-play-services-basement-17.1.1\\res\\values-ur\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -89,20 +89,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\ff6c9fae18b6a4df7708f19839d56405\\core-1.1.0\\res\\values-ur\\values-ur.xml",
+                    "source": "C:\\Users\\zaroc\\.gradle\\caches\\transforms-2\\files-2.1\\75504ca60af7a19caab6f4a7891e1b38\\jetified-firebase-messaging-20.1.6\\res\\values-ur\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "101",
+                        "endOffsets": "308"
                     },
                     "to": {
-                        "startLines": "56",
+                        "startLines": "47",
                         "startColumns": "4",
-                        "startOffsets": "6357",
-                        "endColumns": "100",
-                        "endOffsets": "6453"
+                        "startOffsets": "5560",
+                        "endColumns": "105",
+                        "endOffsets": "5661"
                     }
                 }
             ]

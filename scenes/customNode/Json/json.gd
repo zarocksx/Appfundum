@@ -49,7 +49,8 @@ func pick_sentence():
 		if limited:
 			alreadyReadString.push_front(sentence)
 			unreadString.remove(mySeed)
-		
+			
+
 		return sentence
 
 	global.set_game_finished()

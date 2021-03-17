@@ -7,12 +7,13 @@ const LOGIN_A := "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=
 const FIRESTORE_URL := "https://firestore.googleapis.com/v1/projects/%s/databases/(default)/documents/" % PROJECT_ID;
 const FIRESTORE_BASE_URL := "https://firestore.googleapis.com/v1/";
 
+var no_call = false
 var curent_analytics;
 var user_info = {};
 
 
 func _ready():
-	if OS.is_debug_build():
+	if OS.is_debug_build() and no_call:
 		return
 	anonymous_register()
 
@@ -43,28 +44,29 @@ func _get_request_headers():
 
 
 func anonymous_register():
-	if OS.is_debug_build():
+	if OS.is_debug_build() and no_call :
 		return
 	var http = get_http()
 	http.request(LOGIN_A, ["Content-Length:0"], false, HTTPClient.METHOD_POST);
 	var result = yield(http, "request_completed") as Array;
 	if result[1] == 200:
+		print("logged")
 		user_info = _get_user_info(result);
 
 
 func save_analytics():
-	if OS.is_debug_build():
+	if OS.is_debug_build() and no_call:
 		return
 	var fields = analytics.get_analytics_fields();
 	var path = "analytics";
 	var document = {"fields": fields};
 	var body = to_json(document);
 	var url = FIRESTORE_URL + path;
-	get_http("_save_complete").request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body );
+	print("save : ",get_http("_save_complete").request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body ));
 
 
 func update_analytics():
-	if OS.is_debug_build():
+	if OS.is_debug_build() and no_call:
 		return
 	var fields = analytics.get_analytics_fields();
 	var document = {"fields": fields};
@@ -75,7 +77,7 @@ func update_analytics():
 
 
 func save_document(path: String, fields: Dictionary):
-	if OS.is_debug_build():
+	if OS.is_debug_build() and no_call:
 		return
 	var document = {"fields" : fields};
 	var body = to_json(document);
@@ -84,7 +86,7 @@ func save_document(path: String, fields: Dictionary):
 
 
 func update_document(path: String, fields:Dictionary):
-	if OS.is_debug_build():
+	if OS.is_debug_build() and no_call:
 		return
 	var document = { "fields" : fields };
 	var body = to_json(document);

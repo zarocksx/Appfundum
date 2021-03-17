@@ -351,8 +351,9 @@ __meta__ = {
 }
 
 [node name="lobby" parent="." instance=ExtResource( 6 )]
-margin_left = 1.37842
-margin_right = 1441.38
+anchor_right = 1.0
+margin_left = 1.0
+margin_top = 1.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/game_mode = SubResource( 5 )
