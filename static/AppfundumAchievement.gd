@@ -2,6 +2,9 @@ extends Node
 
 
 var achievement_list = 'res://assets/data/Appfundum_achievement.json';
+var user_achievement = 'user://Appfundum_achievement.json'
+var achievements_file = File.new();
+var base_file = File.new();
 var achievements
 
 onready var current_achievement_item = preload('res://scenes/customNode/Achievement/Achievement_item_vertical.tscn').instance();
@@ -9,35 +12,41 @@ onready var current_achievement_item = preload('res://scenes/customNode/Achievem
 
 func _ready():
 	add_child(current_achievement_item)
+	if not Is_file_integrity(): return "error"
 	load_achievment()
 
 
-func show_current_achievement_item(title, desc):
+func Is_file_integrity():
+	if not base_file.file_exists(achievement_list):
+		printerr("no base achievement found")
+		return false
+	if not achievements_file.file_exists(user_achievement):
+		printerr("no save achievement found")
+		base_file.open(achievement_list, File.READ)
+		achievements_file.open(user_achievement, File.WRITE)
+		achievements_file.store_string(base_file.get_as_text())
+		base_file.close()
+	achievements_file.close()
+	
+	return true
+
+
+func show_current_achievement_item(title, desc, type = "default"):
 	current_achievement_item.set_caption(title, desc)
-	current_achievement_item.show()
+	current_achievement_item.show(type)
 
 
 func load_achievment():
-	var achievements_file = File.new();
-	if not achievements_file.file_exists(achievement_list):
-		printerr("no Achievement found", achievement_list)
-		return
-	achievements_file.open(achievement_list, File.READ)
+	achievements_file.open(user_achievement, File.READ)
 	achievements = parse_json(achievements_file.get_as_text())
 	achievements_file.close()
 
 
-
 func save_achievement():
-	var achievements_file = File.new();
-	if not achievements_file.file_exists(achievement_list):
-		printerr("no Achievement found", achievement_list)
-		return false;
-	achievements_file.open(achievement_list, File.READ_WRITE);
+	achievements_file.open(user_achievement, File.READ_WRITE);
 	if achievements_file.is_open():
 		achievements_file.store_string(to_json(achievements))
 		achievements_file.close()
-
 
 
 func increment_achievement(achievement_name, amount):

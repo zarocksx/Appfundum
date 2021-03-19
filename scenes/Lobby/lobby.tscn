@@ -225,6 +225,6 @@ __meta__ = {
 [connection signal="player_added" from="ScrollContainer/VBoxContainer/PlayerNameBox" to="." method="_on_player_added"]
 [connection signal="pressed" from="TextureButton" to="ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_TextureButton_pressed"]
 [connection signal="pressed" from="start" to="ScrollContainer/VBoxContainer/PlayerNameBox" method="_on_start_pressed"]
-[connection signal="pressed" from="Logo" to="Logo" method="_on_Logo_pressed"]
 [connection signal="pressed" from="Logo" to="ThemePopup" method="_on_Logo_pressed"]
+[connection signal="pressed" from="Logo" to="Logo" method="_on_Logo_pressed"]
 [connection signal="pressed" from="settings" to="." method="_on_settings_pressed"]

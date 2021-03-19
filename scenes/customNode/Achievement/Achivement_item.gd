@@ -5,7 +5,7 @@ onready var tween = $Tween
 onready var timer = $Timer
 onready var style = load("res://assets/theme/AchievmentStyle.tres")
 onready var title = $MarginContainer/HBoxContainer/Title setget set_title, get_title
-onready var description = $MarginContainer/HBoxContainer/Title setget set_description, get_description
+onready var description = $MarginContainer/HBoxContainer/Description setget set_description, get_description
 
 export var isHorizontal = false
 var slide_distance = 0
@@ -23,10 +23,13 @@ func set_description(new_description):
 	description.text = new_description.to_lower()
 
 
-func set_style():
+func set_style(_type = ""):
 	var color1 = themeStore.getThemeValues(themeStore.getCurrentTheme()).main
 	var color2 = themeStore.getThemeValues(themeStore.getCurrentTheme()).secondary
-	style.set_bg_color(Color(color1))
+	if _type == "error":
+		style.set_bg_color(Color(200,0,0))
+	else:
+		style.set_bg_color(Color(color1))
 	style.set_border_color(Color(color2))
 
 

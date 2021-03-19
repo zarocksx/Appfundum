@@ -13,12 +13,12 @@ func set_caption(title, description):
 	panel.set_description(description)
 
 
-func show():
+func show(type):
 	if global.game_state != 1:
 		set_offset(Vector2(0,0))
 		set_rotation_degrees(0)
-		panel.show()
 	else :
 		set_offset(Vector2(1450, 600))
 		set_rotation_degrees(90)
-		panel.show()
+	panel.show()
+	panel.set_style(type)

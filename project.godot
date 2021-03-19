@@ -20,11 +20,14 @@ modules="org/godotengine/godot/GodotLocalNotification"
 [application]
 
 config/name="Appfundum"
+config/description="Appfundum est un jeu a boire a destination des baptisé et membre de société estudiantine a travers le monde."
 run/main_scene="res://scenes/Menu/menu.tscn"
 run/low_processor_mode=true
-boot_splash/image="res://assets/graph/icons/new-icon.png"
-boot_splash/bg_color=Color( 0.137255, 0.152941, 0.231373, 1 )
+boot_splash/image="res://assets/graph/icons/iconx192.png"
+boot_splash/fullsize=false
+boot_splash/bg_color=Color( 1, 0.835294, 0.168627, 1 )
 config/icon="res://assets/graph/icons/new-icon.png"
+config/windows_native_icon="res://assets/graph/icons/iconx192.ico"
 config/auto_accept_quit=false
 
 [autoload]
@@ -46,8 +49,6 @@ window/size/width=1440
 window/size/height=2560
 window/size/test_width="1280"
 window/size/test_height="800"
-window/dpi/allow_hidpi=true
-window/vsync/use_vsync=false
 window/handheld/orientation="portrait"
 window/ios/hide_home_indicator=false
 window/stretch/mode="2d"
@@ -88,16 +89,17 @@ quality/driver/fallback_to_gles2=true
 quality/intended_usage/framebuffer_allocation=0
 quality/intended_usage/framebuffer_allocation.mobile=0
 quality/2d/use_pixel_snap=true
-quality/filters/anisotropic_filter_level=8
 vram_compression/import_etc=true
 quality/shadows/filter_mode=0
 quality/reflections/texture_array_reflections=false
 quality/reflections/high_quality_ggx=false
+quality/shading/force_vertex_shading.mobile=false
+quality/shading/force_lambert_over_burley.mobile=false
+quality/shading/force_blinn_over_ggx.mobile=false
 quality/depth_prepass/enable=false
-quality/filters/use_nearest_mipmap_filter=true
-quality/subsurface_scattering/weight_samples=false
+quality/subsurface_scattering/quality=0
 environment/default_clear_color=Color( 0.137255, 0.152941, 0.231373, 1 )
-quality/filters/msaa=4
+quality/filters/msaa=3
 quality/depth/hdr=false
 
 [world]
