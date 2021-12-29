@@ -1,0 +1,10 @@
+{
+  "rate": {
+    "desc": "a voter",
+    "value": "0"
+  },
+  "buy": {
+	  "desc": "a acheté",
+	  "value": "0"
+  }
+}
