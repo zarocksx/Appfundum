@@ -2,7 +2,7 @@ extends Node
 
 
 var localNotification = null
-var tagCounter = 0;
+var tagCounter = 0
 
 
 func _ready():
@@ -31,4 +31,4 @@ func stopNotif(id = -1):
 
 func newTag():
 	tagCounter = tagCounter +1
-	return tagCounter;
+	return tagCounter

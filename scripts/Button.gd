@@ -2,4 +2,4 @@ extends Button
 
 
 func _ready():
-	set_size(global.get_view_landscape());
+	set_size(global.get_view_landscape())

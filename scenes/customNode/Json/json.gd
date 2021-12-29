@@ -1,13 +1,13 @@
 extends Node
 
 
-export var LINES = 'res://assets/data/Appfundum.json';
+export var LINES = 'res://assets/data/Appfundum.json'
 export var question = false
-export var limited = false;
-export var event = false;
-var events;
-var unreadString = [];
-var alreadyReadString = [];
+export var limited = false
+export var event = false
+var events
+var unreadString = []
+var alreadyReadString = []
 const EVENT_MAX_QTE = 3 + 1 # biggest key +1
 
 
@@ -29,17 +29,17 @@ func load_data():
 
 
 func pick_sentence():
-	randomize();
+	randomize()
 	if not is_finish():
 		var mySeed = randi() % ( unreadString.size() )
 		var sentence = unreadString[mySeed].sentence
 
 		if question :
-			while (unreadString[mySeed].category > global.gameMode):
+			while ((unreadString[mySeed].category > global.gameMode) or not is_nudity_compliant(unreadString[mySeed].nudity)) :
 				unreadString.remove(mySeed)
 				if is_finish():
 					global.set_game_finished()
-					return 'Partie terminée !'
+					return null
 				randomize()
 				mySeed = randi() % ( unreadString.size() )
 				sentence = unreadString[mySeed].sentence
@@ -54,7 +54,15 @@ func pick_sentence():
 		return sentence
 
 	global.set_game_finished()
-	return 'Partie terminée !'
+	print("return null")
+	return null
+
+
+func is_nudity_compliant(nudity):
+	if global.nudity == false:
+		if nudity == 1:
+			return false
+	return true
 
 
 func pick_event():
@@ -84,7 +92,6 @@ func pick_event():
 		if events.result.empty():
 			return false
 
-	
 	if( events.result[index].events.size() == 0):
 		events.result.erase(index)
 		return false
@@ -100,7 +107,7 @@ func pick_event():
 	events.result[index].events.remove(event_index)
 	events.result[index].erase(index)
 	global.add_event(event_picked)
-	return event_picked;
+	return event_picked
 
 
 func is_finish():

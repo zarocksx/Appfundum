@@ -1,15 +1,15 @@
 extends Node
 
 
-const API_KEY = "AIzaSyDSVyawCG-_Fl2-JflunVrZRnlbknAaHKY";
-const PROJECT_ID = "appfundum-1";
-const LOGIN_A := "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=%s" % API_KEY;
-const FIRESTORE_URL := "https://firestore.googleapis.com/v1/projects/%s/databases/(default)/documents/" % PROJECT_ID;
-const FIRESTORE_BASE_URL := "https://firestore.googleapis.com/v1/";
+const API_KEY = "AIzaSyDSVyawCG-_Fl2-JflunVrZRnlbknAaHKY"
+const PROJECT_ID = "appfundum-1"
+const LOGIN_A := "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=%s" % API_KEY
+const FIRESTORE_URL := "https://firestore.googleapis.com/v1/projects/%s/databases/(default)/documents/" % PROJECT_ID
+const FIRESTORE_BASE_URL := "https://firestore.googleapis.com/v1/"
 
 var no_call = false
-var curent_analytics;
-var user_info = {};
+var curent_analytics
+var user_info = {}
 
 
 func _ready():
@@ -29,11 +29,11 @@ func get_http(funcSign:String = "_request_completed"):
 
 
 func _get_user_info(result: Array):
-	var result_body := JSON.parse(result[3].get_string_from_ascii()).result as Dictionary;
+	var result_body := JSON.parse(result[3].get_string_from_ascii()).result as Dictionary
 	return {
 		"token": result_body.idToken,
 		"id": result_body.localId
-	};
+	}
 
 
 func _get_request_headers():
@@ -47,61 +47,61 @@ func anonymous_register():
 	if OS.is_debug_build() and no_call :
 		return
 	var http = get_http()
-	http.request(LOGIN_A, ["Content-Length:0"], false, HTTPClient.METHOD_POST);
-	var result = yield(http, "request_completed") as Array;
+	http.request(LOGIN_A, ["Content-Length:0"], false, HTTPClient.METHOD_POST)
+	var result = yield(http, "request_completed") as Array
 	if result[1] == 200:
 		print("logged")
-		user_info = _get_user_info(result);
+		user_info = _get_user_info(result)
 
 
 func save_analytics():
 	if OS.is_debug_build() and no_call:
 		return
-	var fields = analytics.get_analytics_fields();
-	var path = "analytics";
-	var document = {"fields": fields};
-	var body = to_json(document);
-	var url = FIRESTORE_URL + path;
-	print("save : ",get_http("_save_complete").request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body ));
+	var fields = analytics.get_analytics_fields()
+	var path = "analytics"
+	var document = {"fields": fields}
+	var body = to_json(document)
+	var url = FIRESTORE_URL + path
+	print("save : ",get_http("_save_complete").request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body ))
 
 
 func update_analytics():
 	if OS.is_debug_build() and no_call:
 		return
-	var fields = analytics.get_analytics_fields();
-	var document = {"fields": fields};
-	var body = to_json(document);
-	var url = FIRESTORE_BASE_URL + analytics.curent_analytics;
+	var fields = analytics.get_analytics_fields()
+	var document = {"fields": fields}
+	var body = to_json(document)
+	var url = FIRESTORE_BASE_URL + analytics.curent_analytics
 	push_warning(analytics.curent_analytics)
-	get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_PATCH, body);
+	get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_PATCH, body)
 
 
 func save_document(path: String, fields: Dictionary):
 	if OS.is_debug_build() and no_call:
 		return
-	var document = {"fields" : fields};
-	var body = to_json(document);
-	var url = FIRESTORE_URL + path;
-	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body));
+	var document = {"fields" : fields}
+	var body = to_json(document)
+	var url = FIRESTORE_URL + path
+	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_POST, body))
 
 
 func update_document(path: String, fields:Dictionary):
 	if OS.is_debug_build() and no_call:
 		return
-	var document = { "fields" : fields };
-	var body = to_json(document);
-	var url = FIRESTORE_URL + path;
-	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_PATCH, body));
+	var document = { "fields" : fields }
+	var body = to_json(document)
+	var url = FIRESTORE_URL + path
+	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_PATCH, body))
 
 
 func get_document(path: String):
-	var url = FIRESTORE_URL + path;
-	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_GET));
+	var url = FIRESTORE_URL + path
+	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_GET))
 
 
 func delete_document(path: String):
-	var url = FIRESTORE_URL + path;
-	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_DELETE));
+	var url = FIRESTORE_URL + path
+	push_warning(get_http().request(url, _get_request_headers(), false, HTTPClient.METHOD_DELETE))
 
 
 func _request_completed(_result: int, response_code: int, _headers: PoolStringArray, body: PoolByteArray):
@@ -111,6 +111,7 @@ func _request_completed(_result: int, response_code: int, _headers: PoolStringAr
 			push_warning(body.get_string_from_ascii())
 		200:
 			push_warning("response successfull")
+			global.connected = true
 		_:
 			push_warning(body.get_string_from_ascii())
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://scenes/Settings/settings.gd" type="Script" id=1]
 [ext_resource path="res://assets/style/menu_text_input.tres" type="StyleBox" id=2]
@@ -6,6 +6,9 @@
 [ext_resource path="res://assets/UI/button/left-arrow.png" type="Texture" id=4]
 [ext_resource path="res://scenes/Settings/textEdit.gd" type="Script" id=5]
 [ext_resource path="res://assets/style/add_player.tres" type="StyleBox" id=6]
+[ext_resource path="res://assets/UI/button/IconValidate.png" type="Texture" id=7]
+[ext_resource path="res://fonts/Comfortaa/Comfortaa-Regular.ttf" type="DynamicFontData" id=8]
+[ext_resource path="res://assets/UI/IconEmpty-unshaded.png" type="Texture" id=9]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.25098, 0.286275, 0.407843, 1 )
@@ -22,27 +25,41 @@ corner_radius_bottom_left = 50
 corner_detail = 20
 anti_aliasing_size = 5
 
+[sub_resource type="DynamicFont" id=2]
+size = 48
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+font_data = ExtResource( 8 )
+
 [node name="settings" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
 margin_left = 2.51746
 margin_top = -2.51733
-margin_right = 1442.52
-margin_bottom = 2557.48
+margin_right = 2.52002
+margin_bottom = -2.52002
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="TextEdit" type="TextEdit" parent="."]
-anchor_top = 0.078
 anchor_right = 1.0
-anchor_bottom = 0.3
+anchor_bottom = 0.343
 margin_left = 14.9575
-margin_top = 111.131
+margin_top = 310.811
 margin_right = -25.0424
-margin_bottom = 109.811
+margin_bottom = -0.268982
 grow_horizontal = 2
 grow_vertical = 2
 hint_tooltip = "Ajouter votre question ici"
+focus_neighbour_left = NodePath("../menu")
+focus_neighbour_top = NodePath("../menu")
+focus_neighbour_right = NodePath("../ajouter")
+focus_neighbour_bottom = NodePath("../ajouter")
+focus_next = NodePath("../ajouter")
+focus_previous = NodePath("../menu")
 custom_styles/read_only = ExtResource( 2 )
 custom_styles/focus = ExtResource( 2 )
 custom_styles/normal = ExtResource( 2 )
@@ -59,10 +76,12 @@ __meta__ = {
 }
 
 [node name="menu" type="Button" parent="."]
+anchor_right = 1.0
+anchor_bottom = 0.109
 margin_left = 1193.11
 margin_top = 78.4773
-margin_right = 2106.11
-margin_bottom = 909.477
+margin_right = 666.108
+margin_bottom = 630.437
 rect_scale = Vector2( 0.239999, 0.239999 )
 icon = ExtResource( 4 )
 flat = true
@@ -72,10 +91,12 @@ __meta__ = {
 }
 
 [node name="ajouter" type="Button" parent="."]
+anchor_right = 1.0
+anchor_bottom = 0.448
 margin_left = 127.477
 margin_top = 999.573
-margin_right = 1319.48
-margin_bottom = 1147.57
+margin_right = -120.523
+margin_bottom = 0.691162
 size_flags_horizontal = 3
 custom_styles/hover = ExtResource( 2 )
 custom_styles/pressed = ExtResource( 2 )
@@ -90,14 +111,12 @@ __meta__ = {
 }
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-visible = false
-anchor_top = 1.0
 anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_bottom = 0.714
 margin_left = 236.758
-margin_top = -1331.85
+margin_top = 1228.15
 margin_right = -203.245
-margin_bottom = -731.85
+margin_bottom = 0.309082
 grow_horizontal = 2
 grow_vertical = 2
 custom_styles/focus = ExtResource( 6 )
@@ -109,5 +128,24 @@ custom_fonts/bold_font = ExtResource( 3 )
 custom_fonts/normal_font = ExtResource( 3 )
 text = "Merci, votre proposition a bien été enregistrée."
 scroll_active = false
+
+[node name="Control" type="CheckButton" parent="."]
+anchor_left = -0.229
+anchor_top = -2.013
+margin_left = 329.761
+margin_top = 7294.44
+margin_right = 720.0
+margin_bottom = 2350.17
+grow_vertical = 2
+rect_scale = Vector2( 2, 2 )
+size_flags_stretch_ratio = 0.0
+custom_icons/off = ExtResource( 9 )
+custom_icons/on = ExtResource( 7 )
+custom_fonts/font = SubResource( 2 )
+text = "Retirer la nudité"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="menu" to="." method="_on_menu_pressed"]
 [connection signal="pressed" from="ajouter" to="TextEdit" method="_on_ajouter_pressed"]
+[connection signal="toggled" from="Control" to="." method="_on_Control_toggled"]

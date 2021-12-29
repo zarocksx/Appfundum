@@ -371,6 +371,9 @@ use_threads = true
 visible = false
 
 [node name="InfoPopup" parent="." instance=ExtResource( 8 )]
+anchor_left = 0.00330336
+anchor_right = 1.0033
+
 [connection signal="show_mode" from="lobby" to="AnimationPlayer" method="_on_lobby_show_mode"]
 [connection signal="show_settings" from="lobby" to="AnimationPlayer" method="_on_lobby_show_settings"]
 [connection signal="menu_pressed" from="settings" to="AnimationPlayer" method="_on_menu_pressed"]

@@ -1,9 +1,9 @@
 extends VBoxContainer
 
 
-signal player_added;
+signal player_added
 
-var label = load("res://scenes/customNode/CustomEdit/customEdit.tscn");
+var label = load("res://scenes/customNode/CustomEdit/customEdit.tscn")
 
 
 func _on_TextureButton_pressed():
@@ -20,9 +20,9 @@ func _on_start_pressed():
 
 func not_ready():
 	for child in get_children():
-		child.set_self_modulate(Color(1,0,0));
+		child.set_self_modulate(Color(1,0,0))
 
 
 func is_ready():
 	for child in get_children():
-		child.set_self_modulate(Color(1,1,1));
+		child.set_self_modulate(Color(1,1,1))

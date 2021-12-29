@@ -1,13 +1,13 @@
 extends Node
 
 
-var achievement_list = 'res://assets/data/Appfundum_achievement.json';
+var achievement_list = 'res://assets/data/Appfundum_achievement.json'
 var user_achievement = 'user://Appfundum_achievement.json'
-var achievements_file = File.new();
-var base_file = File.new();
+var achievements_file = File.new()
+var base_file = File.new()
 var achievements
 
-onready var current_achievement_item = preload('res://scenes/customNode/Achievement/Achievement_item_vertical.tscn').instance();
+onready var current_achievement_item = preload('res://scenes/customNode/Achievement/Achievement_item_vertical.tscn').instance()
 
 
 func _ready():
@@ -43,7 +43,7 @@ func load_achievment():
 
 
 func save_achievement():
-	achievements_file.open(user_achievement, File.READ_WRITE);
+	achievements_file.open(user_achievement, File.READ_WRITE)
 	if achievements_file.is_open():
 		achievements_file.store_string(to_json(achievements))
 		achievements_file.close()

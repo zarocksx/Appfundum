@@ -85,8 +85,10 @@ func buy(key = "skins_bundle_1"):
 		for purchase in query.purchases:
 			if purchase.sku == key:
 				print("---Already buyed")
+				Save.save('buy',"1")
 				if !purchase.is_acknowledged:
 					payment.acknowledgePurchase(purchase.purchase_token)
 				return true
 		print("--Start buy")
 		print(payment.purchase(key))
+		Save.save('buy',"1")

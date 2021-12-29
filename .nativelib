@@ -12,6 +12,18 @@
                 "android"
             ],
             "dependencies": []
+        },
+        "rateme": {
+            "version": "0.2.0",
+            "platforms": [
+                "all",
+                "android",
+                "ios"
+            ],
+            "dependencies": [],
+            "autoload": {
+                "rateme": "*res://scripts/rateme.gd"
+            }
         }
     }
 }

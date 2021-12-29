@@ -1,24 +1,24 @@
 extends Node
 
 
-var currentTheme = "CEI";#theme used by the player
+var currentTheme = "CEI"#theme used by the player
 var avalaibleTheme #theme avalaible
 
 
 func getCurrentTheme():
-	return currentTheme;
+	return currentTheme
 
 
 func getThemes():
-	return colorScheme.keys();
+	return colorScheme.keys()
 
 
 func getThemeValues(themeName):
-	return colorScheme[themeName];
+	return colorScheme[themeName]
 
 
 func setCurrentTheme(themeName):
-	currentTheme = themeName;
+	currentTheme = themeName
 	pass
 
 

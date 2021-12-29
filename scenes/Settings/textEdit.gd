@@ -10,7 +10,7 @@ var question := {
 func _on_ajouter_pressed():
 	if text.empty():
 		printerr("Question list empty")
-		return;
+		return
 	question.question = {"stringValue": text}
 	question.author = {"stringValue": firebase.user_info.id}
 

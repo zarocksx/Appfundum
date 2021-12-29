@@ -1,10 +1,10 @@
 extends Label
 
 
-var line_ready = false;
-var cercles_ready = false;
-var events_ready = false;
-var time_since_last_event = 0;
+var line_ready = false
+var cercles_ready = false
+var events_ready = false
+var time_since_last_event = 0
 var debugCall = 0
 
 
@@ -20,8 +20,8 @@ func _on_Button_pressed():
 		debugCall = 0
 
 
-func pic_line():
-	globalTheme.setBackgroundColor();
+func pic_line(): #choose if we select a simple sentence or event
+	globalTheme.setBackgroundColor()
 
 	if global.events_allowed: #Si le mode event est actif
 		time_since_last_event += 1
@@ -37,17 +37,17 @@ func pic_line():
 
 func event_stop():
 	for i in global.events_active.size():
-		global.events_active[i].time += 1;
+		global.events_active[i].time += 1
 		if ((randi() % 100) + 1 > 100 - global.events_active[i].time):
 			var event = global.get_event_active(-1)
 			var text_final = event.end
 			if not event.players.empty():
 				for j in event.players.size():
-					text_final = text_final.format({ str(j): event.players[j] });
+					text_final = text_final.format({ str(j): event.players[j] })
 			set_text(text_final)
 			VisualServer.set_default_clear_color(Color(randf()/1.3,randf()/1.3,randf()/1.3,1.0))
 			global.remove_event(i)
-			return true;
+			return true
 
 
 func event_start():
@@ -78,10 +78,15 @@ func set_sentence():
 	var S = global.get_random_player()
 
 	while S == P:
-		randomize();
+		randomize()
 		S = global.get_random_player()
 
 	var text_final = $json.pick_sentence()
+	if text_final == null:
+		print("end game")
+		text_final = "Merci d'avoir joué a Appfundum !"
+		if global.connected == true and Save.get_save("rate") == "0":
+			rateme.show()
 
 	text_final = text_final.format({"P": P}) # P = player
 	text_final = text_final.format({"S": S}) # S = second player

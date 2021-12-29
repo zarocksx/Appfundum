@@ -2,7 +2,7 @@ extends Control
 
 
 func _ready():
-	randomize();
+	randomize()
 	var anim = $'Label/AnimationPlayer'
 	anim.play("add_player_hide")
 
