@@ -7,13 +7,14 @@ const LOGIN_A := "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=
 const FIRESTORE_URL := "https://firestore.googleapis.com/v1/projects/%s/databases/(default)/documents/" % PROJECT_ID
 const FIRESTORE_BASE_URL := "https://firestore.googleapis.com/v1/"
 
-var no_call = false
+var allow_call = false
 var curent_analytics
 var user_info = {}
+var is_connected_to_internet = false
 
 
 func _ready():
-	if OS.is_debug_build() and no_call:
+	if OS.is_debug_build() and allow_call:
 		return
 	anonymous_register()
 
@@ -44,7 +45,7 @@ func _get_request_headers():
 
 
 func anonymous_register():
-	if OS.is_debug_build() and no_call :
+	if OS.is_debug_build() and allow_call :
 		return
 	var http = get_http()
 	http.request(LOGIN_A, ["Content-Length:0"], false, HTTPClient.METHOD_POST)
@@ -55,7 +56,7 @@ func anonymous_register():
 
 
 func save_analytics():
-	if OS.is_debug_build() and no_call:
+	if OS.is_debug_build() and allow_call:
 		return
 	var fields = analytics.get_analytics_fields()
 	var path = "analytics"
@@ -66,7 +67,7 @@ func save_analytics():
 
 
 func update_analytics():
-	if OS.is_debug_build() and no_call:
+	if OS.is_debug_build() and allow_call:
 		return
 	var fields = analytics.get_analytics_fields()
 	var document = {"fields": fields}
@@ -77,7 +78,7 @@ func update_analytics():
 
 
 func save_document(path: String, fields: Dictionary):
-	if OS.is_debug_build() and no_call:
+	if OS.is_debug_build() and allow_call:
 		return
 	var document = {"fields" : fields}
 	var body = to_json(document)
@@ -86,7 +87,7 @@ func save_document(path: String, fields: Dictionary):
 
 
 func update_document(path: String, fields:Dictionary):
-	if OS.is_debug_build() and no_call:
+	if OS.is_debug_build() and allow_call:
 		return
 	var document = { "fields" : fields }
 	var body = to_json(document)
