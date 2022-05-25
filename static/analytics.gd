@@ -90,6 +90,6 @@ func get_analytics_fields():
 	fields.questions = get_question_anl()
 	fields.gameMode = {"integerValue": global.gameMode}
 	fields.gameState = {"integerValue": global.game_state}
-	if OS.is_debug_build() and firebase.no_call:
+	if OS.is_debug_build() and firebase.allow_call:
 		return false
 	return fields

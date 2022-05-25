@@ -1,0 +1,18 @@
+{
+	description:Vous permet de débloquer toutes les apparences pour "APPFUNDUM : Bleusaille®",
+	free_trial_period:,
+	icon_url:,
+	introductory_price:,
+	introductory_price_amount_micros:0,
+	introductory_price_cycles:0,
+	introductory_price_period:,
+	original_price:4,99 €,
+	original_price_amount_micros:4990000,
+	price:4,99 €,
+	price_amount_micros:4990000,
+	price_currency_code:EUR,
+	sku:skins_bundle_1,
+	subscription_period:,
+	title:skins (Appfundum),
+	type:inapp
+}
