@@ -26,3 +26,16 @@ web:
     name: $EXPORT_NAME-$CI_JOB_NAME
     paths:
       - build/web
+
+pages:
+  stage: deploy
+  dependencies:
+    - web
+  script:
+    - rm -rf public
+    - cp -r build/web public
+  artifacts:
+    paths:
+      - public
+  only:
+   - develop
